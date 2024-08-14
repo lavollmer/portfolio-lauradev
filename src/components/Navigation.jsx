@@ -7,7 +7,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 const Navigation = () => {
   return (
     <>
-      <div className="flex flex-row bg-air-superiority-blue text-lg text-white justify-between">
+      <div className="flex flex-row bg-transparent text-lg text-black justify-between font-public-sans">
         <div>
           <IoMdFlower />
         </div>

@@ -11,7 +11,6 @@ function App() {
   return (
     <>
       <div>
-        <Navigation />
         <Landing />
         <About />
         <Projects />
