@@ -7,10 +7,10 @@ const SplashPage = () => {
     <>
       {/* desktop version */}
       <div className="hidden md:flex bg-timberwolf bg-opacity-50 font-public-sans">
-        <div className="flex flex-row relative">
-          <div className="flex flex-col justify-center w-1/2 p-10 space-y-6 p-60">
+        <div className="flex flex-row relative justify-evenly">
+          <div className="flex flex-col justify-center w-1/2 p-10 space-y-6 p-20">
             <div className="flex items-center text-left">
-              <h1 className="text-dark-blue text-6xl">
+              <h1 className="text-black text-5xl">
                 Hi, I'm Laura!
               </h1>
             </div>
@@ -24,18 +24,6 @@ const SplashPage = () => {
                 Learn More
               </button>
             </div>
-          </div>
-          <div className="relative w-1/2 h-full right-0 top-0 flex justify-end">
-            <img
-              src={BackgroundGlow}
-              alt="intro desktop image"
-              className="absolute z-10 h-full w-full object-cover"
-            />
-            <img
-              src={imageComputer}
-              alt="intro desktop image"
-              className="absolute z-10 h-full w-full object-cover"
-            />
           </div>
         </div>
       </div>
@@ -52,7 +40,7 @@ const SplashPage = () => {
               <img
                 src={imageComputer}
                 alt="intro desktop image"
-                className="absolute top-0 left-0 w-full object-cover z-10"
+                className="absolute top-0 left-0 w-full object-cover z-20"
               />
             </div>
           </div>

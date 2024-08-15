@@ -4,13 +4,13 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        "public-sans": ['"public-sans"', "sans-serif"],
+        "jost": ["jost", "sans-serif"],
       },
       colors: {
-        'burnt-sienna': '#E37D67',
-        'redwood': '#98574D',
-        'timberwolf': '#D2D3CF'
-      }
+        "burnt-sienna": "#E37D67",
+        redwood: "#98574D",
+        timberwolf: "#D2D3CF",
+      },
     },
   },
   plugins: [],
