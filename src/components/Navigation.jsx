@@ -6,6 +6,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdClose } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
+import { SiFrontendmentor } from "react-icons/si";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -50,6 +51,9 @@ const Navigation = () => {
           </button>
           <button className="bg-gradient-to-r to-blue-400 from-green-400 rounded-full text-white cursor-pointer p-2 px-6 hover:from-blue-400 hover:to-green-300">
             <FaGithubSquare />
+          </button>
+          <button className="bg-gradient-to-r to-blue-400 from-green-400 rounded-full text-white cursor-pointer p-2 px-6 hover:from-blue-400 hover:to-green-300">
+            <SiFrontendmentor />
           </button>
         </div>
       </div>

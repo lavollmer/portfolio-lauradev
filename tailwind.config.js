@@ -6,6 +6,11 @@ module.exports = {
       fontFamily: {
         "public-sans": ['"public-sans"', "sans-serif"],
       },
+      colors: {
+        'burnt-sienna': '#E37D67',
+        'redwoord': '#98574D',
+        'timberwolf': '#D2D3CF'
+      }
     },
   },
   plugins: [],
