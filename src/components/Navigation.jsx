@@ -28,10 +28,7 @@ const Navigation = () => {
         {/* hamburger button click */}
         <div>
           <button onClick={handleOnClick}>
-            <img
-              src={isOpen ? CloseIcon : HamburgerIcon}
-              alt="menu icon"
-            />
+            <img src={isOpen ? CloseIcon : HamburgerIcon} alt="menu icon" />
           </button>
         </div>
       </div>
@@ -51,15 +48,33 @@ const Navigation = () => {
           </h1>
         </div>
         <div className="space-x-6">
-          <button className="bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-4 px-4 hover:from-redwood hover:to-burnt-sienna">
-            <FaLinkedin size={24} />
-          </button>
-          <button className="bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-4 px-4  hover:from-redwood hover:to-burnt-sienna">
-            <FaGithubSquare size={24} />
-          </button>
-          <button className="bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-4 px-4 hover:from-redwood hover:to-burnt-sienna">
-            <SiFrontendmentor size={24} />
-          </button>
+          <a
+            href="https://www.linkedin.com/in/lvollmer/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-4 px-4 hover:from-redwood hover:to-burnt-sienna">
+              <FaLinkedin size={24} />
+            </button>
+          </a>
+          <a
+            href="https://github.com/lavollmer"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-4 px-4  hover:from-redwood hover:to-burnt-sienna">
+              <FaGithubSquare size={24} />
+            </button>
+          </a>
+          <a
+            href="https://www.frontendmentor.io/profile/lavollmer"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-4 px-4 hover:from-redwood hover:to-burnt-sienna">
+              <SiFrontendmentor size={24} />
+            </button>
+          </a>
         </div>
       </div>
     </div>
