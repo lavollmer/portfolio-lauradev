@@ -6,13 +6,14 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Projects from "./components/Projects";
 
-
 function App() {
   return (
     <>
-      <div>
+      <div className="p-20">
         <Navigation />
         <Landing />
+      </div>
+      <div>
         <About />
         <Projects />
         <Contact />
