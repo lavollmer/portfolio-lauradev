@@ -1,12 +1,13 @@
 import React from "react";
 import imageComputer from "../assets/computer-image.jpg";
 import BackgroundOverlay from "../assets/backgroundimageoverlay.svg";
+import Arrow from "../assets/icon-arrow.svg";
 
 const SplashPage = () => {
   return (
     <>
       {/* desktop version */}
-      <div className="hidden md:flex bg-burnt-sienna mt-10 bg-opacity-60 font-jost relative landing-container">
+      <div className="hidden md:flex bg-burnt-sienna mt-10 bg-opacity-70 font-jost relative landing-container">
         <div className="flex flex-row relative w-full rounded-lg">
           <div className="flex flex-col justify-center p-20 space-y-6  relative">
             {/* Background overlay */}
@@ -22,19 +23,18 @@ const SplashPage = () => {
                 <h1 className="text-white text-6xl font-semibold">
                   I'm a software developer.
                 </h1>
-                <p className="text-white text-2xl">
+                <p className="text-white text-2xl pr-80">
                   I have one year of experience in coding, specializing in
                   frontend software development. My background includes
                   healthcare and floral design. I am a fast learner, constantly
                   seeking opportunities to enhance my skills.
                 </p>
-                <p className="text-white text-2xl">
-                  I value teamwork, integrity, creativity and empathy.
-                </p>
+                <p className="text-white text-2xl">I value teamwork, integrity, creativity and empathy.</p>
               </div>
               <div>
-                <button className="bg-white rounded-lg text-black text-xl cursor-pointer p-4 px-4 hover:from-redwood hover:to-burnt-sienna">
-                  Learn More
+                <button className="flex flex-row items-center justify-center space-x-2 bg-white animate-bounce rounded-full text-black text-xl cursor-pointer p-4 px-4 hover:from-redwood hover:to-burnt-sienna">
+                  <img src={Arrow} alt="arrow" className="text-white" />
+                  <p>Learn More</p>
                 </button>
               </div>
             </div>

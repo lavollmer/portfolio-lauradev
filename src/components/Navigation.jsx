@@ -52,8 +52,8 @@ const Navigation = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-4 px-4 hover:from-redwood hover:to-burnt-sienna">
-              <FaLinkedin size={18} />
+            <button className="hover:animate-bounce bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-4 px-4 hover:from-redwood hover:to-burnt-sienna">
+              <FaLinkedin size={20} />
             </button>
           </a>
           <a
@@ -61,8 +61,8 @@ const Navigation = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-4 px-4  hover:from-redwood hover:to-burnt-sienna">
-              <FaGithubSquare size={18} />
+            <button className="hover:animate-bounce bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-4 px-4  hover:from-redwood hover:to-burnt-sienna">
+              <FaGithubSquare size={20} />
             </button>
           </a>
           <a
@@ -70,8 +70,8 @@ const Navigation = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-4 px-4 hover:from-redwood hover:to-burnt-sienna">
-              <SiFrontendmentor size={18} />
+            <button className="hover:animate-bounce bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-4 px-4 hover:from-redwood hover:to-burnt-sienna">
+              <SiFrontendmentor size={20} />
             </button>
           </a>
         </div>
