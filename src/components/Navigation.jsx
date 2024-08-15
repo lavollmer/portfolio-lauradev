@@ -2,7 +2,7 @@ import React from "react";
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareGithub } from "react-icons/fa6";
 import { RxHamburgerMenu } from "react-icons/rx";
-import Logo from "../assets/ladevlogo.png";
+import Logo from "../assets/logo.png";
 
 const Navigation = () => {
   return (
@@ -10,7 +10,8 @@ const Navigation = () => {
       <div className="flex flex-row items-center justify-center bg-transparent fixed w-full top-0 left-0 z-10 text-xl text-white font-public-sans">
         <div className="flex flex-row justify-between w-full max-w-screen-lg px-4">
           <div className="flex flex-row items-center">
-            <img src={Logo} alt="Laura Vollmer Logo" className="h-10 w-70" />
+            <img src={Logo} alt="flower Logo" className="h-10 w-70" />
+            <h1>LAURA VOLLMER</h1>
           </div>
           <div>
             <ul className="flex flex-row space-x-4">

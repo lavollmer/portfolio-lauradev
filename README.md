@@ -68,7 +68,6 @@ I will continue to learn more about TailwindCSS, ReactJS and updating my process
 ### Useful resources
 
 - [Public Sans Google Font](https://fonts.google.com/specimen/Public+Sans) - Design called for this font in the project.
-- [Gradient Colors](https://tailwindcss.com/docs/gradient-color-stops) - This style from TailwindCSS allows for gradients colors.
 
 ## Author
 
