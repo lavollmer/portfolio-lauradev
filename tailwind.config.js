@@ -8,7 +8,7 @@ module.exports = {
       },
       colors: {
         'burnt-sienna': '#E37D67',
-        'redwoord': '#98574D',
+        'redwood': '#98574D',
         'timberwolf': '#D2D3CF'
       }
     },

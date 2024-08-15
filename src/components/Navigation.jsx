@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import Logo from "../assets/logo.png";
+import Logo from "../assets/logo2.png";
 import SideNavBar from "./SideNav";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdClose } from "react-icons/io";
@@ -21,9 +21,9 @@ const Navigation = () => {
 
   return (
     <div className="font-public-sans">
-      <div className="md:hidden flex flex-row fixed top-0 z-20 w-full justify-between items-center p-6 bg-white">
+      <div className="md:hidden flex flex-row fixed top-0 z-20 w-full justify-between items-center p-10 bg-white">
         <div>
-          <img src={Logo} alt="Flower logo" />
+          <img src={Logo} alt="Flower logo" className="h-5 w-5" />
         </div>
         {/* hamburger button click */}
         <div>
@@ -36,24 +36,29 @@ const Navigation = () => {
         </div>
       </div>
       <div className="flex flex-col">{isOpen && <SideNavBar />}</div>
-      <div className="hidden md:flex flex-row fixed top-0 z-20 w-full justify-between items-center bg-white font-public-sans p-8">
-        <div>
-          <img src={Logo} alt="Easybank logo" />
+      <div className="hidden md:flex flex-row fixed top-0 left-0 z-20 w-full justify-between items-center bg-white font-public-sans p-16">
+        <div className="flex flex-row items-center justify-center space-x-2">
+          <img src={Logo} alt="Flower logo" className="h-10 w-10" />
+          <h1 className="text-black font-semibold text-3xl">LAURA VOLLMER</h1>
         </div>
-        <div className="flex flex-row space-x-6 text-grayish-blue cursor-pointer">
-          <h1 className="hover:border-b-2 hover:border-lime-green">About</h1>
-          <h1 className="hover:border-b-2 hover:border-lime-green">Projects</h1>
-          <h1 className="hover:border-b-2 hover:border-lime-green">Contact</h1>
+        <div className="flex flex-row space-x-6 text-grayish-blue cursor-pointer text-xl">
+          <h1 className="hover:border-b-2 hover:border-burnt-sienna">About</h1>
+          <h1 className="hover:border-b-2 hover:border-burnt-sienna">
+            Projects
+          </h1>
+          <h1 className="hover:border-b-2 hover:border-burnt-sienna">
+            Contact
+          </h1>
         </div>
-        <div>
-          <button className="bg-gradient-to-r to-blue-400 from-green-400 rounded-full text-white cursor-pointer p-2 px-6 hover:from-blue-400 hover:to-green-300">
-            <FaLinkedin />
+        <div className="space-x-6">
+          <button className="bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-4 px-4 hover:from-redwood hover:to-burnt-sienna">
+            <FaLinkedin className="h-5 w-5" />
           </button>
-          <button className="bg-gradient-to-r to-blue-400 from-green-400 rounded-full text-white cursor-pointer p-2 px-6 hover:from-blue-400 hover:to-green-300">
-            <FaGithubSquare />
+          <button className="bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-4 px-4  hover:from-redwood hover:to-burnt-sienna">
+            <FaGithubSquare className="h-5 w-5" />
           </button>
-          <button className="bg-gradient-to-r to-blue-400 from-green-400 rounded-full text-white cursor-pointer p-2 px-6 hover:from-blue-400 hover:to-green-300">
-            <SiFrontendmentor />
+          <button className="bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-4 px-4 hover:from-redwood hover:to-burnt-sienna">
+            <SiFrontendmentor className="h-5 w-5" />
           </button>
         </div>
       </div>
