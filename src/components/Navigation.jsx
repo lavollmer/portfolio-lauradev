@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import Logo from "../assets/logo2.png";
-import SideNavBar from "./SideNav";
+import SideNavBar from "./Sidenav";
 import CloseIcon from "../assets/icon-close.svg";
 import HamburgerIcon from "../assets/icon-hamburger.svg";
 import { FaLinkedin } from "react-icons/fa";
