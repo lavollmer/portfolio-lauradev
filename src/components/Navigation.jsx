@@ -30,10 +30,10 @@ const Navigation = () => {
         </div>
       </div>
       <div className="flex flex-col">{isOpen && <SideNavBar onClose={toggleSideNav} />}</div>
-      <div className="hidden md:flex flex-row fixed top-0 left-0 z-20 w-full justify-between items-center bg-white font-public-sans p-16">
+      <div className="hidden md:flex flex-row fixed top-0 left-0 z-20 w-full justify-between items-center bg-white font-public-sans p-20">
         <div className="flex flex-row items-center justify-center space-x-2">
           <img src={Logo} alt="Flower logo" className="h-10 w-12" />
-          <h1 className="text-black font-semibold text-3xl">LAURA VOLLMER</h1>
+          <h1 className="text-black font-semibold text-2xl">LAURA VOLLMER</h1>
         </div>
         <div className="flex flex-row space-x-6 text-grayish-blue cursor-pointer text-xl">
           <h1 className="hover:border-b-2 hover:border-burnt-sienna">About</h1>
@@ -51,7 +51,7 @@ const Navigation = () => {
             rel="noopener noreferrer"
           >
             <button className="bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-4 px-4 hover:from-redwood hover:to-burnt-sienna">
-              <FaLinkedin size={24} />
+              <FaLinkedin size={18} />
             </button>
           </a>
           <a
@@ -60,7 +60,7 @@ const Navigation = () => {
             rel="noopener noreferrer"
           >
             <button className="bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-4 px-4  hover:from-redwood hover:to-burnt-sienna">
-              <FaGithubSquare size={24} />
+              <FaGithubSquare size={18} />
             </button>
           </a>
           <a
@@ -69,7 +69,7 @@ const Navigation = () => {
             rel="noopener noreferrer"
           >
             <button className="bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-4 px-4 hover:from-redwood hover:to-burnt-sienna">
-              <SiFrontendmentor size={24} />
+              <SiFrontendmentor size={18} />
             </button>
           </a>
         </div>
