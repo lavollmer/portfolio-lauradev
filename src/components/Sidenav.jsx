@@ -6,7 +6,7 @@ import { AiFillLinkedin } from "react-icons/ai";
 import { SiFrontendmentor } from "react-icons/si";
 import { useState } from "react";
 
-const SideNav = ({onClose}) => {
+const SideNav = ({ onClose }) => {
   return (
     <div className="fixed inset-0 z-50 flex flex-col font-jost text-white bg-redwood bg-opacity-90 top-0 left-0 p-8">
       <div className="relative flex flex-row right-0 p-6">
@@ -19,17 +19,13 @@ const SideNav = ({onClose}) => {
       <div className="flex flex-col items-center justify-center text-xl">
         <div className="w-full border-t border-white p-4">
           <h1 className="flex flex-row items-center justify-center">
-            ABOUT
+            PROJECTS
           </h1>
         </div>
         <div className="w-full border-t border-white p-4">
-          <h1 className="flex flex-row items-center justify-center">PROJECTS</h1>
+          <h1 className="flex flex-row items-center justify-center">ABOUT</h1>
         </div>
-        <div className="w-full border-t border-b border-white p-4">
-          <h1 className="flex flex-row items-center justify-center">
-            OTHER
-          </h1>
-        </div>
+
         <div className="flex flex-col w-full m-10 p-6">
           <button className="border border-white rounded-lg py-2">
             CONTACT

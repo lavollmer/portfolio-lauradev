@@ -29,17 +29,19 @@ const Navigation = () => {
           </button>
         </div>
       </div>
-      <div className="flex flex-col">{isOpen && <SideNavBar onClose={toggleSideNav} />}</div>
+      <div className="flex flex-col">
+        {isOpen && <SideNavBar onClose={toggleSideNav} />}
+      </div>
       <div className="hidden md:flex flex-row top-0 left-0 z-20 w-full justify-between items-center bg-white font-jost">
         <div className="flex flex-row items-center justify-center space-x-2">
           <img src={Logo} alt="Flower logo" className="h-10 w-12" />
           <h1 className="text-black font-semibold text-2xl">LAURA VOLLMER</h1>
         </div>
         <div className="flex flex-row space-x-6 cursor-pointer text-xl">
-          <h1 className="hover:border-b-2 hover:border-burnt-sienna">About</h1>
           <h1 className="hover:border-b-2 hover:border-burnt-sienna">
             Projects
           </h1>
+          <h1 className="hover:border-b-2 hover:border-burnt-sienna">About</h1>
           <h1 className="hover:border-b-2 hover:border-burnt-sienna">
             Contact
           </h1>
