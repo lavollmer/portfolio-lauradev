@@ -9,7 +9,7 @@ import Projects from "./components/Projects";
 function App() {
   return (
     <>
-      <div className="p-20">
+      <div className="md:p-20 p-6">
         <Navigation />
         <Landing />
       </div>

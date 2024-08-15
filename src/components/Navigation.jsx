@@ -17,7 +17,7 @@ const Navigation = () => {
 
   return (
     <div className="font-jost">
-      <div className="md:hidden flex flex-row fixed top-0 z-20 w-full justify-between items-center pl-10 pr-10 bg-white mt-20">
+      <div className="md:hidden flex flex-row md:fixed top-0 z-20 w-full justify-between items-center md:pl-10 md:pr-10 bg-white md:mt-20 mt-10">
         <div className="flex flex-row items-center justify-center space-x-2">
           <img src={Logo} alt="Flower logo" className="h-6 w-7" />
           <h1 className="font-semibold text-lg">LAURA VOLLMER</h1>
@@ -30,12 +30,12 @@ const Navigation = () => {
         </div>
       </div>
       <div className="flex flex-col">{isOpen && <SideNavBar onClose={toggleSideNav} />}</div>
-      <div className="hidden md:flex flex-row top-0 left-0 z-20 w-full justify-between items-center bg-white font-jost p-10">
+      <div className="hidden md:flex flex-row top-0 left-0 z-20 w-full justify-between items-center bg-white font-jost">
         <div className="flex flex-row items-center justify-center space-x-2">
           <img src={Logo} alt="Flower logo" className="h-10 w-12" />
           <h1 className="text-black font-semibold text-2xl">LAURA VOLLMER</h1>
         </div>
-        <div className="flex flex-row space-x-6 text-grayish-blue cursor-pointer text-xl">
+        <div className="flex flex-row space-x-6 cursor-pointer text-xl">
           <h1 className="hover:border-b-2 hover:border-burnt-sienna">About</h1>
           <h1 className="hover:border-b-2 hover:border-burnt-sienna">
             Projects
