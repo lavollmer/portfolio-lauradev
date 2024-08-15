@@ -1,6 +1,6 @@
 # Portfolio Website Laura Dev
 
-This project involved developing the 
+This project involved developing the
 
 ## Table of contents
 
@@ -32,7 +32,6 @@ Users should be able to:
 
 ![Desktop Landing Page](./src/assets/MainPageDesktop.png)
 
-
 <p style="font-size:20px;">Mobile Version:</p>
 
 !
@@ -44,7 +43,6 @@ Users should be able to:
 ### My Process
 
 I began by setting up TailwindCSS, ReactJS, and my GitHub repository. Additionally, I configured the README template, added all design assets, integrated Google Fonts, and defined the color scheme. I ensured that all commits were successfully pushed to GitHub before beginning my project.
-
 
 ### Built with
 
@@ -59,7 +57,7 @@ I began by setting up TailwindCSS, ReactJS, and my GitHub repository. Additional
 
 There are several things I learned throughout this project:
 
-1. **Gradient Colors** 
+1. **Gradient Colors**
 
 ### Continued development
 
@@ -67,7 +65,9 @@ I will continue to learn more about TailwindCSS, ReactJS and updating my process
 
 ### Useful resources
 
-- [Public Sans Google Font](https://fonts.google.com/specimen/Public+Sans) - Design called for this font in the project.
+- [Jost Google Font](https://fonts.google.com/selection) - Design called for this font in the project.
+- [SVG Converter](https://jakearchibald.github.io/svgomg/) - Convert an overlay I wanted into a SVG to use in this project.
+- [Frontend Mentor DESIGNO Challenge](https://www.frontendmentor.io/challenges/designo-multipage-website-G48K6rfUT) - Inspiration for this project.
 
 ## Author
 
