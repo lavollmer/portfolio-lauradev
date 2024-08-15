@@ -22,8 +22,9 @@ const Navigation = () => {
   return (
     <div className="font-public-sans">
       <div className="md:hidden flex flex-row fixed top-0 z-20 w-full justify-between items-center p-10 bg-white">
-        <div>
-          <img src={Logo} alt="Flower logo" className="h-5 w-5" />
+        <div className="flex flex-row items-center justify-center space-x-2">
+          <img src={Logo} alt="Flower logo" className="h-6 w-7" />
+          <h1 className="font-semibold text-lg">LAURA VOLLMER</h1>
         </div>
         {/* hamburger button click */}
         <div>
