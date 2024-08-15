@@ -11,14 +11,6 @@ import { SiFrontendmentor } from "react-icons/si";
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  // const handleOnClick = () => {
-  //   setIsOpen(!isOpen);
-  // };
-
-  // const closeSideNavBar = () => {
-  //   setIsOpen(false);
-  // };
-
   const toggleSideNav = () => {
     setIsOpen(!isOpen);
   };

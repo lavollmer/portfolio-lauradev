@@ -6,28 +6,12 @@ import { AiFillLinkedin } from "react-icons/ai";
 import { SiFrontendmentor } from "react-icons/si";
 import { useState } from "react";
 
-const SideNav = () => {
-  //set state to false for close button
-  const [close, setClose] = useState(false);
-
-  //function to close the side nav
-  const handleClose = () => {
-    //set the state to the opposite of the current state to true
-    setClose(!close);
-    console.log("clicked");
-    return;
-  };
-
-  //if close is true, return null
-  if (close) {
-    return null;
-  }
-
+const SideNav = ({onClose}) => {
   return (
     <div className="fixed inset-0 z-50 flex flex-col font-rubik text-white bg-redwood bg-opacity-90 top-0 left-0 p-8">
       <div className="relative flex flex-row right-0 p-6">
         <div className="absolute top-0 right-0 p-4">
-          <button onClick={handleClose}>
+          <button onClick={onClose}>
             <img src={CloseIcon} alt="close" />
           </button>
         </div>
