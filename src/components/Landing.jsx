@@ -6,7 +6,7 @@ const SplashPage = () => {
   return (
     <>
       {/* desktop version */}
-      <div className="hidden md:flex bg-burnt-sienna bg-opacity-80 font-jost relative">
+      <div className="hidden md:flex bg-burnt-sienna bg-opacity-60 font-jost relative">
         <div className="flex flex-row relative w-full rounded-lg">
           <div className="flex flex-col justify-center p-20 space-y-6  relative">
             {/* Background overlay */}
