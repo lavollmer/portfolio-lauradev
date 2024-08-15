@@ -1,4 +1,5 @@
 import React from "react";
+import { FaGithubSquare } from "react-icons/fa";
 
 const ProjectsCard = ({
   title,
@@ -10,7 +11,7 @@ const ProjectsCard = ({
   skillThree,
   skillFour,
   github,
-  livesite
+  livesite,
 }) => {
   return (
     <div className="flex flex-col rounded-lg shadow-lg bg-white overflow-hidden w-[500px] h-[500px] m-4">
@@ -34,8 +35,18 @@ const ProjectsCard = ({
           <p className="text-gray-700 mt-2 text-md font-bold">{skillThree}</p>
           <p className="text-gray-700 mt-2 text-md font-bold">{skillFour}</p>
         </div>
-        <div className="flex flex-row space-x-4">
-          <p>Github Code</p>
+        <div className="flex flex-row items-center space-x-4">
+          <a
+            href="https://github.com/lavollmer"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="text-black cursor-pointer">
+              <FaGithubSquare size={20} />
+              Github Code
+            </button>
+          </a>
+
           <p>Live Site</p>
         </div>
       </div>

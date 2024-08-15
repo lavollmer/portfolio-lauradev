@@ -7,6 +7,9 @@ const Skills = () => {
       <div className="p-10">
         <hr />
       </div>
+      <div className="flex flex-row items-center justify-center pb-10">
+        <h1 className="text-black text-5xl">Technical Skills</h1>
+      </div>
       <div className="flex flex-col items-center justify-evenly space-y-10">
         <div className="flex flex-row flex-wrap justify-evenly space-x-4">
           <SkillsCard
