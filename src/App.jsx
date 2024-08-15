@@ -13,11 +13,11 @@ function App() {
       <div className="md:p-20 p-6">
         <Navigation />
         <Landing />
-        <Skills/>
+        <Skills />
       </div>
       <div>
-        <About />
         <Projects />
+        <About />
         <Contact />
         <Footer />
       </div>

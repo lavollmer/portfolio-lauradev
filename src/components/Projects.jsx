@@ -8,7 +8,7 @@ import Card from "./ProjectsCard";
 const Projects = () => {
   return (
     <div className="bg-very-light-gray text-jost p-20">
-      <div className="pb-14">
+      <div className="pb-20">
         <h1 className="text-black text-5xl">Latest Projects</h1>
       </div>
 
