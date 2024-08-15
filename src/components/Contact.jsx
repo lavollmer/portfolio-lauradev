@@ -11,7 +11,7 @@ const Contact = () => {
       <div className="flex flex-col relative z-20 p-10 space-y-10">
         <div>
           <h1 className="text-white text-6xl font-bold">
-            Let's talk about your new project or job opportunity
+            Let's talk about your next project or job opportunity
           </h1>
         </div>
         <div>

@@ -69,6 +69,7 @@ I will continue to learn more about TailwindCSS, ReactJS and updating my process
 - [SVG Converter](https://jakearchibald.github.io/svgomg/) - Convert an overlay I wanted into a SVG to use in this project.
 - [Frontend Mentor DESIGNO Challenge](https://www.frontendmentor.io/challenges/designo-multipage-website-G48K6rfUT) - Inspiration for this project.
 - [Coolors](https://coolors.co/98574d-e37d67-d2d3cf-eaac9d-b7b5b1-d9816f-fefefe) - A design color palette for my website.
+- [Canva] - Made my icon to match the color in Canva.
 
 ## Author
 
