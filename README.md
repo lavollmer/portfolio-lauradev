@@ -70,6 +70,7 @@ I will continue to learn more about TailwindCSS, ReactJS and updating my process
 - [Frontend Mentor DESIGNO Challenge](https://www.frontendmentor.io/challenges/designo-multipage-website-G48K6rfUT) - Inspiration for this project.
 - [Coolors](https://coolors.co/98574d-e37d67-d2d3cf-eaac9d-b7b5b1-d9816f-fefefe) - A design color palette for my website.
 - [Canva] - Made my icon to match the color in Canva.
+-[Animations TailwindCSS](https://tailwindcss.com/docs/animation) - Learned about how to animate in Tailwindcss.
 
 ## Author
 
