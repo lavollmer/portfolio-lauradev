@@ -3,7 +3,7 @@ import Avatar from "../assets/Avatar.png";
 
 const About = () => {
   return (
-    <div className="flex flex-row items-center justify-center p-20 font-jost text-black">
+    <div className="flex flex-row items-center justify-center p-40 font-jost text-black">
       <div className="flex flex-col w-1/2 pr-10 space-y-10">
         <div>
           <h1 className="text-black text-5xl">About</h1>
@@ -22,6 +22,7 @@ const About = () => {
             Outside of work, I love to paint, draw and any type of craft. I love using
             my creativity to make something beautiful and meaningful. I also love exploring new areas and learning about different cultures.
           </p>
+          <p>Let's build something together!</p>
         </div>
       </div>
       <div>

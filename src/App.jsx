@@ -18,7 +18,9 @@ function App() {
       <div>
         <Projects />
         <About />
-        <Contact />
+        <div className="p-20">
+          <Contact />
+        </div>
         <Footer />
       </div>
     </>
