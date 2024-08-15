@@ -8,7 +8,7 @@ import { useState } from "react";
 
 const SideNav = ({onClose}) => {
   return (
-    <div className="fixed inset-0 z-50 flex flex-col font-rubik text-white bg-redwood bg-opacity-90 top-0 left-0 p-8">
+    <div className="fixed inset-0 z-50 flex flex-col font-jost text-white bg-redwood bg-opacity-90 top-0 left-0 p-8">
       <div className="relative flex flex-row right-0 p-6">
         <div className="absolute top-0 right-0 p-4">
           <button onClick={onClose}>
