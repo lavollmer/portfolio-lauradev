@@ -11,12 +11,16 @@ import { SiFrontendmentor } from "react-icons/si";
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const handleOnClick = () => {
-    setIsOpen(!isOpen);
-  };
+  // const handleOnClick = () => {
+  //   setIsOpen(!isOpen);
+  // };
 
-  const closeSideNavBar = () => {
-    setIsOpen(false);
+  // const closeSideNavBar = () => {
+  //   setIsOpen(false);
+  // };
+
+  const toggleSideNav = () => {
+    setIsOpen(!isOpen);
   };
 
   return (
@@ -28,12 +32,12 @@ const Navigation = () => {
         </div>
         {/* hamburger button click */}
         <div>
-          <button onClick={handleOnClick}>
-            <img src={isOpen ? CloseIcon : HamburgerIcon} alt="menu icon" />
+          <button onClick={toggleSideNav}>
+            <img src={HamburgerIcon} alt="menu icon" />
           </button>
         </div>
       </div>
-      <div className="flex flex-col">{isOpen && <SideNavBar />}</div>
+      <div className="flex flex-col">{isOpen && <SideNavBar onClose={toggleSideNav} />}</div>
       <div className="hidden md:flex flex-row fixed top-0 left-0 z-20 w-full justify-between items-center bg-white font-public-sans p-16">
         <div className="flex flex-row items-center justify-center space-x-2">
           <img src={Logo} alt="Flower logo" className="h-10 w-12" />

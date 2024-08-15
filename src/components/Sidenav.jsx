@@ -25,28 +25,25 @@ const SideNav = () => {
 
   return (
     <div className="fixed inset-0 z-50 flex flex-col font-rubik text-white bg-redwood bg-opacity-90 top-0 left-0 p-8">
-      <div className="flex flex-row justify-between p-6">
-        <div>
-          <h1 className="text-lg font-semibold">Laura Vollmer</h1>
-        </div>
-        <div>
+      <div className="relative flex flex-row right-0 p-6">
+        <div className="absolute top-0 right-0 p-4">
           <button onClick={handleClose}>
             <img src={CloseIcon} alt="close" />
           </button>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center space-y-4 text-xl">
+      <div className="flex flex-col items-center justify-center text-xl">
         <div className="w-full border-t border-white p-4">
           <h1 className="flex flex-row items-center justify-center">
-            FEATURES
+            ABOUT
           </h1>
         </div>
         <div className="w-full border-t border-white p-4">
-          <h1 className="flex flex-row items-center justify-center">ABOUT</h1>
+          <h1 className="flex flex-row items-center justify-center">PROJECTS</h1>
         </div>
         <div className="w-full border-t border-b border-white p-4">
           <h1 className="flex flex-row items-center justify-center">
-            PROJECTS
+            OTHER
           </h1>
         </div>
         <div className="flex flex-col w-full m-10 p-6">
