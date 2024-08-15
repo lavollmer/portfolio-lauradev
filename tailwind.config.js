@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        "jost": ["jost", "sans-serif"],
+        jost: ["jost", "sans-serif"],
       },
       colors: {
         "burnt-sienna": "#E37D67",
