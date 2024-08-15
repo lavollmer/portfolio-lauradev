@@ -2,8 +2,8 @@ import React from "react";
 import { useState } from "react";
 import Logo from "../assets/logo2.png";
 import SideNavBar from "./SideNav";
-import { RxHamburgerMenu } from "react-icons/rx";
-import { IoMdClose } from "react-icons/io";
+import CloseIcon from "../assets/icon-close.svg";
+import HamburgerIcon from "../assets/icon-hamburger.svg";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 import { SiFrontendmentor } from "react-icons/si";
@@ -29,7 +29,7 @@ const Navigation = () => {
         <div>
           <button onClick={handleOnClick}>
             <img
-              src={isOpen ? <IoMdClose /> : <RxHamburgerMenu />}
+              src={isOpen ? CloseIcon : HamburgerIcon}
               alt="menu icon"
             />
           </button>
@@ -38,7 +38,7 @@ const Navigation = () => {
       <div className="flex flex-col">{isOpen && <SideNavBar />}</div>
       <div className="hidden md:flex flex-row fixed top-0 left-0 z-20 w-full justify-between items-center bg-white font-public-sans p-16">
         <div className="flex flex-row items-center justify-center space-x-2">
-          <img src={Logo} alt="Flower logo" className="h-10 w-10" />
+          <img src={Logo} alt="Flower logo" className="h-10 w-12" />
           <h1 className="text-black font-semibold text-3xl">LAURA VOLLMER</h1>
         </div>
         <div className="flex flex-row space-x-6 text-grayish-blue cursor-pointer text-xl">
@@ -52,13 +52,13 @@ const Navigation = () => {
         </div>
         <div className="space-x-6">
           <button className="bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-4 px-4 hover:from-redwood hover:to-burnt-sienna">
-            <FaLinkedin className="h-5 w-5" />
+            <FaLinkedin size={24} />
           </button>
           <button className="bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-4 px-4  hover:from-redwood hover:to-burnt-sienna">
-            <FaGithubSquare className="h-5 w-5" />
+            <FaGithubSquare size={24} />
           </button>
           <button className="bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-4 px-4 hover:from-redwood hover:to-burnt-sienna">
-            <SiFrontendmentor className="h-5 w-5" />
+            <SiFrontendmentor size={24} />
           </button>
         </div>
       </div>
