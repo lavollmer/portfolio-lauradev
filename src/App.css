@@ -1,0 +1,4 @@
+.landing-container {
+  border-radius: 15px; /* Adjust the value as needed */
+  overflow: hidden; /* Ensure child elements don't overflow the rounded corners */
+}

@@ -6,7 +6,7 @@ const SplashPage = () => {
   return (
     <>
       {/* desktop version */}
-      <div className="hidden md:flex bg-burnt-sienna bg-opacity-60 font-jost relative">
+      <div className="hidden md:flex bg-burnt-sienna bg-opacity-60 font-jost relative landing-container">
         <div className="flex flex-row relative w-full rounded-lg">
           <div className="flex flex-col justify-center p-20 space-y-6  relative">
             {/* Background overlay */}
@@ -14,18 +14,26 @@ const SplashPage = () => {
               className="absolute inset-0 bg-cover bg-center z-10"
               style={{ backgroundImage: `url(${BackgroundOverlay})` }}
             ></div>
-            <div className="relative z-20 space-y-10">
-              <div className="flex items-center text-left">
-                <h1 className="text-white text-5xl">Hi, I'm Laura!</h1>
-              </div>
-              <div>
+            <div className="relative z-20 p-20 space-y-8">
+              <div className="flex flex-col text-left space-y-8">
+                <h1 className="text-white text-6xl font-semibold">
+                  Hello, I'm Laura.
+                </h1>
+                <h1 className="text-white text-6xl font-semibold">
+                  I'm a software developer.
+                </h1>
                 <p className="text-white text-2xl">
-                  A passionate software developer with a love for design and web
-                  accessibility.
+                  I have one year of experience in coding, specializing in
+                  frontend software development. My background includes
+                  healthcare and floral design. I am a fast learner, constantly
+                  seeking opportunities to enhance my skills.
+                </p>
+                <p className="text-white text-2xl">
+                  I value teamwork, integrity, creativity and empathy.
                 </p>
               </div>
               <div>
-                <button className="bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-4 px-4 hover:from-redwood hover:to-burnt-sienna">
+                <button className="bg-white rounded-lg text-black text-xl cursor-pointer p-4 px-4 hover:from-redwood hover:to-burnt-sienna">
                   Learn More
                 </button>
               </div>
