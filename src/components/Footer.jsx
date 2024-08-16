@@ -7,19 +7,20 @@ import { Link } from "react-scroll";
 const Footer = () => {
   return (
     <div className="flex flex-col md:flex-row md:space-x-20 p-4 items-center text-white font-jost justify-center space-y-8 md:space-y-0 bg-black mt-20">
-      <Link to="navigation" smooth={true} duration={500}>
-        <button>HOME</button>
-      </Link>
-      <Link to="projects" smooth={true} duration={500}>
-        <button>PROJECTS</button>
-      </Link>
-      <Link to="about" smooth={true} duration={500}>
-        <button>ABOUT</button>
-      </Link>
-      <Link to="contact" smooth={true} duration={500}>
-        <button>CONTACT</button>
-      </Link>
-
+      <div className="flex flex-row space-x-10">
+        <Link to="navigation" smooth={true} duration={500}>
+          <button>HOME</button>
+        </Link>
+        <Link to="projects" smooth={true} duration={500}>
+          <button>PROJECTS</button>
+        </Link>
+        <Link to="about" smooth={true} duration={500}>
+          <button>ABOUT</button>
+        </Link>
+        <Link to="contact" smooth={true} duration={500}>
+          <button>CONTACT</button>
+        </Link>
+      </div>
       <div className="flex flex-row space-x-2 md:space-x-6">
         <a
           href="https://www.linkedin.com/in/lvollmer/"
@@ -48,6 +49,11 @@ const Footer = () => {
             <SiFrontendmentor size={20} />
           </button>
         </a>
+      </div>
+      <div className="text-center mt-4 md:mt-0 text-sm">
+        <p>
+          &copy; {new Date().getFullYear()} Laura Vollmer. All rights reserved.
+        </p>
       </div>
     </div>
   );

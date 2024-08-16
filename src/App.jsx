@@ -16,10 +16,11 @@ function App() {
         <Element name="navigation">
           <Navigation />
         </Element>
-        <div className="p-6 mt-10 md:p-0 md:mt-0">
-        <Element name="landing">
-          <Landing />
-        </Element>
+        <div className="p-10 mt-10 md:p-0 md:mt-0">
+          <Element name="landing">
+            <Landing />
+          </Element>
+        </div>
       </div>
       <Element name="skills">
         <Skills />
@@ -30,11 +31,10 @@ function App() {
       <Element name="about">
         <About />
       </Element>
-      </div>
       <div className="p-6 md:p-20">
-      <Element name="contact">
-        <Contact />
-      </Element>
+        <Element name="contact">
+          <Contact />
+        </Element>
       </div>
       <Footer />
     </>

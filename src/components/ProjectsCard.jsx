@@ -19,7 +19,7 @@ const ProjectsCard = ({
   mobileImage
 }) => {
   return (
-    <div className="flex flex-col rounded-lg shadow-lg bg-white overflow-hidden md:w-[300px] md:h-[300px]  lg:w-[500px] lg:h-[600px] m-4">
+    <div className="flex flex-col rounded-lg shadow-lg bg-white overflow-hidden md:w-[300px] md:h-[300px]  lg:w-[400px] lg:h-[600px] m-4">
       <div className="h-48 w-full">
       <img
           src={image}
@@ -31,7 +31,7 @@ const ProjectsCard = ({
       </div>
       <div className="flex flex-col p-8">
         <div>
-          <h2 className="text-black md:text-3xl text-md font-semibold">
+          <h2 className="text-black md:text-xl lg:text-3xl text-md font-semibold">
             {title}
           </h2>
           <p className="text-black mt-2 text-sm md:text-md">{content}</p>
