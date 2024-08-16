@@ -16,7 +16,7 @@ function App() {
         <Element name="navigation">
           <Navigation />
         </Element>
-        <div className="p-6 mt-8 md:p-0 md:mt-0">
+        <div className="p-6 mt-10 md:p-0 md:mt-0">
         <Element name="landing">
           <Landing />
         </Element>
