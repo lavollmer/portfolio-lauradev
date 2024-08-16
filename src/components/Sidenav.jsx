@@ -1,10 +1,9 @@
 import React from "react";
-import Logo from "../assets/logo2.png";
 import CloseIcon from "../assets/icon-close.svg";
 import { FaGithubSquare } from "react-icons/fa";
 import { AiFillLinkedin } from "react-icons/ai";
 import { SiFrontendmentor } from "react-icons/si";
-import { useState } from "react";
+import { Link } from "react-scroll";
 
 const SideNav = ({ onClose }) => {
   return (
@@ -17,29 +16,38 @@ const SideNav = ({ onClose }) => {
         </div>
       </div>
       <div className="flex flex-col items-center justify-center text-xl">
-        <div className="w-full border-t border-white p-4">
-          <h1 className="flex flex-row items-center justify-center">
-            PROJECTS
-          </h1>
+        <div className="flex flex-col items-center justify-center mt-4 mb-4 text-2xl">
+          <p>Laura Vollmer</p>
         </div>
         <div className="w-full border-t border-white p-4">
-          <h1 className="flex flex-row items-center justify-center">ABOUT</h1>
+          <Link to="projects" smooth={true} duration={500}>
+            <h1 className="flex flex-row items-center justify-center ">
+              PROJECTS
+            </h1>
+          </Link>
+        </div>
+        <div className="w-full border-t border-white p-4">
+          <Link to="about" smooth={true} duration={500}>
+            <h1 className="flex flex-row items-center justify-center">ABOUT</h1>
+          </Link>
         </div>
 
-        <div className="flex flex-col w-full m-10 p-6">
-          <button className="border border-white rounded-lg py-2">
-            CONTACT
-          </button>
+        <div className="flex flex-col items-center justify-center w-full m-10 p-6">
+          <Link to="contact" smooth={true} duration={500}>
+            <button className="border border-white rounded-lg py-2 px-4">
+              CONTACT
+            </button>
+          </Link>
         </div>
       </div>
-      <div className="flex flex-row items-center justify-center space-x-4">
+      <div className="flex flex-row items-center justify-center space-x-10">
         <a
           href="https://www.linkedin.com/in/lvollmer/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <AiFillLinkedin
-            size={26}
+            size={36}
             className="md:text-6xl hover:text-customColor hover:scale-110 transition duration-100"
           />
         </a>
@@ -49,7 +57,7 @@ const SideNav = ({ onClose }) => {
           rel="noopener noreferrer"
         >
           <FaGithubSquare
-            size={24}
+            size={36}
             className="md:text-6xl hover:text-customColor hover:scale-110 transition duration-100"
           />
         </a>
@@ -59,7 +67,7 @@ const SideNav = ({ onClose }) => {
           rel="noopener noreferrer"
         >
           <SiFrontendmentor
-            size={24}
+            size={36}
             className="md:text-6xl hover:text-customColor hover:scale-110 transition duration-100"
           />
         </a>
