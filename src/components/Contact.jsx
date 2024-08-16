@@ -1,5 +1,5 @@
 import React from "react";
-import BackgroundOverlay from "../assets/backgroundimageoverlay.svg";
+import BackgroundOverlay from "../../public/backgroundimageoverlay.svg";
 import { FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
