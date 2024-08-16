@@ -22,15 +22,23 @@ This project was a software developer portfolio for myself. I included technical
 
 <p style="font-size:20px;">Desktop Version:</p>
 
-![Desktop Landing Page](./src/assets/MainPageDesktop.png)
+![Desktop Landing Page](./src/assets/LandingPage_LauraDevPortfolio.png)
+
+![Desktop Technical Skills Page](./src/assets/TechnicalSkills_LauraDevPortfolio.png)
+
+![Desktop Projects Page](./src/assets/Projects_LauraDevPortfolio.png)
+
+![Desktop Contact and Footer](./src/assets/ContactFooter_LauraDevPortfolio.png)
 
 <p style="font-size:20px;">Mobile Version:</p>
 
-!
+![Mobile Landing Page](./src/assets/LandingPageMobile_LauraDevPortfolio.png)
+
+![Mobile Side Navigation Bar](./src/assets/SideNavigationMobile_LauraDevPortfolio.png)
 
 ### Links
 
-- Live Site URL: [Personal Portoflio Website Laura Dev]()
+- Live Site URL: [Personal Portoflio Website Laura Dev](https://lauradev-portfolio.netlify.app/)
 
 ### My Process
 
