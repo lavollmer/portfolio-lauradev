@@ -1,5 +1,5 @@
 import React from "react";
-import BackgroundOverlay from "../assets/backgroundimageoverlay.svg";
+import BackgroundOverlay from "../../public/backgroundimageoverlay.svg";
 import Arrow from "../assets/icon-arrow.svg";
 import { Link } from "react-scroll";
 
