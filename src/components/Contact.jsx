@@ -1,4 +1,5 @@
 import React from "react";
+import BackgroundOverlay from "../../public/backgroundimageoverlay.svg";
 
 
 const Contact = () => {

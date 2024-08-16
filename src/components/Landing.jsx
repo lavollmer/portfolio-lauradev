@@ -52,7 +52,7 @@ const SplashPage = () => {
             {/* Background overlay */}
             <div
               className="absolute inset-0 bg-cover bg-center z-10"
-              style={{ backgroundImage: `url(${BackgroundOverlay})` }}
+              style={{ backgroundImage: `url(/backgroundimageoverlay.svg)` }}
             ></div>
             <div className="relative z-20 p-6 space-y-8">
               <div className="flex flex-col text-left space-y-8">
