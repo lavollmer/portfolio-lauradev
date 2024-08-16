@@ -1,11 +1,10 @@
 # Portfolio Website Laura Dev
 
-This project involved developing the
+This project involved working on my portfolio website with ReactJS, Vite and TailwindCSS. Throughout the process, I worked on various key features such as mobile responsiveness, reusable components, side navigation bar, scroll navigation, tailwindcss animation, gradient colors and much more.
 
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Screenshots](#screenshots)
   - [Links](#links)
 - [My process](#my-process)
@@ -17,14 +16,7 @@ This project involved developing the
 
 ## Overview
 
-This project involved replicating a design layout given for desktop and mobile for a Easybank Landing Page with special features.
-
-### The challenge
-
-Users should be able to:
-
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
+This project was a software developer portfolio for myself. I included technical skills, latest projects, about section and contact.
 
 ### Screenshots
 
@@ -69,8 +61,7 @@ I will continue to learn more about TailwindCSS, ReactJS and updating my process
 - [SVG Converter](https://jakearchibald.github.io/svgomg/) - Convert an overlay I wanted into a SVG to use in this project.
 - [Frontend Mentor DESIGNO Challenge](https://www.frontendmentor.io/challenges/designo-multipage-website-G48K6rfUT) - Inspiration for this project.
 - [Coolors](https://coolors.co/98574d-e37d67-d2d3cf-eaac9d-b7b5b1-d9816f-fefefe) - A design color palette for my website.
-- [Canva] - Made my icon to match the color in Canva.
--[Animations TailwindCSS](https://tailwindcss.com/docs/animation) - Learned about how to animate in Tailwindcss.
+- [Canva] - Made my icon to match the color in Canva. -[Animations TailwindCSS](https://tailwindcss.com/docs/animation) - Learned about how to animate in Tailwindcss.
 
 ## Author
 

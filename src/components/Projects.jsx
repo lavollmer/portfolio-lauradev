@@ -9,7 +9,7 @@ import Portfolio from "../assets/website.png";
 import MobileBookmark from "../assets/mobilebookmark.png";
 import MobileEcommerce from "../assets/mobileecommerce.png";
 import MobileEasybank from "../assets/mobileeasybank.png";
-import MobileFAQ from "../assets/mobilefaq.png";
+import MobileFAQ from "../assets/mobileFAQ.png";
 import MobileSunny from "../assets/mobilesunnyside.png";
 import MobilePortfolio from "../assets/mobileportfolio.png";
 
