@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col md:flex-row md:space-x-20 p-4 items-center text-white font-jost justify-center space-y-8 md:space-y-0 bg-black">
+    <div className="flex flex-col md:flex-row md:space-x-20 p-4 items-center text-white font-jost justify-center space-y-8 md:space-y-0 bg-black mt-20">
       <Link to="navigation" smooth={true} duration={500}>
         <button>HOME</button>
       </Link>

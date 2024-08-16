@@ -44,7 +44,7 @@ const ProjectsCard = ({
           </ul>
           </div>
         </div>
-        <div className="flex flex-row text-left items-center space-x-6 font-xl">
+        <div className="flex flex-row text-left items-center space-x-6 font-xl mt-2">
           <p className="text-gray-700 mt-2 text-md font-bold">{skillOne}</p>
           <p className="text-gray-700 mt-2 text-md font-bold">{skillTwo}</p>
           <p className="text-gray-700 mt-2 text-md font-bold">{skillThree}</p>

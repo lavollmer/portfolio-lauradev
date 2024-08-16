@@ -19,20 +19,22 @@ function App() {
         <Element name="landing">
           <Landing />
         </Element>
-        <Element name="skills">
-          <Skills />
-        </Element>
-        <Element name="projects">
-          <Projects />
-        </Element>
-        <Element name="about">
-          <About />
-        </Element>
-        <Element name="contact">
-          <Contact />
-        </Element>
-        <Footer />
       </div>
+      <Element name="skills">
+        <Skills />
+      </Element>
+      <Element name="projects">
+        <Projects />
+      </Element>
+      <Element name="about">
+        <About />
+      </Element>
+      <div className="p-20">
+      <Element name="contact">
+        <Contact />
+      </Element>
+      </div>
+      <Footer />
     </>
   );
 }
