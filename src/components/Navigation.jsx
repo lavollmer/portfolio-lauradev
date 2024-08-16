@@ -6,7 +6,7 @@ import HamburgerIcon from "../assets/icon-hamburger.svg";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 import { SiFrontendmentor } from "react-icons/si";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -38,17 +38,17 @@ const Navigation = () => {
           <h1 className="text-black font-semibold text-2xl">LAURA VOLLMER</h1>
         </div>
         <div className="flex flex-row space-x-6 cursor-pointer text-xl">
-          <Link to="/projects">
+          <Link to="/projects" smooth={true} duration={500}>
             <h1 className="hover:border-b-2 hover:border-burnt-sienna">
               Projects
             </h1>
           </Link>
-          <Link to="/about">
+          <Link to="/about" smooth={true} duration={500}>
             <h1 className="hover:border-b-2 hover:border-burnt-sienna">
               About
             </h1>
           </Link>
-          <Link to="/contact">
+          <Link to="/contact" smooth={true} duration={500}>
             <h1 className="hover:border-b-2 hover:border-burnt-sienna">
               Contact
             </h1>

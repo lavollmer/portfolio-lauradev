@@ -7,31 +7,28 @@ import Footer from "./components/Footer";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import {Link, Element} from "react-scroll";
 
 function App() {
   return (
     <>
-      <Router>
-        <div className="md:p-20 p-6">
-          <Navigation />
-          <Routes>
-            <Route path="/" element={<Landing />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/contact" element={<Contact />} />
-          </Routes>
+      <div className="md:p-20 p-6">
+        <Navigation />
+        <Element name="landing">
           <Landing />
-          <Skills />
-        </div>
-        <div>
+        </Element>
+        <Element name="projects">
           <Projects />
+        </Element>
+        <Element name="about">
           <About />
-          <div className="p-20">
-            <Contact />
-          </div>
-          <Footer />
-        </div>
-      </Router>
+        </Element>
+        <Element name="contact">
+          <Contact />
+        </Element>
+        <Skills />
+        <Footer />
+      </div>
     </>
   );
 }
