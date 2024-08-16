@@ -6,17 +6,26 @@ import Sneakers from "../assets/Sneakers.png";
 import Card from "./ProjectsCard";
 import Sunnyside from "../assets/sunnyside.png";
 import Portfolio from "../assets/website.png";
+import MobileBookmark from "../assets/mobilebookmark.png";
+import MobileEcommerce from "../assets/mobileecommerce.png";
+import MobileEasybank from "../assets/mobileeasybank.png";
+import MobileFAQ from "../assets/mobilefaq.png";
+import MobileSunny from "../assets/mobilesunnyside.png";
+import MobilePortfolio from "../assets/mobileportfolio.png";
 
 const Projects = () => {
   return (
     <div className="bg-very-light-gray text-jost p-10 md:p-20">
       <div className="md:pl-20 pb-20">
-        <h1 className="flex items-center justify-center text-black text-3xl md:text-5xl">Latest Projects</h1>
+        <h1 className="flex items-center justify-center text-black text-3xl md:text-5xl">
+          Latest Projects
+        </h1>
       </div>
 
       <div className="flex flex-wrap justify-center">
         <Card
           image={Bookmark}
+          mobileImage={MobileBookmark}
           imageDesc="Bookmark Landing Page"
           title="Bookmark Landing Page"
           content="A solo project to create a navigation bar, a hero section, a feature section, a call-to-action section, a footer, and a newsletter signup form."
@@ -35,6 +44,7 @@ const Projects = () => {
         />
         <Card
           image={Sneakers}
+          mobileImage={MobileEcommerce}
           imageDesc="E-Commerce Product Page"
           title="E-Commerce Product Page"
           content="A solo project creating a navigation bar, a cart section, a product section, a footer, and a carousel photo gallery."
@@ -51,6 +61,7 @@ const Projects = () => {
         />
         <Card
           image={Easybank}
+          mobileImage={MobileEasybank}
           imageDesc="Easybank Landing Page"
           title="Easybank Landing Page"
           content="A solo project that involved a navigation bar, a side navigation bar for mobile, a responsive design, a TailwindCSS layout, a footer, interactive hover states and much more."
@@ -65,11 +76,11 @@ const Projects = () => {
           keyfeatureThree={"Gradient Color Backgrounds"}
           keyfeatureFour={"Interactive Hover States"}
         />
-        
       </div>
       <div className="flex flex-wrap justify-center">
         <Card
           image={FAQ}
+          mobileImage={MobileFAQ}
           imageDesc="FAQ Accordion Card"
           title="FAQ Accordion Card"
           content="This solo project was aimed at learning about FAQ accordion structure and styling layout in ReactJS, TailwindCSS, and Vite."
@@ -86,6 +97,7 @@ const Projects = () => {
         />
         <Card
           image={Sunnyside}
+          mobileImage={MobileSunny}
           imageDesc="Sunnyside Landing Page"
           title="Sunnyside Landing Page"
           content="This solo project involved creating a replica of a agency landing page, adhering strictly to a provided design. "
@@ -102,6 +114,7 @@ const Projects = () => {
         />
         <Card
           image={Portfolio}
+          mobileImage={MobilePortfolio}
           imageDesc="Portfolio Website"
           title="Previous Portfolio Website"
           content="A solo project that involved creating my first portfolio website to showcase my projects and skills. "

@@ -16,12 +16,15 @@ const ProjectsCard = ({
   keyfeatureTwo,
   keyfeatureThree,
   keyfeatureFour,
+  mobileImage
 }) => {
   return (
     <div className="flex flex-col rounded-lg shadow-lg bg-white overflow-hidden md:w-[300px] md:h-[300px]  lg:w-[500px] lg:h-[600px] m-4">
       <div className="h-48 w-full">
-        <img
+      <img
           src={image}
+          srcSet={`${mobileImage} 600w, ${image} 1200w`} 
+          sizes="(max-width: 600px) 100vw, 50vw" 
           alt={imageDesc}
           className="h-full w-full object-cover"
         />
