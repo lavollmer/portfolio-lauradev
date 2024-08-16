@@ -18,7 +18,7 @@ const ProjectsCard = ({
   keyfeatureFour,
 }) => {
   return (
-    <div className="flex flex-col rounded-lg shadow-lg bg-white overflow-hidden w-[500px] h-[500px] m-4">
+    <div className="flex flex-col rounded-lg shadow-lg bg-white overflow-hidden w-[500px] h-[600px] m-4">
       <div className="h-48 w-full">
         <img
           src={image}
@@ -33,11 +33,14 @@ const ProjectsCard = ({
           </h2>
           <p className="text-black mt-2 text-md">{content}</p>
           <div>
-          <ul className="text-black mt-2 text-md">
-            <ol>{keyfeatureOne}</ol>
-            <ol>{keyfeatureTwo}</ol>
-            <ol>{keyfeatureThree}</ol>
-            <ol>{keyfeatureFour}</ol>
+            <h3 className="text-gray-700 mt-2 text-md font-bold">
+              Key Features
+            </h3>
+            <ul className="list-disc list-inside text-gray-700 mt-2 text-md">
+            <li>{keyfeatureOne}</li>
+            <li>{keyfeatureTwo}</li>
+            <li>{keyfeatureThree}</li>
+            <li>{keyfeatureFour}</li>
           </ul>
           </div>
         </div>
@@ -49,12 +52,22 @@ const ProjectsCard = ({
         </div>
         <div className="flex flex-row space-x-4 card-links pt-4">
           {githubCode && (
-            <a href={githubCode} target="_blank" rel="noopener noreferrer" className="hover:text-royal-blue hover:animate-pulse">
+            <a
+              href={githubCode}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-royal-blue hover:animate-pulse"
+            >
               GitHub Code
             </a>
           )}
           {livesite && (
-            <a href={livesite} target="_blank" rel="noopener noreferrer" className="hover:text-royal-blue hover:animate-pulse">
+            <a
+              href={livesite}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-royal-blue hover:animate-pulse"
+            >
               Live Site
             </a>
           )}
