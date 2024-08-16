@@ -12,10 +12,11 @@ import { Link, Element } from "react-scroll";
 function App() {
   return (
     <>
-      <div className="md:p-20 p-6">
+      <div className="lg:p-20 md:p-6">
         <Element name="navigation">
           <Navigation />
         </Element>
+        <div className="p-6 mt-8 md:p-0 md:mt-0">
         <Element name="landing">
           <Landing />
         </Element>
@@ -29,6 +30,7 @@ function App() {
       <Element name="about">
         <About />
       </Element>
+      </div>
       <div className="p-6 md:p-20">
       <Element name="contact">
         <Contact />

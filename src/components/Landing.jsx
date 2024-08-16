@@ -73,10 +73,13 @@ const SplashPage = () => {
                   I value teamwork, integrity, creativity and empathy.
                 </p>
               </div>
-              <div className="flex flex-col items-center justify-center">
-                <button className="bg-white rounded-lg text-black text-md cursor-pointer p-4 px-4 hover:from-redwood hover:to-burnt-sienna">
-                  Learn More
-                </button>
+              <div className="flex items-center justify-center">
+                <Link to="skills" smooth={true} duration={500}>
+                  <button className="flex flex-row items-center justify-center space-x-2 bg-white animate-bounce rounded-full text-black text-lg cursor-pointer p-2 px-2 hover:from-redwood hover:to-burnt-sienna">
+                    <img src={Arrow} alt="arrow" className="text-white" />
+                    <p>Learn More</p>
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
