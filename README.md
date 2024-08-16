@@ -46,12 +46,15 @@ I began by setting up TailwindCSS, ReactJS, and my GitHub repository. Additional
 
 ### Built with
 
+- [React](https://reactjs.org/) - JS library
+- Tailwind CSS
+- Google Fonts
+- Tailwind CSS Animation
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
 
 ### What I learned
 

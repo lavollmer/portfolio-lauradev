@@ -1,5 +1,4 @@
 import React from "react";
-import imageComputer from "../assets/computer-image.jpg";
 import BackgroundOverlay from "../assets/backgroundimageoverlay.svg";
 import Arrow from "../assets/icon-arrow.svg";
 import { Link } from "react-scroll";
