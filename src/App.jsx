@@ -13,9 +13,14 @@ function App() {
   return (
     <>
       <div className="md:p-20 p-6">
-        <Navigation />
+        <Element name="navigation">
+          <Navigation />
+        </Element>
         <Element name="landing">
           <Landing />
+        </Element>
+        <Element name="skills">
+          <Skills />
         </Element>
         <Element name="projects">
           <Projects />
@@ -26,7 +31,6 @@ function App() {
         <Element name="contact">
           <Contact />
         </Element>
-        <Skills />
         <Footer />
       </div>
     </>
