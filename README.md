@@ -74,11 +74,11 @@ In this project, I realized how much my coding skills have improved over the pas
 
 Here are several things I learned throughout this project:
 
-1. *** Tailwind CSS Animation*** - I explored Tailwind CSS animation features and found them exciting. I experimented with various options and settled on the pulse and bounce animations with a set duration, adding a simple yet fun element to the website.
-2. *** SVG Overlay*** - I wanted to incorporate an SVG overlay into my splash page and contact area. I found an SVG overlay I liked, used the raw code, and converted it to an SVG.
-3. *** Reusable Components *** - I deepened my understanding of card components and their reusability. This feature proved to be highly beneficial, and I plan to continue using it.
-4. *** Reusability of Code ***- In this project, I reused code from previous projects and adapted it to fit my website's needs. This approach allowed me to work efficiently and effectively.
-5. *** Scroll Navigation *** - Scroll link navigation, which smoothly scrolls the user to a specific section of the same page, significantly enhanced the user experience in this single-page application.
+1. ***Tailwind CSS Animation*** - I explored Tailwind CSS animation features and found them exciting. I experimented with various options and settled on the pulse and bounce animations with a set duration, adding a simple yet fun element to the website.
+2. ***SVG Overlay*** - I wanted to incorporate an SVG overlay into my splash page and contact area. I found an SVG overlay I liked, used the raw code, and converted it to an SVG.
+3. ***Reusable Components*** - I deepened my understanding of card components and their reusability. This feature proved to be highly beneficial, and I plan to continue using it.
+4. ***Reusability of Code***- In this project, I reused code from previous projects and adapted it to fit my website's needs. This approach allowed me to work efficiently and effectively.
+5. ***Scroll Navigation*** - Scroll link navigation, which smoothly scrolls the user to a specific section of the same page, significantly enhanced the user experience in this single-page application.
 
 ### Continued development
 
@@ -90,7 +90,7 @@ I will continue to learn more about TailwindCSS, ReactJS and updating my process
 - [SVG Converter](https://jakearchibald.github.io/svgomg/) - Convert an overlay I wanted into a SVG to use in this project.
 - [Frontend Mentor DESIGNO Challenge](https://www.frontendmentor.io/challenges/designo-multipage-website-G48K6rfUT) - Inspiration for this project.
 - [Coolors](https://coolors.co/98574d-e37d67-d2d3cf-eaac9d-b7b5b1-d9816f-fefefe) - A design color palette for my website.
-- [Canva] - Made my icon to match the color in Canva. -[Animations TailwindCSS](https://tailwindcss.com/docs/animation) - Learned about how to animate in Tailwindcss.
+- Canva - Made my icon to match the color in Canva. -[Animations TailwindCSS](https://tailwindcss.com/docs/animation) - Learned about how to animate in Tailwindcss.
 
 ## Author
 
