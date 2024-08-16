@@ -22,6 +22,8 @@ const Projects = () => {
           skillTwo="TAILWIND CSS"
           skillThree="VITE"
           skillFour="CSS"
+          githubCode={`https://github.com/lavollmer/bookmark-landing-page`}
+          livesite={`https://bookmarklandingpagelauradev.netlify.app/`}
         />
         <Card
           image={Easybank}

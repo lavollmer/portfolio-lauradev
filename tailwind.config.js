@@ -10,6 +10,7 @@ module.exports = {
         "burnt-sienna": "#E37D67",
         redwood: "#98574D",
         timberwolf: "#D2D3CF",
+        'royal-blue': '#6477E2',
       },
     },
   },

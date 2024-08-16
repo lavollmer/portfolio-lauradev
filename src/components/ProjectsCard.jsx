@@ -10,7 +10,7 @@ const ProjectsCard = ({
   skillTwo,
   skillThree,
   skillFour,
-  github,
+  githubCode,
   livesite,
 }) => {
   return (
@@ -35,19 +35,17 @@ const ProjectsCard = ({
           <p className="text-gray-700 mt-2 text-md font-bold">{skillThree}</p>
           <p className="text-gray-700 mt-2 text-md font-bold">{skillFour}</p>
         </div>
-        <div className="flex flex-row items-center space-x-4">
-          <a
-            href="https://github.com/lavollmer"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <button className="text-black cursor-pointer">
-              <FaGithubSquare size={20} />
-              Github Code
-            </button>
-          </a>
-
-          <p>Live Site</p>
+        <div className="flex flex-row space-x-4 card-links pt-4">
+          {githubCode && (
+            <a href={githubCode} target="_blank" rel="noopener noreferrer" className="hover:text-royal-blue hover:animate-pulse">
+              GitHub Code
+            </a>
+          )}
+          {livesite && (
+            <a href={livesite} target="_blank" rel="noopener noreferrer" className="hover:text-royal-blue hover:animate-pulse">
+              Live Site
+            </a>
+          )}
         </div>
       </div>
     </div>
