@@ -6,23 +6,32 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <div className="md:p-20 p-6">
-        <Navigation />
-        <Landing />
-        <Skills />
-      </div>
-      <div>
-        <Projects />
-        <About />
-        <div className="p-20">
-          <Contact />
+      <Router>
+        <div className="md:p-20 p-6">
+          <Navigation />
+          <Routes>
+            <Route path="/" element={<Landing />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+          <Landing />
+          <Skills />
         </div>
-        <Footer />
-      </div>
+        <div>
+          <Projects />
+          <About />
+          <div className="p-20">
+            <Contact />
+          </div>
+          <Footer />
+        </div>
+      </Router>
     </>
   );
 }

@@ -2,11 +2,11 @@ import React from "react";
 import { useState } from "react";
 import Logo from "../assets/logo2.png";
 import SideNavBar from "./Sidenav";
-import CloseIcon from "../assets/icon-close.svg";
 import HamburgerIcon from "../assets/icon-hamburger.svg";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 import { SiFrontendmentor } from "react-icons/si";
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -38,13 +38,21 @@ const Navigation = () => {
           <h1 className="text-black font-semibold text-2xl">LAURA VOLLMER</h1>
         </div>
         <div className="flex flex-row space-x-6 cursor-pointer text-xl">
-          <h1 className="hover:border-b-2 hover:border-burnt-sienna">
-            Projects
-          </h1>
-          <h1 className="hover:border-b-2 hover:border-burnt-sienna">About</h1>
-          <h1 className="hover:border-b-2 hover:border-burnt-sienna">
-            Contact
-          </h1>
+          <Link to="/projects">
+            <h1 className="hover:border-b-2 hover:border-burnt-sienna">
+              Projects
+            </h1>
+          </Link>
+          <Link to="/about">
+            <h1 className="hover:border-b-2 hover:border-burnt-sienna">
+              About
+            </h1>
+          </Link>
+          <Link to="/contact">
+            <h1 className="hover:border-b-2 hover:border-burnt-sienna">
+              Contact
+            </h1>
+          </Link>
         </div>
         <div className="space-x-6">
           <a
