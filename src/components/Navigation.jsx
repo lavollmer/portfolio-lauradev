@@ -17,15 +17,15 @@ const Navigation = () => {
 
   return (
     <div className="font-jost">
-      <div className="md:hidden flex flex-row md:fixed top-0 z-20 w-full justify-between items-center md:pl-10 md:pr-10 bg-white md:mt-20 mt-10">
+      <div className="md:hidden fixed top-0 z-20 w-full flex flex-row justify-between items-center bg-white p-4">
         <div className="flex flex-row items-center justify-center space-x-2">
           <img src={Logo} alt="Flower logo" className="h-6 w-7" />
           <h1 className="font-semibold text-lg">LAURA VOLLMER</h1>
         </div>
         {/* hamburger button click */}
-        <div>
-          <button onClick={toggleSideNav}>
-            <img src={HamburgerIcon} alt="menu icon" />
+        <div className="flex-shrink-0">
+          <button onClick={toggleSideNav} className="p-2">
+            <img src={HamburgerIcon} alt="menu icon" className="h-4 w-4" />
           </button>
         </div>
       </div>
