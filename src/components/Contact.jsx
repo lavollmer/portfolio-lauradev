@@ -1,13 +1,13 @@
 import React from "react";
 import BackgroundOverlay from "../../public/backgroundimageoverlay.svg";
-import { FaLinkedin } from "react-icons/fa";
+
 
 const Contact = () => {
   return (
     <div className="flex flex-row items-center justify-center relative rounded-lg w-full bg-burnt-sienna bg-opacity-60 font-jost p-8 md:p-20 landing-container">
       <div
         className="absolute inset-0 bg-cover bg-center z-10"
-        style={{ backgroundImage: `url(${BackgroundOverlay})` }}
+        style={{ backgroundImage: `url(/backgroundimageoverlay.svg)` }}
       ></div>
       <div className="flex flex-col relative z-20 md:p-10 space-y-10">
         <div className="flex flex-col md:flex-row items-center justify-center">
