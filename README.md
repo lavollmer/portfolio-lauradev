@@ -52,6 +52,8 @@ The latest projects section was the most involved. Each project card includes an
 
 The about section was simpler, featuring a biography and avatar picture. I completed the contact section with a button to navigate to LinkedIn. The footer includes links to different parts of the web page, icons to various social media sites, and a copyright statement.
 
+After completing the general design, I went back to fine tune various pieces such as hover states, alignment of text and images, mobile images, correct links for navigation.
+
 Overall, I loved what I created and excited to share it with others. I completed this website in 1.5 days. I look forward to adding more features as time progresses.
 
 
