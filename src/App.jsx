@@ -29,7 +29,7 @@ function App() {
       <Element name="about">
         <About />
       </Element>
-      <div className="p-20">
+      <div className="p-6 md:p-20">
       <Element name="contact">
         <Contact />
       </Element>
