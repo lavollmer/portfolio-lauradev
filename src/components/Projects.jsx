@@ -9,9 +9,9 @@ import Portfolio from "../assets/website.png";
 
 const Projects = () => {
   return (
-    <div className="bg-very-light-gray text-jost p-20">
-      <div className="pl-20 pb-20">
-        <h1 className="text-black text-5xl">Latest Projects</h1>
+    <div className="bg-very-light-gray text-jost p-10 md:p-20">
+      <div className="md:pl-20 pb-20">
+        <h1 className="flex items-center justify-center text-black text-3xl md:text-5xl">Latest Projects</h1>
       </div>
 
       <div className="flex flex-wrap justify-center">
