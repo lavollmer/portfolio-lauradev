@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import {Link, Element} from "react-scroll";
+import { Link, Element } from "react-scroll";
 
 function App() {
   return (

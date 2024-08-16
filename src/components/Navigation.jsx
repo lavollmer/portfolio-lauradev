@@ -38,21 +38,21 @@ const Navigation = () => {
           <h1 className="text-black font-semibold text-2xl">LAURA VOLLMER</h1>
         </div>
         <div className="flex flex-row space-x-6 cursor-pointer text-xl">
-          <Link to="/projects" smooth={true} duration={500}>
-            <h1 className="hover:border-b-2 hover:border-burnt-sienna">
+          <h1 className="hover:border-b-2 hover:border-burnt-sienna">
+            <Link to="projects" smooth={true} duration={500}>
               Projects
-            </h1>
-          </Link>
-          <Link to="/about" smooth={true} duration={500}>
-            <h1 className="hover:border-b-2 hover:border-burnt-sienna">
+            </Link>
+          </h1>
+          <h1 className="hover:border-b-2 hover:border-burnt-sienna">
+            <Link to="about" smooth={true} duration={500}>
               About
-            </h1>
-          </Link>
-          <Link to="/contact" smooth={true} duration={500}>
-            <h1 className="hover:border-b-2 hover:border-burnt-sienna">
+            </Link>
+          </h1>
+          <h1 className="hover:border-b-2 hover:border-burnt-sienna">
+            <Link to="contact" smooth={true} duration={500}>
               Contact
-            </h1>
-          </Link>
+            </Link>
+          </h1>
         </div>
         <div className="space-x-6">
           <a
