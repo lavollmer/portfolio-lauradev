@@ -8,16 +8,16 @@ const Footer = () => {
   return (
     <div className="flex flex-col md:flex-row md:space-x-20 p-4 items-center text-white font-jost justify-center space-y-8 md:space-y-0 bg-black mt-20">
       <div className="flex flex-row space-x-10">
-        <Link aria-label="Return to home" to="navigation" smooth={true} duration={500}>
+        <Link aria-label="Return to home" to="navigation" smooth={true} duration={500} href="#home">
           <button aria-label="home">HOME</button>
         </Link>
-        <Link aria-label="Return to Projects" to="projects" smooth={true} duration={500}>
+        <Link aria-label="Return to Projects" to="projects" smooth={true} duration={500} href="#projects">
           <button aria-label="projects">PROJECTS</button>
         </Link>
-        <Link aria-label="Return to About" to="about" smooth={true} duration={500}>
+        <Link aria-label="Return to About" to="about" smooth={true} duration={500} href="#about">
           <button aria-label="about">ABOUT</button>
         </Link>
-        <Link aria-label="Return to Contact" to="contact" smooth={true} duration={500}>
+        <Link aria-label="Return to Contact" to="contact" smooth={true} duration={500} href="#contact">
           <button aria-label="contact">CONTACT</button>
         </Link>
       </div>

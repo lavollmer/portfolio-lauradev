@@ -39,17 +39,17 @@ const Navigation = () => {
         </div>
         <div className="flex flex-row space-x-6 cursor-pointer text-xl">
           <h1 className="hover:border-b-2 hover:border-burnt-sienna">
-            <Link aria-label="Go to Projects Section" to="projects" smooth={true} duration={500}>
+            <Link aria-label="Go to Projects Section" to="projects" smooth={true} duration={500} href="#projects">
               Projects
             </Link>
           </h1>
           <h1 className="hover:border-b-2 hover:border-burnt-sienna">
-            <Link aria-label="Go to About Section" to="about" smooth={true} duration={500}>
+            <Link aria-label="Go to About Section" to="about" smooth={true} duration={500} href="#about">
               About
             </Link>
           </h1>
           <h1 className="hover:border-b-2 hover:border-burnt-sienna">
-            <Link aria-label="Got to Contact Section" to="contact" smooth={true} duration={500}>
+            <Link aria-label="Got to Contact Section" to="contact" smooth={true} duration={500} href="#contact">
               Contact
             </Link>
           </h1>

@@ -20,27 +20,27 @@ const SideNav = ({ onClose }) => {
           <p>Laura Vollmer</p>
         </div>
         <div className="w-full border-t border-white p-4">
-          <Link aria-label="Go to projects section" to="projects" smooth={true} duration={500} onClick={onClose}>
+          <Link aria-label="Go to projects section" to="projects" smooth={true} duration={500} onClick={onClose} href="#projects">
             <h1 className="flex flex-row items-center justify-center ">
               PROJECTS
             </h1>
           </Link>
         </div>
         <div className="w-full border-t border-white p-4">
-          <Link aria-label="Go to skills section" to="skills" smooth={true} duration={500} onClick={onClose}>
+          <Link aria-label="Go to skills section" to="skills" smooth={true} duration={500} onClick={onClose} href="#skills">
             <h1 className="flex flex-row items-center justify-center ">
               SKILLS
             </h1>
           </Link>
         </div>
         <div className="w-full border-t border-white p-4">
-          <Link aria-label="Go to About section" to="about" smooth={true} duration={500} onClick={onClose}>
+          <Link aria-label="Go to About section" to="about" smooth={true} duration={500} onClick={onClose} href="#about">
             <h1 className="flex flex-row items-center justify-center">ABOUT</h1>
           </Link>
         </div>
 
         <div className="flex flex-col items-center justify-center w-full m-10 p-6">
-          <Link aria-label="Go to Contact section" to="contact" smooth={true} duration={500} onClick={onClose}>
+          <Link aria-label="Go to Contact section" to="contact" smooth={true} duration={500} onClick={onClose} href="#contact">
             <button aria-label="contact" className="border border-white rounded-lg py-2 px-4">
               CONTACT
             </button>

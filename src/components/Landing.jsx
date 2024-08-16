@@ -34,7 +34,7 @@ const SplashPage = () => {
                 </p>
               </div>
               <div>
-                <Link aria-label="Go to Learn More about Laura Dev" to="skills" smooth={true} duration={500}>
+                <Link aria-label="Go to Learn More about Laura Dev" to="skills" smooth={true} duration={500} href="#learnmore">
                   <button aria-label="learn more" className="flex flex-row items-center justify-center space-x-2 bg-white animate-bounce rounded-full text-black text-xl cursor-pointer p-4 px-4 hover:from-redwood hover:to-burnt-sienna">
                     <img src={Arrow} alt="arrow" className="text-white" />
                     <p>Learn More</p>
@@ -73,7 +73,7 @@ const SplashPage = () => {
                 </p>
               </div>
               <div className="flex items-center justify-center">
-                <Link to="skills" smooth={true} duration={500}>
+                <Link to="skills" smooth={true} duration={500} href="#learnmore">
                   <button aria-label="learn more" className="flex flex-row items-center justify-center space-x-2 bg-white animate-bounce rounded-full text-black text-lg cursor-pointer p-2 px-2 hover:from-redwood hover:to-burnt-sienna">
                     <img src={Arrow} alt="arrow" className="text-white" />
                     <p>Learn More</p>

@@ -20,7 +20,7 @@ const Contact = () => {
             href="https://www.linkedin.com/in/lvollmer/"
             target="_blank"
             rel="noopener noreferrer"
-            aria-lable="Send me a message on LinkedIn"
+            aria-label="Send me a message on LinkedIn"
           >
             <button aria-label="Get in touch" className="hover:animate-bounce bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-4 px-4 hover:from-redwood hover:to-burnt-sienna">
               <p className="font-bold text-lg md:text-2xl">Get in touch</p>
