@@ -81,6 +81,7 @@ Here are several things I learned throughout this project:
 3. ***Reusable Components*** - I deepened my understanding of card components and their reusability. This feature proved to be highly beneficial, and I plan to continue using it.
 4. ***Reusability of Code***- In this project, I reused code from previous projects and adapted it to fit my website's needs. This approach allowed me to work efficiently and effectively.
 5. ***Scroll Navigation*** - Scroll link navigation, which smoothly scrolls the user to a specific section of the same page, significantly enhanced the user experience in this single-page application.
+6. ***Static Asset Vite*** - Towards the end of the project with deployment to netlify, my SVG overlay file would not appear on screen. I went through every possible problem from incorrect path, file existence, clearing the cache, viewing on incognito mode, and checking errors in build logs. After researching, I came across a forum in which someone was talking about reviewing Vite's static handling. I realized that I needed to move my SVG file into the public directory and change the pathway in my code. After doing this, it worked perfectly.
 
 ### Continued development
 
@@ -93,7 +94,8 @@ I will continue to learn more about TailwindCSS, ReactJS and updating my process
 - [Frontend Mentor DESIGNO Challenge](https://www.frontendmentor.io/challenges/designo-multipage-website-G48K6rfUT) - Inspiration for this project.
 - [Coolors](https://coolors.co/98574d-e37d67-d2d3cf-eaac9d-b7b5b1-d9816f-fefefe) - A design color palette for my website.
 - Canva - Made my icon to match the color in Canva. -[Animations TailwindCSS](https://tailwindcss.com/docs/animation) - Learned about how to animate in Tailwindcss.
--[Static Asset Handling Vite](https://vitejs.dev/guide/assets.html)
+-[Static Asset Handling Vite](https://vitejs.dev/guide/assets.html) - Debugging SVG file with deployment.
+-[Button Labels Web Accessibility](https://dequeuniversity.com/rules/axe/4.9/button-name)
 
 ## Author
 

@@ -27,7 +27,7 @@ const About = () => {
         </div>
       </div>
       <div>
-        <img src={Avatar} className="h-64 w-64"/>
+        <img src={Avatar} alt="avatar image of laura" className="h-64 w-64"/>
       </div>
     </div>
   );

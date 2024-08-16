@@ -7,7 +7,7 @@ const SplashPage = () => {
   return (
     <>
       {/* desktop version */}
-      <div className="hidden md:flex bg-gradient-to-r to-redwood from-burnt-sienna mt-10 bg-opacity-70 font-jost relative landing-container">
+      <div className="hidden md:flex bg-burnt-sienna bg-opacity-60 mt-10 font-jost relative landing-container">
         <div className="flex flex-row relative w-full rounded-lg">
           <div className="flex flex-col justify-center p-20 space-y-6  relative">
             {/* Background overlay */}
@@ -34,8 +34,8 @@ const SplashPage = () => {
                 </p>
               </div>
               <div>
-                <Link to="skills" smooth={true} duration={500}>
-                  <button className="flex flex-row items-center justify-center space-x-2 bg-white animate-bounce rounded-full text-black text-xl cursor-pointer p-4 px-4 hover:from-redwood hover:to-burnt-sienna">
+                <Link aria-label="Go to Learn More about Laura Dev" to="skills" smooth={true} duration={500}>
+                  <button aria-label="learn more" className="flex flex-row items-center justify-center space-x-2 bg-white animate-bounce rounded-full text-black text-xl cursor-pointer p-4 px-4 hover:from-redwood hover:to-burnt-sienna">
                     <img src={Arrow} alt="arrow" className="text-white" />
                     <p>Learn More</p>
                   </button>
@@ -74,7 +74,7 @@ const SplashPage = () => {
               </div>
               <div className="flex items-center justify-center">
                 <Link to="skills" smooth={true} duration={500}>
-                  <button className="flex flex-row items-center justify-center space-x-2 bg-white animate-bounce rounded-full text-black text-lg cursor-pointer p-2 px-2 hover:from-redwood hover:to-burnt-sienna">
+                  <button aria-label="learn more" className="flex flex-row items-center justify-center space-x-2 bg-white animate-bounce rounded-full text-black text-lg cursor-pointer p-2 px-2 hover:from-redwood hover:to-burnt-sienna">
                     <img src={Arrow} alt="arrow" className="text-white" />
                     <p>Learn More</p>
                   </button>

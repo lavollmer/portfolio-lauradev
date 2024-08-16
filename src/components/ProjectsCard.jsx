@@ -1,6 +1,4 @@
 import React from "react";
-import { FaGithubSquare } from "react-icons/fa";
-import ArrowDown from "../assets/icon-arrow.svg";
 
 const ProjectsCard = ({
   title,
@@ -70,6 +68,7 @@ const ProjectsCard = ({
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-royal-blue hover:animate-pulse"
+                aria-label="Go to the project's Github Code"
               >
                 GitHub Code
               </a>
@@ -80,6 +79,7 @@ const ProjectsCard = ({
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-royal-blue hover:animate-pulse"
+                aria-label="Go to the project's live website"
               >
                 Live Site
               </a>

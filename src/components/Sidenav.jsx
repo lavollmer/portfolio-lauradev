@@ -10,8 +10,8 @@ const SideNav = ({ onClose }) => {
     <div className="fixed inset-0 z-50 flex flex-col font-jost text-white bg-redwood bg-opacity-90 top-0 left-0 p-8">
       <div className="relative flex flex-row right-0 p-6">
         <div className="absolute top-0 right-0 p-4">
-          <button onClick={onClose}>
-            <img src={CloseIcon} alt="close" />
+          <button aria-label="close" onClick={onClose}>
+            <img src={CloseIcon} alt="close icon" />
           </button>
         </div>
       </div>
@@ -20,28 +20,28 @@ const SideNav = ({ onClose }) => {
           <p>Laura Vollmer</p>
         </div>
         <div className="w-full border-t border-white p-4">
-          <Link to="projects" smooth={true} duration={500} onClick={onClose}>
+          <Link aria-label="Go to projects section" to="projects" smooth={true} duration={500} onClick={onClose}>
             <h1 className="flex flex-row items-center justify-center ">
               PROJECTS
             </h1>
           </Link>
         </div>
         <div className="w-full border-t border-white p-4">
-          <Link to="skills" smooth={true} duration={500} onClick={onClose}>
+          <Link aria-label="Go to skills section" to="skills" smooth={true} duration={500} onClick={onClose}>
             <h1 className="flex flex-row items-center justify-center ">
               SKILLS
             </h1>
           </Link>
         </div>
         <div className="w-full border-t border-white p-4">
-          <Link to="about" smooth={true} duration={500} onClick={onClose}>
+          <Link aria-label="Go to About section" to="about" smooth={true} duration={500} onClick={onClose}>
             <h1 className="flex flex-row items-center justify-center">ABOUT</h1>
           </Link>
         </div>
 
         <div className="flex flex-col items-center justify-center w-full m-10 p-6">
-          <Link to="contact" smooth={true} duration={500} onClick={onClose}>
-            <button className="border border-white rounded-lg py-2 px-4">
+          <Link aria-label="Go to Contact section" to="contact" smooth={true} duration={500} onClick={onClose}>
+            <button aria-label="contact" className="border border-white rounded-lg py-2 px-4">
               CONTACT
             </button>
           </Link>
@@ -52,6 +52,7 @@ const SideNav = ({ onClose }) => {
           href="https://www.linkedin.com/in/lvollmer/"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Go to Laura Dev Linkedin Profile"
         >
           <AiFillLinkedin
             size={36}
@@ -62,6 +63,7 @@ const SideNav = ({ onClose }) => {
           href="https://github.com/lavollmer"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Go to Laura Dev Github Profile"
         >
           <FaGithubSquare
             size={36}
@@ -72,6 +74,7 @@ const SideNav = ({ onClose }) => {
           href="https://www.frontendmentor.io/profile/lavollmer"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Go to Laura Dev Frontend Mentor Profile"
         >
           <SiFrontendmentor
             size={36}
