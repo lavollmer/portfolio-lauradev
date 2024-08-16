@@ -12,6 +12,10 @@ const ProjectsCard = ({
   skillFour,
   githubCode,
   livesite,
+  keyfeatureOne,
+  keyfeatureTwo,
+  keyfeatureThree,
+  keyfeatureFour,
 }) => {
   return (
     <div className="flex flex-col rounded-lg shadow-lg bg-white overflow-hidden w-[500px] h-[500px] m-4">
@@ -28,6 +32,14 @@ const ProjectsCard = ({
             {title}
           </h2>
           <p className="text-black mt-2 text-md">{content}</p>
+          <div>
+          <ul className="text-black mt-2 text-md">
+            <ol>{keyfeatureOne}</ol>
+            <ol>{keyfeatureTwo}</ol>
+            <ol>{keyfeatureThree}</ol>
+            <ol>{keyfeatureFour}</ol>
+          </ul>
+          </div>
         </div>
         <div className="flex flex-row text-left items-center space-x-6 font-xl">
           <p className="text-gray-700 mt-2 text-md font-bold">{skillOne}</p>
