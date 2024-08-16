@@ -23,6 +23,7 @@ const About = () => {
             my creativity to make something beautiful and meaningful. I also love exploring new areas and learning about different cultures.
           </p>
           <p>Let's build something together!</p>
+          <p>Laura Vollmer</p>
         </div>
       </div>
       <div>
