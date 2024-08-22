@@ -46,7 +46,8 @@ const ProjectsCard = ({
             </ul>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row text-left items-center md:space-y-0 md:space-x-4 mt-2">
+        {/* <div className="flex flex-col md:flex-row text-left items-center md:space-y-0 md:space-x-4 mt-2">
+          <h3 className="text-gray-700 mt-2 text-sm md:text-md font-bold">Tech Stack</h3>
           <p className="text-gray-700 text-sm md:text-md font-bold">
             {skillOne}
           </p>
@@ -59,9 +60,20 @@ const ProjectsCard = ({
           <p className="text-gray-700 mt-2 text-sm md:text-md font-bold">
             {skillFour}
           </p>
+        </div> */}
+        <div>
+          <h3 className="text-gray-700 mt-2 text-sm md:text-md font-bold">
+            Tech Stack
+          </h3>
+          <ul className="list-disc list-inside text-gray-700 mt-2 text-sm md:text-md">
+            <li>{skillOne}</li>
+            <li>{skillTwo}</li>
+            <li>{skillThree}</li>
+            <li>{skillFour}</li>
+          </ul>
         </div>
         <div className="flex flex-col text-md items-center md:text-lg md:space-y-0 md:space-x-4 pt-4">
-          <div className="flex flex-col justify-center items-center md:flex-row md:justify-start md:space-x-4 font-semibold">
+          <div className="flex flex-col justify-center items-center space-y-4 md:flex-row md:justify-start md:space-x-4 font-semibold">
             {githubCode && (
               <a
                 href={githubCode}
