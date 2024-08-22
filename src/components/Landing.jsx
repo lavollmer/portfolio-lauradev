@@ -82,20 +82,20 @@ const SplashPage = () => {
                 </p>
               </div>
               <div className="flex items-center justify-center">
-                <Link
-                  to="skills"
-                  smooth={true}
-                  duration={500}
-                  href="#learnmore"
+                <button
+                  aria-label="learn more"
+                  className="flex flex-row items-center justify-center space-x-4 bg-white animate-bounce rounded-full text-black text-lg cursor-pointer p-6 px-8 hover:from-redwood hover:to-burnt-sienna"
                 >
-                  <button
-                    aria-label="learn more"
-                    className="flex flex-row items-center justify-center space-x-4 bg-white animate-bounce rounded-full text-black text-lg cursor-pointer p-6 px-8 hover:from-redwood hover:to-burnt-sienna"
+                  <Link
+                    to="skills"
+                    smooth={true}
+                    duration={500}
+                    href="#learnmore"
                   >
                     <img src={Arrow} alt="arrow" className="text-black" />
                     <p>Learn More</p>
-                  </button>
-                </Link>
+                  </Link>
+                </button>
               </div>
             </div>
           </div>
