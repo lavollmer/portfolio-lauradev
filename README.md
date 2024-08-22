@@ -99,6 +99,7 @@ I will continue to learn more about TailwindCSS, ReactJS and updating my process
 -[Static Asset Handling Vite](https://vitejs.dev/guide/assets.html) - Debugging SVG file with deployment.
 -[Button Labels Web Accessibility](https://dequeuniversity.com/rules/axe/4.9/button-name)
 -[Scroll to Top](https://www.npmjs.com/package/react-scroll-to-top)
+-[Dark Mode Tutorial](https://www.youtube.com/watch?v=VylXkPy-MIc)
 
 ## Author
 

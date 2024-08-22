@@ -10,18 +10,10 @@ import { Link } from "react-scroll";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [theme, setTheme] = useState("light");
 
   const toggleSideNav = () => {
     setIsOpen(!isOpen);
   };
-
-  useEffect(() => {
-    const localTheme = localStorage.getItem("theme");
-    if (localTheme) {
-      setTheme(localTheme);
-    }
-  }, []);
 
   return (
     <div className="font-jost">
@@ -147,6 +139,7 @@ const Navigation = () => {
             </button>
           </a>
         </div>
+       
       </div>
     </div>
   );
