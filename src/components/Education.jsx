@@ -3,12 +3,12 @@ import SkillsCard from "./SkillsCard";
 
 const Education = () => {
   return (
-    <div className="flex flex-col bg-white text-jost p-10 space-y-6 md:space-y-10 md:p-20 md:mt-10 md:space-x-2 rounded-lg">
+    <div className="flex flex-col text-jost p-10 space-y-6 md:space-y-10 md:p-20 md:mt-10 md:space-x-2 rounded-lg">
       <div className="p-10">
         <hr />
       </div>
       <div className="flex flex-col md:flex-row items-center justify-center ">
-        <h1 className="text-black text-3xl p-10 md:text-5xl">
+        <h1 className="text-black dark:text-white text-3xl p-10 md:text-5xl">
           Professional Education
         </h1>
       </div>

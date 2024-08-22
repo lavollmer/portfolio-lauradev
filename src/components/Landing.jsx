@@ -3,13 +3,11 @@ import BackgroundOverlay from "../../public/backgroundimageoverlay.svg";
 import Arrow from "../assets/icon-arrow.svg";
 import { Link } from "react-scroll";
 
-const SplashPage = ({ theme, toggleTheme }) => {
-  const textColor = theme === "dark" ? "text-white" : "text-black";
-  
+const SplashPage = () => {
   return (
     <>
       {/* desktop version */}
-      <div className="hidden md:flex bg-burnt-sienna bg-opacity-60 mt-10 font-jost relative landing-container">
+      <div className="hidden md:flex bg-burnt-sienna dark:bg-teracotta bg-opacity-60 mt-10 font-jost relative landing-container">
         <div className="flex flex-row relative w-full rounded-lg">
           <div className="flex flex-col justify-center p-20 space-y-6  relative">
             {/* Background overlay */}
@@ -19,19 +17,19 @@ const SplashPage = ({ theme, toggleTheme }) => {
             ></div>
             <div className="relative z-20 p-20 space-y-8">
               <div className="flex flex-col text-left space-y-8">
-                <h1 className="text-black text-6xl font-semibold">
+                <h1 className="text-black dark:text-white text-6xl font-semibold">
                   Hello, I'm Laura.
                 </h1>
-                <h1 className="text-black text-6xl font-semibold">
+                <h1 className="text-black dark:text-white text-6xl font-semibold">
                   I'm a software developer.
                 </h1>
-                <p className="text-black text-2xl pr-80">
+                <p className="text-black dark:text-white text-2xl pr-80">
                   I have one year of experience in coding, specializing in
                   frontend software development. My background includes
                   healthcare and floral design. I am a fast learner, constantly
                   seeking opportunities to enhance my skills.
                 </p>
-                <p className="text-black text-2xl">
+                <p className="text-black dark:text-white text-2xl">
                   I value teamwork, integrity, creativity and empathy.
                 </p>
               </div>
@@ -67,19 +65,19 @@ const SplashPage = ({ theme, toggleTheme }) => {
             ></div>
             <div className="relative z-20 p-6 space-y-8">
               <div className="flex flex-col text-left space-y-8">
-                <h1 className="text-black text-xl font-semibold">
+                <h1 className="text-black dark:text-white text-xl font-semibold">
                   Hello, I'm Laura.
                 </h1>
-                <h1 className="text-black text-xl font-semibold">
+                <h1 className="text-black dark:text-white text-xl font-semibold">
                   I'm a software developer.
                 </h1>
-                <p className="text-black text-md">
+                <p className="text-black dark:text-white text-md">
                   I have one year of experience in coding, specializing in
                   frontend software development. My background includes
                   healthcare and floral design. I am a fast learner, constantly
                   seeking opportunities to enhance my skills.
                 </p>
-                <p className="text-black text-md">
+                <p className="text-black dark:text-white text-md">
                   I value teamwork, integrity, creativity and empathy.
                 </p>
               </div>

@@ -8,9 +8,9 @@ const Skills = () => {
         <hr />
       </div>
       <div className="flex flex-col md:flex-row items-center justify-center pb-10">
-        <h1 className="text-black text-3xl md:text-5xl">Technical Skills</h1>
+        <h1 className="text-black dark:text-white text-3xl md:text-5xl">Technical Skills</h1>
       </div>
-      <div className="flex flex-col items-center w-full justify-center md:justify-evenly md:space-y-10">
+      <div className="flex flex-col items-center w-full justify-center md:justify-evenly md:space-y-10 ">
         <div className="flex flex-row items-center justify-center w-full lg:flex-row flex-wrap lg:space-x-4 space-y-6 lg:space-y-0">
           <SkillsCard
             title="React"

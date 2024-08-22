@@ -12,6 +12,7 @@ module.exports = {
         redwood: "#98574D",
         timberwolf: "#D2D3CF",
         'royal-blue': '#6477E2',
+        'teracotta': '#E37D67',
       },
     },
   },

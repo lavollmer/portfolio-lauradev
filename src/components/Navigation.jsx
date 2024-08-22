@@ -18,10 +18,10 @@ const Navigation = ({ theme, toggleTheme }) => {
   };
 
   return (
-    <div className="font-jost">
-      <div className="md:hidden fixed top-0 z-20 w-full flex flex-row justify-between items-center p-4">
+    <div className={`font-jost ${theme === "dark" ? "dark" : ""}`}>
+      <div className="md:hidden text-black dark:text-white fixed top-0 z-20 w-full flex flex-row justify-between items-center p-4">
         <div className="flex flex-row items-center justify-center space-x-2">
-          <img src={Logo} alt="Flower logo" className="h-6 w-7" />
+          <img src={Logo} alt="Flower logo" className="h-6 w-7 rounded-full" />
           <h1 className="font-semibold text-lg">LAURA VOLLMER</h1>
         </div>
         {/* hamburger button click */}

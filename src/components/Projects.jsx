@@ -23,7 +23,7 @@ const Projects = () => {
   return (
     <div className="bg-very-light-gray text-jost p-10">
       <div className="pb-20">
-        <h1 className="flex items-center justify-center text-black text-3xl md:text-5xl">
+        <h1 className="flex items-center justify-center text-black dark:text-white text-3xl md:text-5xl">
           Latest Projects
         </h1>
       </div>
