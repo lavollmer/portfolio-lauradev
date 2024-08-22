@@ -7,8 +7,10 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 import { SiFrontendmentor } from "react-icons/si";
 import { Link } from "react-scroll";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSun, faMoon } from "@fortawesome/free-solid-svg-icons";
 
-const Navigation = () => {
+const Navigation = ({ theme, toggleTheme }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleSideNav = () => {
@@ -98,7 +100,7 @@ const Navigation = () => {
             </Link>
           </div>
         </div>
-        <div className="space-x-6">
+        <div className="flex flex-row space-x-8">
           <a
             href="https://www.linkedin.com/in/lvollmer/"
             target="_blank"
@@ -138,8 +140,33 @@ const Navigation = () => {
               <SiFrontendmentor size={20} />
             </button>
           </a>
+          {/* <button
+            onClick={toggleTheme}
+            className="hover:animate-bounce bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-4 px-4 hover:from-redwood hover:to-burnt-sienna flex items-center justify-center"
+          >
+            <FontAwesomeIcon
+              icon={theme === "light" ? faMoon : faSun}
+              size={20}
+            />
+          </button> */}
+          <div className="flex items-center">
+            <span className="mr-2 text-sm text-gray-700 dark:text-gray-300">
+              {theme === "light" ? "Light Mode" : "Dark Mode"}
+            </span>
+            <button
+              onClick={toggleTheme}
+              className={`relative inline-flex items-center h-6 rounded-full w-11 transition-colors duration-300 focus:outline-none ${
+                theme === "light" ? "bg-gray-300" : "bg-gray-700"
+              }`}
+            >
+              <span
+                className={`inline-block w-4 h-4 transform bg-white rounded-full transition-transform duration-300 ${
+                  theme === "light" ? "translate-x-1" : "translate-x-6"
+                }`}
+              />
+            </button>
+          </div>
         </div>
-       
       </div>
     </div>
   );

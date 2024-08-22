@@ -10,8 +10,6 @@ import Education from "./components/Education";
 import { Element } from "react-scroll";
 import ScrollToTop from "react-scroll-to-top";
 import { useState, useEffect } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSun, faMoon } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
   const [theme, setTheme] = useState("light");
@@ -35,15 +33,15 @@ function App() {
   return (
     <>
       <div className="bg-white dark:bg-black min-h-screen">
-        <button
+        {/* <button
           onClick={toggleTheme}
           className="hover:animate-bounce bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-4 px-4 hover:from-redwood hover:to-burnt-sienna flex items-center justify-center"
         >
           <FontAwesomeIcon icon={theme === "light" ? faSun : faMoon} />
-        </button>
+        </button> */}
         <div className="lg:p-20 md:p-6">
           <Element name="navigation">
-            <Navigation />
+            <Navigation theme={theme} toggleTheme={toggleTheme} />
           </Element>
           <div className="p-10 mt-10 md:p-0 md:mt-0">
             <Element name="landing">
