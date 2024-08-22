@@ -9,7 +9,7 @@ const Education = () => {
       </div>
       <div className="flex flex-col md:flex-row items-center justify-center ">
         <h1 className="text-black text-3xl p-10 md:text-5xl">
-          Formal Education
+          Professional Education
         </h1>
       </div>
       <div className="flex flex-col items-center w-full justify-center md:justify-evenly md:space-y-10">
