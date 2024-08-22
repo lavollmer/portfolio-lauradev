@@ -14,6 +14,8 @@ import MobileSunny from "../assets/mobilesunnyside.png";
 import MobilePortfolio from "../assets/mobileportfolio.png";
 import Advice from "../assets/advicegenerator.png";
 import MobileAdvice from "../assets/advicegeneratormobile.png";
+import Interactive from "../assets/interactive.png";
+import MobileInteractive from "../assets/interactivemobile.png";
 
 const Projects = () => {
   return (
@@ -154,21 +156,21 @@ const Projects = () => {
             keyfeatureFour={"Try Catch Block Coding"}
           />
           <Card
-            image={Sunnyside}
-            mobileImage={MobileSunny}
-            imageDesc="Sunnyside Landing Page"
-            title="Sunnyside Landing Page"
-            content="This solo project involved creating a replica of a agency landing page, adhering strictly to a provided design. "
+            image={Interactive}
+            mobileImage={MobileInteractive}
+            imageDesc="Interactive Pricing Tool"
+            title="Interactive Pricing Tool"
+            content="This project aimed to develop an interactive pricing tool, featuring a dynamic and user-friendly interface."
             skillOne="REACTJS"
             skillTwo="TAILWIND CSS"
             skillThree="VITE"
             skillFour="CSS"
-            githubCode={`https://github.com/lavollmer/sunnyside-agency-landingpage`}
-            livesite={`https://sunnyside-landing-page-lauradev.netlify.app/`}
-            keyfeatureOne={"Custom Design"}
-            keyfeatureTwo={"Mobile and Desktop Compatibility"}
-            keyfeatureThree={"Flexbox Layout"}
-            keyfeatureFour={"Google Fonts Integration"}
+            githubCode={`https://github.com/lavollmer/interactive-pricing-tool`}
+            livesite={`https://pricingtool-lauradev.netlify.app/`}
+            keyfeatureOne={"Slider Input"}
+            keyfeatureTwo={"Hover States"}
+            keyfeatureThree={"Toggle Input"}
+            keyfeatureFour={"Flexbox Design"}
           />
           <Card
             image={Portfolio}
