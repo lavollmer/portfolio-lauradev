@@ -27,6 +27,7 @@ function App() {
 
   useEffect(() => {
     localStorage.setItem("theme", theme);
+    document.documentElement.className = theme; 
   }, [theme]);
 
   return (
@@ -38,7 +39,6 @@ function App() {
         >
           Dark Mode
         </button>
-
         <div className="lg:p-20 md:p-6">
           <Element name="navigation">
             <Navigation />

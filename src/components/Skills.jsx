@@ -3,7 +3,7 @@ import SkillsCard from "./SkillsCard";
 
 const Skills = () => {
   return (
-    <div className="flex flex-col bg-white text-jost p-10 space-y-6 md:space-y-10 md:p-20 md:mt-10 md:space-x-2 rounded-lg">
+    <div className="flex flex-col text-jost p-10 space-y-6 md:space-y-10 md:p-20 md:mt-10 md:space-x-2 rounded-lg">
       <div className="p-10">
         <hr />
       </div>

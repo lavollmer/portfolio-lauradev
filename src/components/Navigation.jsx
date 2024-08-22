@@ -17,7 +17,7 @@ const Navigation = () => {
 
   return (
     <div className="font-jost">
-      <div className="md:hidden fixed top-0 z-20 w-full flex flex-row justify-between items-center bg-white p-4">
+      <div className="md:hidden fixed top-0 z-20 w-full flex flex-row justify-between items-center p-4">
         <div className="flex flex-row items-center justify-center space-x-2">
           <img src={Logo} alt="Flower logo" className="h-6 w-7" />
           <h1 className="font-semibold text-lg">LAURA VOLLMER</h1>
@@ -36,7 +36,7 @@ const Navigation = () => {
       <div className="flex flex-col">
         {isOpen && <SideNavBar onClose={toggleSideNav} />}
       </div>
-      <div className="hidden md:flex flex-row top-0 left-0 z-20 w-full justify-between items-center bg-white font-jost">
+      <div className="hidden md:flex flex-row top-0 left-0 z-20 w-full justify-between items-center font-jost">
         <div className="flex flex-row items-center justify-center space-x-2">
           <img src={Logo} alt="Flower logo" className="h-10 w-12" />
           <h1 className="text-black font-semibold text-2xl">LAURA VOLLMER</h1>
