@@ -41,9 +41,9 @@ const Navigation = ({ theme, toggleTheme }) => {
       <div className="hidden md:flex flex-row top-0 left-0 z-20 w-full justify-between items-center font-jost">
         <div className="flex flex-row items-center justify-center space-x-2">
           <img src={Logo} alt="Flower logo" className="h-10 w-12" />
-          <h1 className="text-black font-semibold text-2xl">LAURA VOLLMER</h1>
+          <h1 className="text-black dark:text-white font-semibold text-2xl">LAURA VOLLMER</h1>
         </div>
-        <div className="flex flex-row space-x-8 cursor-pointer text-xl">
+        <div className="flex flex-row space-x-8 cursor-pointer text-xl text-black dark:text-white">
           <div className="hover:border-b-2 hover:border-burnt-sienna">
             <Link
               aria-label="Go to Skills Section"
@@ -141,7 +141,7 @@ const Navigation = ({ theme, toggleTheme }) => {
             </button>
           </a>
 
-          <div className="flex items-center font-jost">
+          <div className="flex items-center font-jost text-black dark:text-white">
             <span className="mr-2 text-sm text-gray-700 dark:text-gray-300">
               {theme === "light" ? "Light Mode" : "Dark Mode"}
             </span>
