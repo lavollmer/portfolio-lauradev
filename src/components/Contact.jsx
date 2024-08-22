@@ -16,7 +16,8 @@ const Contact = () => {
           </h1>
         </div>
         <div className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-6">
-          <p className="flex flex-col items-center text-center text-lg md:text-4xl">Send me a message on LinkedIn</p>
+          <p className="flex flex-col items-center text-center text-xl font-semibold md:text-4xl">Send me a message on LinkedIn!
+          </p>
           <a
             href="https://www.linkedin.com/in/lvollmer/"
             target="_blank"

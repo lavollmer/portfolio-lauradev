@@ -25,7 +25,7 @@ const Navigation = () => {
         {/* hamburger button click */}
         <div className="flex-shrink-0">
           <button aria-label="menu icon" onClick={toggleSideNav} className="p-2">
-            <img src={HamburgerIcon} alt="menu icon" className="h-4 w-4" />
+            <img src={HamburgerIcon} alt="menu icon" className="h-5 w-5" />
           </button>
         </div>
       </div>
