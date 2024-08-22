@@ -32,13 +32,7 @@ function App() {
 
   return (
     <>
-      <div className="bg-white dark:bg-black min-h-screen">
-        {/* <button
-          onClick={toggleTheme}
-          className="hover:animate-bounce bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-4 px-4 hover:from-redwood hover:to-burnt-sienna flex items-center justify-center"
-        >
-          <FontAwesomeIcon icon={theme === "light" ? faSun : faMoon} />
-        </button> */}
+      <div className="bg-white dark:bg-gray-900 min-h-screen">
         <div className="lg:p-20 md:p-6">
           <Element name="navigation">
             <Navigation theme={theme} toggleTheme={toggleTheme} />

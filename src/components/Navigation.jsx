@@ -140,16 +140,8 @@ const Navigation = ({ theme, toggleTheme }) => {
               <SiFrontendmentor size={20} />
             </button>
           </a>
-          {/* <button
-            onClick={toggleTheme}
-            className="hover:animate-bounce bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-4 px-4 hover:from-redwood hover:to-burnt-sienna flex items-center justify-center"
-          >
-            <FontAwesomeIcon
-              icon={theme === "light" ? faMoon : faSun}
-              size={20}
-            />
-          </button> */}
-          <div className="flex items-center">
+
+          <div className="flex items-center font-jost">
             <span className="mr-2 text-sm text-gray-700 dark:text-gray-300">
               {theme === "light" ? "Light Mode" : "Dark Mode"}
             </span>
