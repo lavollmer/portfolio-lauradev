@@ -28,6 +28,7 @@ const Navigation = ({ theme, toggleTheme }) => {
           </span>
           <button
             onClick={toggleTheme}
+            aria-label="dark mode icon"
             className={`relative inline-flex items-center h-6 rounded-full w-11 transition-colors duration-300 focus:outline-none ${
               theme === "light" ? "bg-gray-300" : "bg-gray-700"
             }`}
@@ -164,6 +165,7 @@ const Navigation = ({ theme, toggleTheme }) => {
             </span>
             <button
               onClick={toggleTheme}
+              aria-label="dark mode"
               className={`relative inline-flex items-center h-6 rounded-full w-11 transition-colors duration-300 focus:outline-none ${
                 theme === "light" ? "bg-gray-300" : "bg-gray-700"
               }`}
