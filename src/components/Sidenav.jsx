@@ -59,7 +59,7 @@ const SideNav = ({ onClose }) => {
           aria-label="Go to Laura Dev Linkedin Profile"
         >
           <AiFillLinkedin
-            size={36}
+            size={48}
             className="md:text-6xl hover:text-customColor hover:scale-110 transition duration-100"
           />
         </a>
@@ -70,7 +70,7 @@ const SideNav = ({ onClose }) => {
           aria-label="Go to Laura Dev Github Profile"
         >
           <FaGithubSquare
-            size={36}
+            size={48}
             className="md:text-6xl hover:text-customColor hover:scale-110 transition duration-100"
           />
         </a>
@@ -81,7 +81,7 @@ const SideNav = ({ onClose }) => {
           aria-label="Go to Laura Dev Frontend Mentor Profile"
         >
           <SiFrontendmentor
-            size={36}
+            size={48}
             className="md:text-6xl hover:text-customColor hover:scale-110 transition duration-100"
           />
         </a>

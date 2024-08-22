@@ -31,7 +31,7 @@ const ProjectsCard = ({
       </div>
       <div className="flex flex-col p-8">
         <div>
-          <h2 className="text-black md:text-xl lg:text-3xl text-md font-semibold">
+          <h2 className="text-black lg:text-3xl text-xl font-semibold">
             {title}
           </h2>
           <p className="text-black mt-2 text-sm md:text-md">{content}</p>
@@ -47,21 +47,7 @@ const ProjectsCard = ({
             </ul>
           </div>
         </div>
-        {/* <div className="flex flex-col md:flex-row text-left items-center md:space-y-0 md:space-x-4 mt-2">
-          <h3 className="text-gray-700 mt-2 text-sm md:text-md font-bold">Tech Stack</h3>
-          <p className="text-gray-700 text-sm md:text-md font-bold">
-            {skillOne}
-          </p>
-          <p className="text-gray-700 mt-2 text-sm md:text-md font-bold">
-            {skillTwo}
-          </p>
-          <p className="text-gray-700 mt-2 text-sm md:text-md font-bold">
-            {skillThree}
-          </p>
-          <p className="text-gray-700 mt-2 text-sm md:text-md font-bold">
-            {skillFour}
-          </p>
-        </div> */}
+
         <div>
           <h3 className="text-gray-700 mt-2 text-sm md:text-md font-bold">
             Tech Stack
