@@ -1,8 +1,7 @@
 import React from "react";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Logo from "../assets/logo2.png";
 import SideNavBar from "./Sidenav";
-import HamburgerIcon from "../assets/icon-hamburger.svg";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 import { SiFrontendmentor } from "react-icons/si";

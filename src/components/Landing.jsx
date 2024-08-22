@@ -55,7 +55,7 @@ const SplashPage = () => {
         </div>
       </div>
       {/* mobile version */}
-      <div className="flex flex-col mt-6 md:hidden bg-burnt-sienna bg-opacity-80 font-jost relative landing-container">
+      <div className="flex flex-col mt-6 md:hidden bg-burnt-sienna dark:bg-teracotta bg-opacity-80 font-jost relative landing-container">
         <div className="flex flex-col relative w-full rounded-lg">
           <div className="flex flex-col justify-center space-y-2  relative">
             {/* Background overlay */}
