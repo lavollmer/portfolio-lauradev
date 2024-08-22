@@ -1,6 +1,6 @@
 # Portfolio Website Laura Dev
 
-This project involved working on my portfolio website with ReactJS, Vite and TailwindCSS. Throughout the process, I worked on various key features such as mobile responsiveness, reusable components, side navigation bar, scroll navigation, tailwindcss animation, gradient colors and much more.
+This project involved working on my portfolio website with ReactJS, Vite and TailwindCSS. Throughout the process, I worked on various key features such as mobile responsiveness, reusable components, side navigation bar, scroll navigation, tailwindcss animation, gradient colors, dark mode funtionality and much more.
 
 ## Table of contents
 
@@ -16,7 +16,7 @@ This project involved working on my portfolio website with ReactJS, Vite and Tai
 
 ## Overview
 
-This project was a software developer portfolio for myself. I included technical skills, latest projects, about section and contact.
+This project was a software developer portfolio for myself. I included technical skills, latest projects, education, continous learning section, about section and contact information.
 
 ## Screenshots
 
@@ -31,7 +31,6 @@ This project was a software developer portfolio for myself. I included technical
 ![Desktop Education Section](./src/assets/DesktopEducation.png)
 
 ![Desktop Contact and Footer](./src/assets/ContactFooter_LauraDevPortfolio.png)
-
 
 <p style="font-size:20px;">Desktop Version Dark Mode:</p>
 
@@ -65,14 +64,13 @@ The latest projects section was the most involved. Each project card includes an
 
 The about section was simpler, featuring a biography and avatar picture. I completed the contact section with a button to navigate to LinkedIn. The footer includes links to different parts of the web page, icons to various social media sites, and a copyright statement.
 
-After completing the general design, I went back to fine tune various pieces such as hover states, alignment of text and images, mobile images, correct links for navigation. 
+After completing the general design, I went back to fine tune various pieces such as hover states, alignment of text and images, mobile images, correct links for navigation.
 
-Throughout the following days and weeks, I added more functionality such as a scroll to top button, added more projects and a formal education section. Additionally, I updated the navigation bar and side nav bar with the new information and styling. 
+Throughout the following days and weeks, I added more functionality such as a scroll to top button, added more projects and a formal education section. Additionally, I updated the navigation bar and side nav bar with the new information and styling.
 
 Additionally, I was able to add a dark mode to my website which was very exciting. I learned about using dark mode with Tailwind CSS and how to configure it within the project.
 
 Overall, I loved what I created and excited to share it with others. I completed this website in 1.5 days. I look forward to adding more features as time progresses.
-
 
 ## Built with
 
@@ -94,13 +92,13 @@ In this project, I realized how much my coding skills have improved over the pas
 
 Here are several things I learned throughout this project:
 
-1. ***Tailwind CSS Animation*** - I explored Tailwind CSS animation features and found them exciting. I experimented with various options and settled on the pulse and bounce animations with a set duration, adding a simple yet fun element to the website.
-2. ***SVG Overlay*** - I wanted to incorporate an SVG overlay into my splash page and contact area. I found an SVG overlay I liked, used the raw code, and converted it to an SVG.
-3. ***Reusable Components*** - I deepened my understanding of card components and their reusability. This feature proved to be highly beneficial, and I plan to continue using it.
-4. ***Reusability of Code***- In this project, I reused code from previous projects and adapted it to fit my website's needs. This approach allowed me to work efficiently and effectively.
-5. ***Scroll Navigation*** - Scroll link navigation, which smoothly scrolls the user to a specific section of the same page, significantly enhanced the user experience in this single-page application.
-6. ***Static Asset Vite*** - Towards the end of the project with deployment to netlify, my SVG overlay file would not appear on screen. I went through every possible problem from incorrect path, file existence, clearing the cache, viewing on incognito mode, and checking errors in build logs. After researching, I came across a forum in which someone was talking about reviewing Vite's static handling. I realized that I needed to move my SVG file into the public directory and change the pathway in my code. After doing this, it worked perfectly.
-7. ***Dark Mode in TailwindCSS*** - As I continue to update my project, I decided to add dark mode to my website. I began by watching a YoutTube tutorial on a simple way to add dark mode and a toggle switch button. I was able to add the dark mode to the tailwind config file, create a function for onClick with the toggle button and add the dark conditional colors to each component. I believe the dark mode turned out great on my website and I learned a lot in the process.
+1. **_Tailwind CSS Animation_** - I explored Tailwind CSS animation features and found them exciting. I experimented with various options and settled on the pulse and bounce animations with a set duration, adding a simple yet fun element to the website.
+2. **_SVG Overlay_** - I wanted to incorporate an SVG overlay into my splash page and contact area. I found an SVG overlay I liked, used the raw code, and converted it to an SVG.
+3. **_Reusable Components_** - I deepened my understanding of card components and their reusability. This feature proved to be highly beneficial, and I plan to continue using it.
+4. **_Reusability of Code_**- In this project, I reused code from previous projects and adapted it to fit my website's needs. This approach allowed me to work efficiently and effectively.
+5. **_Scroll Navigation_** - Scroll link navigation, which smoothly scrolls the user to a specific section of the same page, significantly enhanced the user experience in this single-page application.
+6. **_Static Asset Vite_** - Towards the end of the project with deployment to netlify, my SVG overlay file would not appear on screen. I went through every possible problem from incorrect path, file existence, clearing the cache, viewing on incognito mode, and checking errors in build logs. After researching, I came across a forum in which someone was talking about reviewing Vite's static handling. I realized that I needed to move my SVG file into the public directory and change the pathway in my code. After doing this, it worked perfectly.
+7. **_Dark Mode in TailwindCSS_** - As I continue to update my project, I decided to add dark mode to my website. I began by watching a YoutTube tutorial on a simple way to add dark mode and a toggle switch button. I was able to add the dark mode to the tailwind config file, create a function for onClick with the toggle button and add the dark conditional colors to each component. I believe the dark mode turned out great on my website and I learned a lot in the process.
 
 ## Continued development
 
@@ -112,7 +110,7 @@ I will continue to learn more about TailwindCSS, ReactJS and updating my process
 - [SVG Converter](https://jakearchibald.github.io/svgomg/) - Convert an overlay I wanted into a SVG to use in this project.
 - [Frontend Mentor DESIGNO Challenge](https://www.frontendmentor.io/challenges/designo-multipage-website-G48K6rfUT) - Inspiration for this project.
 - [Coolors](https://coolors.co/98574d-e37d67-d2d3cf-eaac9d-b7b5b1-d9816f-fefefe) - A design color palette for my website.
-- Canva - Made my icon to match the color in Canva. 
+- Canva - Made my icon to match the color in Canva.
 - [Animations TailwindCSS](https://tailwindcss.com/docs/animation) - Learned about how to animate in Tailwindcss.
 - [Static Asset Handling Vite](https://vitejs.dev/guide/assets.html) - Debugging SVG file with deployment.
 - [Button Labels Web Accessibility](https://dequeuniversity.com/rules/axe/4.9/button-name)
