@@ -10,6 +10,8 @@ import Education from "./components/Education";
 import { Element } from "react-scroll";
 import ScrollToTop from "react-scroll-to-top";
 import { useState, useEffect } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSun, faMoon } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
   const [theme, setTheme] = useState("light");
@@ -27,17 +29,17 @@ function App() {
 
   useEffect(() => {
     localStorage.setItem("theme", theme);
-    document.documentElement.className = theme; 
+    document.documentElement.className = theme;
   }, [theme]);
 
   return (
     <>
-      <div className={`bg-white dark:bg-black ${theme}`}>
+      <div className="bg-white dark:bg-black min-h-screen">
         <button
           onClick={toggleTheme}
-          className="hover:animate-bounce bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-4 px-4 hover:from-redwood hover:to-burnt-sienna"
+          className="hover:animate-bounce bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-4 px-4 hover:from-redwood hover:to-burnt-sienna flex items-center justify-center"
         >
-          Dark Mode
+          <FontAwesomeIcon icon={theme === "light" ? faSun : faMoon} />
         </button>
         <div className="lg:p-20 md:p-6">
           <Element name="navigation">
