@@ -54,7 +54,9 @@ The about section was simpler, featuring a biography and avatar picture. I compl
 
 After completing the general design, I went back to fine tune various pieces such as hover states, alignment of text and images, mobile images, correct links for navigation. 
 
-Throughout the following days and weeks, I added more functionality such as a scroll to top button, added more projects and a formal education section. Additionally, I updated the navigation bar and side nav bar with the new information and styling.
+Throughout the following days and weeks, I added more functionality such as a scroll to top button, added more projects and a formal education section. Additionally, I updated the navigation bar and side nav bar with the new information and styling. 
+
+Additionally, I was able to add a dark mode to my website which was very exciting. I learned about using dark mode with Tailwind CSS and how to configure it within the project.
 
 Overall, I loved what I created and excited to share it with others. I completed this website in 1.5 days. I look forward to adding more features as time progresses.
 
@@ -71,6 +73,7 @@ Overall, I loved what I created and excited to share it with others. I completed
 - CSS Grid
 - Mobile-first workflow
 - React Icons
+- NPM Local Storage
 
 ### What I learned
 
@@ -84,6 +87,7 @@ Here are several things I learned throughout this project:
 4. ***Reusability of Code***- In this project, I reused code from previous projects and adapted it to fit my website's needs. This approach allowed me to work efficiently and effectively.
 5. ***Scroll Navigation*** - Scroll link navigation, which smoothly scrolls the user to a specific section of the same page, significantly enhanced the user experience in this single-page application.
 6. ***Static Asset Vite*** - Towards the end of the project with deployment to netlify, my SVG overlay file would not appear on screen. I went through every possible problem from incorrect path, file existence, clearing the cache, viewing on incognito mode, and checking errors in build logs. After researching, I came across a forum in which someone was talking about reviewing Vite's static handling. I realized that I needed to move my SVG file into the public directory and change the pathway in my code. After doing this, it worked perfectly.
+7. ***Dark Mode in TailwindCSS*** - As I continue to update my project, I decided to add dark mode to my website. I began by watching a YoutTube tutorial on a simple way to add dark mode and a toggle switch button. I was able to add the dark mode to the tailwind config file, create a function for onClick with the toggle button and add the dark conditional colors to each component. I believe the dark mode turned out great on my website and I learned a lot in the process.
 
 ### Continued development
 
