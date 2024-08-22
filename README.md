@@ -18,29 +18,42 @@ This project involved working on my portfolio website with ReactJS, Vite and Tai
 
 This project was a software developer portfolio for myself. I included technical skills, latest projects, about section and contact.
 
-### Screenshots
+## Screenshots
 
 <p style="font-size:20px;">Desktop Version:</p>
 
-![Desktop Landing Page](./src/assets/LandingPage_LauraDevPortfolio.png)
+![Desktop Landing Page](./src/assets/DesktopLanding.png)
 
 ![Desktop Technical Skills Page](./src/assets/TechnicalSkills_LauraDevPortfolio.png)
 
-![Desktop Projects Page](./src/assets/Projects_LauraDevPortfolio.png)
+![Desktop Projects Page](./src/assets/DesktopProjects.png)
+
+![Desktop Education Section](./src/assets/DesktopEducation.png)
 
 ![Desktop Contact and Footer](./src/assets/ContactFooter_LauraDevPortfolio.png)
 
+
+<p style="font-size:20px;">Desktop Version Dark Mode:</p>
+
+![Desktop Landing Page](./src/assets/DesktopLandingDark.png)
+
 <p style="font-size:20px;">Mobile Version:</p>
 
-![Mobile Landing Page](./src/assets/LandingPageMobile_LauraDevPortfolio.png)
+![Mobile Landing Page](./src/assets/MobileLanding.png)
 
 ![Mobile Side Navigation Bar](./src/assets/SideNavigationMobile_LauraDevPortfolio.png)
 
-### Links
+<p style="font-size:20px;">Mobile Version Dark Mode:</p>
+
+![Mobile Landing Page](./src/assets/MobileLandingDark.png)
+
+![Mobile Side Navigation Bar](./src/assets/MobileSideNavDark.png)
+
+## Links
 
 - Live Site URL: [Personal Portoflio Website Laura Dev](https://lauradev-portfolio.netlify.app/)
 
-### My Process
+## My Process
 
 I started by setting up TailwindCSS, ReactJS, and my GitHub repository, ensuring all commits were successfully pushed to GitHub before beginning the project. When designing my portfolio website, I aimed for a clean, modern look that was easy to navigate. Initially, I experimented with various styles, fonts, colors, images, and ideas without settling on one. Before diving in, I wanted to ensure I loved the design and style while representing myself. After some time, I found a style and design I enjoyed and pursued that. Having completed several ReactJS and TailwindCSS projects prior, I wanted to incorporate some of those features into my portfolio website.
 
@@ -61,7 +74,7 @@ Additionally, I was able to add a dark mode to my website which was very excitin
 Overall, I loved what I created and excited to share it with others. I completed this website in 1.5 days. I look forward to adding more features as time progresses.
 
 
-### Built with
+## Built with
 
 - [React](https://reactjs.org/) - JS library
 - Tailwind CSS
@@ -75,7 +88,7 @@ Overall, I loved what I created and excited to share it with others. I completed
 - React Icons
 - NPM Local Storage
 
-### What I learned
+## What I learned
 
 In this project, I realized how much my coding skills have improved over the past year. My first portfolio website was clunkier and took much longer to code. I am much happier with my new portfolio page.
 
@@ -89,21 +102,22 @@ Here are several things I learned throughout this project:
 6. ***Static Asset Vite*** - Towards the end of the project with deployment to netlify, my SVG overlay file would not appear on screen. I went through every possible problem from incorrect path, file existence, clearing the cache, viewing on incognito mode, and checking errors in build logs. After researching, I came across a forum in which someone was talking about reviewing Vite's static handling. I realized that I needed to move my SVG file into the public directory and change the pathway in my code. After doing this, it worked perfectly.
 7. ***Dark Mode in TailwindCSS*** - As I continue to update my project, I decided to add dark mode to my website. I began by watching a YoutTube tutorial on a simple way to add dark mode and a toggle switch button. I was able to add the dark mode to the tailwind config file, create a function for onClick with the toggle button and add the dark conditional colors to each component. I believe the dark mode turned out great on my website and I learned a lot in the process.
 
-### Continued development
+## Continued development
 
 I will continue to learn more about TailwindCSS, ReactJS and updating my process of building a website. I will continue creating original projects, frontend mentor challenges and much more.
 
-### Useful resources
+## Useful resources
 
 - [Jost Google Font](https://fonts.google.com/selection) - Design called for this font in the project.
 - [SVG Converter](https://jakearchibald.github.io/svgomg/) - Convert an overlay I wanted into a SVG to use in this project.
 - [Frontend Mentor DESIGNO Challenge](https://www.frontendmentor.io/challenges/designo-multipage-website-G48K6rfUT) - Inspiration for this project.
 - [Coolors](https://coolors.co/98574d-e37d67-d2d3cf-eaac9d-b7b5b1-d9816f-fefefe) - A design color palette for my website.
-- Canva - Made my icon to match the color in Canva. -[Animations TailwindCSS](https://tailwindcss.com/docs/animation) - Learned about how to animate in Tailwindcss.
--[Static Asset Handling Vite](https://vitejs.dev/guide/assets.html) - Debugging SVG file with deployment.
--[Button Labels Web Accessibility](https://dequeuniversity.com/rules/axe/4.9/button-name)
--[Scroll to Top](https://www.npmjs.com/package/react-scroll-to-top)
--[Dark Mode Tutorial](https://www.youtube.com/watch?v=VylXkPy-MIc)
+- Canva - Made my icon to match the color in Canva. 
+- [Animations TailwindCSS](https://tailwindcss.com/docs/animation) - Learned about how to animate in Tailwindcss.
+- [Static Asset Handling Vite](https://vitejs.dev/guide/assets.html) - Debugging SVG file with deployment.
+- [Button Labels Web Accessibility](https://dequeuniversity.com/rules/axe/4.9/button-name)
+- [Scroll to Top](https://www.npmjs.com/package/react-scroll-to-top)
+- [Dark Mode Tutorial](https://www.youtube.com/watch?v=VylXkPy-MIc)
 
 ## Author
 
