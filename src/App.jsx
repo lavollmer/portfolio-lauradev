@@ -6,6 +6,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import Education from "./components/Education";
 import { Element } from "react-scroll";
 
 function App() {
@@ -29,6 +30,9 @@ function App() {
       </Element>
       <Element name="about">
         <About />
+      </Element>
+      <Element name="education">
+        <Education />
       </Element>
       <div className="p-6 md:p-20">
         <Element name="contact">
