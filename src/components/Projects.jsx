@@ -16,6 +16,8 @@ import Advice from "../assets/advicegenerator.png";
 import MobileAdvice from "../assets/advicegeneratormobile.png";
 import Interactive from "../assets/interactive.png";
 import MobileInteractive from "../assets/interactivemobile.png";
+import Puzzle from "../assets/puzzle.png";
+import MobilePuzzle from "../assets/puzzlemobile.png";
 
 const Projects = () => {
   return (
@@ -173,21 +175,21 @@ const Projects = () => {
             keyfeatureFour={"Flexbox Design"}
           />
           <Card
-            image={Portfolio}
-            mobileImage={MobilePortfolio}
-            imageDesc="Portfolio Website"
-            title="Previous Portfolio Website"
-            content="A solo project that involved creating my first portfolio website to showcase my projects and skills. "
+            image={Puzzle}
+            mobileImage={MobilePuzzle}
+            imageDesc="Missing Puzzle Piece App"
+            title="Missing Puzzle Piece App"
+            content="This application was developed as a personal project to address a common issue faced by puzzle enthusiasts - the loss of puzzle pieces."
             skillOne="REACTJS"
             skillTwo="TAILWIND CSS"
             skillThree="VITE"
             skillFour="CSS"
-            githubCode={`https://github.com/lavollmer/portfolio-website`}
-            livesite={`https://lauradeveloper.com/`}
-            keyfeatureOne={"EmailJS Integration"}
-            keyfeatureTwo={"Domain Name Acquisition and Integration"}
-            keyfeatureThree={"React-Type-Animation Integration"}
-            keyfeatureFour={"Interactive Hover States"}
+            githubCode={`https://github.com/lavollmer/missingpuzzlepiece`}
+            livesite={`https://missing-puzzle-piece-b568b18a56c7.herokuapp.com/`}
+            keyfeatureOne={"Solo design and concept creation"}
+            keyfeatureTwo={"Feedback Form"}
+            keyfeatureThree={"Side Navigation Bar"}
+            keyfeatureFour={"Interactive Flow of Design"}
           />
         </div>
       </div>
