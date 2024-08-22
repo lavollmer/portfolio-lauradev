@@ -24,7 +24,11 @@ const Navigation = () => {
         </div>
         {/* hamburger button click */}
         <div className="flex-shrink-0">
-          <button aria-label="menu icon" onClick={toggleSideNav} className="p-2">
+          <button
+            aria-label="menu icon"
+            onClick={toggleSideNav}
+            className="p-2"
+          >
             <img src={HamburgerIcon} alt="menu icon" className="h-5 w-5" />
           </button>
         </div>
@@ -38,21 +42,50 @@ const Navigation = () => {
           <h1 className="text-black font-semibold text-2xl">LAURA VOLLMER</h1>
         </div>
         <div className="flex flex-row space-x-6 cursor-pointer text-xl">
-          <h1 className="hover:border-b-2 hover:border-burnt-sienna">
-            <Link aria-label="Go to Projects Section" to="projects" smooth={true} duration={500} href="#projects">
-              Projects
+        <div className="hover:border-b-2 hover:border-burnt-sienna">
+            <Link
+              aria-label="Go to Skills Section"
+              to="skills"
+              smooth={true}
+              duration={500}
+              href="#skills"
+            >
+              <h1>Skills</h1>
             </Link>
-          </h1>
-          <h1 className="hover:border-b-2 hover:border-burnt-sienna">
-            <Link aria-label="Go to About Section" to="about" smooth={true} duration={500} href="#about">
-              About
+          </div>
+          <div className="hover:border-b-2 hover:border-burnt-sienna">
+            <Link
+              aria-label="Go to Projects Section"
+              to="projects"
+              smooth={true}
+              duration={500}
+              href="#projects"
+            >
+              <h1>Projects</h1>
             </Link>
-          </h1>
-          <h1 className="hover:border-b-2 hover:border-burnt-sienna">
-            <Link aria-label="Got to Contact Section" to="contact" smooth={true} duration={500} href="#contact">
-              Contact
+          </div>
+          <div className="hover:border-b-2 hover:border-burnt-sienna">
+            <Link
+              aria-label="Go to About Section"
+              to="about"
+              smooth={true}
+              duration={500}
+              href="#about"
+            >
+              <h1>About</h1>
             </Link>
-          </h1>
+          </div>
+          <div className="hover:border-b-2 hover:border-burnt-sienna">
+            <Link
+              aria-label="Got to Contact Section"
+              to="contact"
+              smooth={true}
+              duration={500}
+              href="#contact"
+            >
+              <h1>Contact</h1>
+            </Link>
+          </div>
         </div>
         <div className="space-x-6">
           <a
@@ -61,7 +94,10 @@ const Navigation = () => {
             rel="noopener noreferrer"
             aria-label="Go to Laura Dev Linkedin Profile"
           >
-            <button aria-label="linkedin" className="hover:animate-bounce bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-4 px-4 hover:from-redwood hover:to-burnt-sienna">
+            <button
+              aria-label="linkedin"
+              className="hover:animate-bounce bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-4 px-4 hover:from-redwood hover:to-burnt-sienna"
+            >
               <FaLinkedin size={20} />
             </button>
           </a>
@@ -71,7 +107,10 @@ const Navigation = () => {
             rel="noopener noreferrer"
             aria-label="Go to Laura Dev Github Profile"
           >
-            <button aria-label="github" className="hover:animate-bounce bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-4 px-4  hover:from-redwood hover:to-burnt-sienna">
+            <button
+              aria-label="github"
+              className="hover:animate-bounce bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-4 px-4  hover:from-redwood hover:to-burnt-sienna"
+            >
               <FaGithubSquare size={20} />
             </button>
           </a>
@@ -81,7 +120,10 @@ const Navigation = () => {
             rel="noopener noreferrer"
             aria-label="Go to Laura Dev Frontend Mentor Profile"
           >
-            <button aria-label="frontend mentor" className="hover:animate-bounce bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-4 px-4 hover:from-redwood hover:to-burnt-sienna">
+            <button
+              aria-label="frontend mentor"
+              className="hover:animate-bounce bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-4 px-4 hover:from-redwood hover:to-burnt-sienna"
+            >
               <SiFrontendmentor size={20} />
             </button>
           </a>
