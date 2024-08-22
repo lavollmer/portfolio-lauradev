@@ -12,6 +12,8 @@ import MobileEasybank from "../assets/mobileeasybank.png";
 import MobileFAQ from "../assets/mobileFAQ.png";
 import MobileSunny from "../assets/mobilesunnyside.png";
 import MobilePortfolio from "../assets/mobileportfolio.png";
+import Advice from "../assets/advicegenerator.png";
+import MobileAdvice from "../assets/advicegeneratormobile.png";
 
 const Projects = () => {
   return (
@@ -21,6 +23,7 @@ const Projects = () => {
           Latest Projects
         </h1>
       </div>
+      {/* first section and row of projects */}
       <div className="flex flex-col items-center justify-between">
         <div className="flex flex-row flex-wrap ">
           <Card
@@ -77,6 +80,7 @@ const Projects = () => {
             keyfeatureFour={"Interactive Hover States"}
           />
         </div>
+        {/* second section and row of projects */}
         <div className="flex flex-row flex-wrap">
           <Card
             image={FAQ}
@@ -130,23 +134,24 @@ const Projects = () => {
             keyfeatureFour={"Interactive Hover States"}
           />
         </div>
+        {/* 3rd section row and projects */}
         <div className="flex flex-row flex-wrap">
           <Card
-            image={FAQ}
-            mobileImage={MobileFAQ}
-            imageDesc="FAQ Accordion Card"
-            title="FAQ Accordion Card"
-            content="This solo project was aimed at learning about FAQ accordion structure and styling layout in ReactJS, TailwindCSS, and Vite."
+            image={Advice}
+            mobileImage={MobileAdvice}
+            imageDesc="Advice Generator App"
+            title="Advice Generator App"
+            content="This solo project was aimed at creating React-based advice generator app that fetches and displays random advice using the Advice Slip API. "
             skillOne="REACTJS"
             skillTwo="TAILWIND CSS"
             skillThree="VITE"
             skillFour="CSS"
-            githubCode={`https://github.com/lavollmer/faq-accordian`}
-            livesite={`https://faq-lavol.netlify.app/`}
-            keyfeatureOne={"FAQ Accordion"}
-            keyfeatureTwo={"Mobile and Desktop Compatibility"}
+            githubCode={`https://github.com/lavollmer/advice-generator-app`}
+            livesite={`https://chic-malabi-36e673.netlify.app/`}
+            keyfeatureOne={"API Integration"}
+            keyfeatureTwo={"useEffect Hooks"}
             keyfeatureThree={"Flexbox Layout"}
-            keyfeatureFour={"Interactive Hover States"}
+            keyfeatureFour={"Try Catch Block Coding"}
           />
           <Card
             image={Sunnyside}
