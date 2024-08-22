@@ -52,7 +52,9 @@ The latest projects section was the most involved. Each project card includes an
 
 The about section was simpler, featuring a biography and avatar picture. I completed the contact section with a button to navigate to LinkedIn. The footer includes links to different parts of the web page, icons to various social media sites, and a copyright statement.
 
-After completing the general design, I went back to fine tune various pieces such as hover states, alignment of text and images, mobile images, correct links for navigation.
+After completing the general design, I went back to fine tune various pieces such as hover states, alignment of text and images, mobile images, correct links for navigation. 
+
+Throughout the following days and weeks, I added more functionality such as a scroll to top button, added more projects and a formal education section. Additionally, I updated the navigation bar and side nav bar with the new information and styling.
 
 Overall, I loved what I created and excited to share it with others. I completed this website in 1.5 days. I look forward to adding more features as time progresses.
 
@@ -96,6 +98,7 @@ I will continue to learn more about TailwindCSS, ReactJS and updating my process
 - Canva - Made my icon to match the color in Canva. -[Animations TailwindCSS](https://tailwindcss.com/docs/animation) - Learned about how to animate in Tailwindcss.
 -[Static Asset Handling Vite](https://vitejs.dev/guide/assets.html) - Debugging SVG file with deployment.
 -[Button Labels Web Accessibility](https://dequeuniversity.com/rules/axe/4.9/button-name)
+-[Scroll to Top](https://www.npmjs.com/package/react-scroll-to-top)
 
 ## Author
 
