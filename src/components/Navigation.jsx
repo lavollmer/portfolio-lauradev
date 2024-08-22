@@ -7,8 +7,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 import { SiFrontendmentor } from "react-icons/si";
 import { Link } from "react-scroll";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSun, faMoon } from "@fortawesome/free-solid-svg-icons";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navigation = ({ theme, toggleTheme }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,30 +24,30 @@ const Navigation = ({ theme, toggleTheme }) => {
           <h1 className="font-semibold text-lg">LAURA VOLLMER</h1>
         </div>
         <div className="flex items-center font-jost text-black dark:text-white">
-            <span className="mr-2 text-sm text-gray-700 dark:text-gray-300">
-              {theme === "light" ? "Light Mode" : "Dark Mode"}
-            </span>
-            <button
-              onClick={toggleTheme}
-              className={`relative inline-flex items-center h-6 rounded-full w-11 transition-colors duration-300 focus:outline-none ${
-                theme === "light" ? "bg-gray-300" : "bg-gray-700"
+          <span className="mr-2 text-sm text-gray-700 dark:text-gray-300">
+            {theme === "light" ? "Light Mode" : "Dark Mode"}
+          </span>
+          <button
+            onClick={toggleTheme}
+            className={`relative inline-flex items-center h-6 rounded-full w-11 transition-colors duration-300 focus:outline-none ${
+              theme === "light" ? "bg-gray-300" : "bg-gray-700"
+            }`}
+          >
+            <span
+              className={`inline-block w-4 h-4 transform bg-white rounded-full transition-transform duration-300 ${
+                theme === "light" ? "translate-x-1" : "translate-x-6"
               }`}
-            >
-              <span
-                className={`inline-block w-4 h-4 transform bg-white rounded-full transition-transform duration-300 ${
-                  theme === "light" ? "translate-x-1" : "translate-x-6"
-                }`}
-              />
-            </button>
-          </div>
+            />
+          </button>
+        </div>
         {/* hamburger button click */}
         <div className="flex-shrink-0">
           <button
             aria-label="menu icon"
             onClick={toggleSideNav}
-            className="p-2"
+            className={`p-2 ${theme === "dark" ? "text-white" : "text-black"}`}
           >
-            <img src={HamburgerIcon} alt="menu icon" className="h-5 w-5 text-black dark:text-white" />
+            <GiHamburgerMenu size={20} />
           </button>
         </div>
       </div>
@@ -58,7 +57,9 @@ const Navigation = ({ theme, toggleTheme }) => {
       <div className="hidden md:flex flex-row top-0 left-0 z-20 w-full justify-between items-center font-jost">
         <div className="flex flex-row items-center justify-center space-x-2">
           <img src={Logo} alt="Flower logo" className="h-10 w-12 rounded-lg" />
-          <h1 className="text-black dark:text-white font-semibold text-2xl">LAURA VOLLMER</h1>
+          <h1 className="text-black dark:text-white font-semibold text-2xl">
+            LAURA VOLLMER
+          </h1>
         </div>
         <div className="flex flex-row space-x-8 cursor-pointer text-xl text-black dark:text-white">
           <div className="hover:border-b-2 hover:border-burnt-sienna">
