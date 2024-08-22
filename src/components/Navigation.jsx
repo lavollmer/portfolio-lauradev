@@ -78,7 +78,7 @@ const Navigation = () => {
           <div className="hover:border-b-2 hover:border-burnt-sienna">
             <Link
               aria-label="Go to Education Section"
-              to="about"
+              to="education"
               smooth={true}
               duration={500}
               href="#education"

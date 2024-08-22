@@ -38,7 +38,11 @@ const SideNav = ({ onClose }) => {
             <h1 className="flex flex-row items-center justify-center">ABOUT</h1>
           </Link>
         </div>
-
+        <div className="w-full border-t border-white p-4">
+          <Link aria-label="Go to Education section" to="education" smooth={true} duration={500} onClick={onClose} href="#education">
+            <h1 className="flex flex-row items-center justify-center">EDUCATION</h1>
+          </Link>
+        </div>
         <div className="flex flex-col items-center justify-center w-full m-10 p-6">
           <Link aria-label="Go to Contact section" to="contact" smooth={true} duration={500} onClick={onClose} href="#contact">
             <button aria-label="contact" className="border border-white rounded-lg py-2 px-4">
