@@ -1,5 +1,5 @@
 import React from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Logo from "../assets/logo2.png";
 import SideNavBar from "./Sidenav";
 import HamburgerIcon from "../assets/icon-hamburger.svg";
@@ -10,10 +10,18 @@ import { Link } from "react-scroll";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [theme, setTheme] = useState("light");
 
   const toggleSideNav = () => {
     setIsOpen(!isOpen);
   };
+
+  useEffect(() => {
+    const localTheme = localStorage.getItem("theme");
+    if (localTheme) {
+      setTheme(localTheme);
+    }
+  }, []);
 
   return (
     <div className="font-jost">
@@ -42,7 +50,7 @@ const Navigation = () => {
           <h1 className="text-black font-semibold text-2xl">LAURA VOLLMER</h1>
         </div>
         <div className="flex flex-row space-x-8 cursor-pointer text-xl">
-        <div className="hover:border-b-2 hover:border-burnt-sienna">
+          <div className="hover:border-b-2 hover:border-burnt-sienna">
             <Link
               aria-label="Go to Skills Section"
               to="skills"
