@@ -54,7 +54,7 @@ const Projects = () => {
             mobileImage={MobileEcommerce}
             imageDesc="E-Commerce Product Page"
             title="E-Commerce Product Page"
-            content="A solo project creating a navigation bar, a cart section, a product section, a footer, and a carousel photo gallery."
+            content="A solo project creating a navigation bar, a cart section, a product section, a footer, and a carousel photo gallery. The project included cart functionality, and a responsive design."
             skillOne="REACTJS"
             skillTwo="TAILWIND CSS"
             skillThree="VITE"

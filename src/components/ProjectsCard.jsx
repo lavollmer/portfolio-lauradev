@@ -18,7 +18,7 @@ const ProjectsCard = ({
   mobileImage,
 }) => {
   return (
-    <div className="flex flex-col rounded-lg shadow-lg bg-white overflow-hidden md:w-[300px] md:h-[300px]  lg:w-[400px] lg:h-[600px] m-4">
+    <div className="flex flex-col rounded-lg shadow-lg bg-white overflow-hidden md:w-[300px] md:h-[300px]  lg:w-[500px] lg:h-[700px] m-4">
       <div className="h-48 w-full">
         <img
           src={image}
@@ -30,7 +30,7 @@ const ProjectsCard = ({
       </div>
       <div className="flex flex-col p-8">
         <div>
-          <h2 className="text-black md:text-xl lg:text-2xl text-md font-semibold">
+          <h2 className="text-black md:text-xl lg:text-3xl text-md font-semibold">
             {title}
           </h2>
           <p className="text-black mt-2 text-sm md:text-md">{content}</p>
@@ -72,8 +72,8 @@ const ProjectsCard = ({
             <li>{skillFour}</li>
           </ul>
         </div>
-        <div className="flex flex-col text-md items-center md:text-lg md:space-y-0 md:space-x-4 pt-4">
-          <div className="flex flex-col justify-center items-center space-y-4 md:flex-row md:justify-start md:space-x-4 font-semibold">
+        <div className="flex flex-col text-md items-center md:text-lg pt-4">
+          <div className="flex flex-col justify-center items-center space-y-4 md:space-y-0 md:flex-row md:justify-start md:space-x-4 font-semibold">
             {githubCode && (
               <a
                 href={githubCode}
@@ -85,7 +85,7 @@ const ProjectsCard = ({
                   aria-label="Github Code"
                   className="hover:animate-bounce bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-4 px-4 hover:from-redwood hover:to-burnt-sienna"
                 >
-                  <p className="font-bold text-md md:text-2xl">Github Code</p>
+                  <p className="font-bold text-md md:text-lg">Github Code</p>
                 </button>
               </a>
             )}
@@ -100,7 +100,7 @@ const ProjectsCard = ({
                   aria-label="Live Site"
                   className="hover:animate-bounce bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-4 px-4 hover:from-redwood hover:to-burnt-sienna"
                 >
-                  <p className="font-bold text-md md:text-2xl">Live Site</p>
+                  <p className="font-bold text-md md:text-lg">Live Site</p>
                 </button>
               </a>
             )}
