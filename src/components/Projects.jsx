@@ -130,6 +130,59 @@ const Projects = () => {
             keyfeatureFour={"Interactive Hover States"}
           />
         </div>
+        <div className="flex flex-row flex-wrap">
+          <Card
+            image={FAQ}
+            mobileImage={MobileFAQ}
+            imageDesc="FAQ Accordion Card"
+            title="FAQ Accordion Card"
+            content="This solo project was aimed at learning about FAQ accordion structure and styling layout in ReactJS, TailwindCSS, and Vite."
+            skillOne="REACTJS"
+            skillTwo="TAILWIND CSS"
+            skillThree="VITE"
+            skillFour="CSS"
+            githubCode={`https://github.com/lavollmer/faq-accordian`}
+            livesite={`https://faq-lavol.netlify.app/`}
+            keyfeatureOne={"FAQ Accordion"}
+            keyfeatureTwo={"Mobile and Desktop Compatibility"}
+            keyfeatureThree={"Flexbox Layout"}
+            keyfeatureFour={"Interactive Hover States"}
+          />
+          <Card
+            image={Sunnyside}
+            mobileImage={MobileSunny}
+            imageDesc="Sunnyside Landing Page"
+            title="Sunnyside Landing Page"
+            content="This solo project involved creating a replica of a agency landing page, adhering strictly to a provided design. "
+            skillOne="REACTJS"
+            skillTwo="TAILWIND CSS"
+            skillThree="VITE"
+            skillFour="CSS"
+            githubCode={`https://github.com/lavollmer/sunnyside-agency-landingpage`}
+            livesite={`https://sunnyside-landing-page-lauradev.netlify.app/`}
+            keyfeatureOne={"Custom Design"}
+            keyfeatureTwo={"Mobile and Desktop Compatibility"}
+            keyfeatureThree={"Flexbox Layout"}
+            keyfeatureFour={"Google Fonts Integration"}
+          />
+          <Card
+            image={Portfolio}
+            mobileImage={MobilePortfolio}
+            imageDesc="Portfolio Website"
+            title="Previous Portfolio Website"
+            content="A solo project that involved creating my first portfolio website to showcase my projects and skills. "
+            skillOne="REACTJS"
+            skillTwo="TAILWIND CSS"
+            skillThree="VITE"
+            skillFour="CSS"
+            githubCode={`https://github.com/lavollmer/portfolio-website`}
+            livesite={`https://lauradeveloper.com/`}
+            keyfeatureOne={"EmailJS Integration"}
+            keyfeatureTwo={"Domain Name Acquisition and Integration"}
+            keyfeatureThree={"React-Type-Animation Integration"}
+            keyfeatureFour={"Interactive Hover States"}
+          />
+        </div>
       </div>
     </div>
   );
