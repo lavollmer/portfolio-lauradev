@@ -22,11 +22,16 @@ function App() {
   }, []);
 
   const toggleTheme = () => {
-    setTheme === "light" ? setTheme("dark") : setTheme("light");
+    setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
   };
+
+  useEffect(() => {
+    localStorage.setItem("theme", theme);
+  }, [theme]);
+
   return (
     <>
-      <div className="bg-white dark:bg-black">
+      <div className={`bg-white dark:bg-black ${theme}`}>
         <button
           onClick={toggleTheme}
           className="hover:animate-bounce bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-4 px-4 hover:from-redwood hover:to-burnt-sienna"
