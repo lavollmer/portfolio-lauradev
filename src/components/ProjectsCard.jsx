@@ -60,17 +60,21 @@ const ProjectsCard = ({
             {skillFour}
           </p>
         </div>
-        <div className="flex flex-col text-sm   md:text-lg space-y-2 md:space-y-0 md:space-x-4 pt-4">
-          <div className="flex flex-row justify-start space-x-4 font-semibold">
+        <div className="flex flex-col text-md items-center md:text-lg md:space-y-0 md:space-x-4 pt-4">
+          <div className="flex flex-col justify-center items-center md:flex-row md:justify-start md:space-x-4 font-semibold">
             {githubCode && (
               <a
                 href={githubCode}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-royal-blue hover:animate-pulse"
                 aria-label="Go to the project's Github Code"
               >
-                GitHub Code
+                <button
+                  aria-label="Github Code"
+                  className="hover:animate-bounce bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-4 px-4 hover:from-redwood hover:to-burnt-sienna"
+                >
+                  <p className="font-bold text-md md:text-2xl">Github Code</p>
+                </button>
               </a>
             )}
             {livesite && (
@@ -78,10 +82,14 @@ const ProjectsCard = ({
                 href={livesite}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-royal-blue hover:animate-pulse"
                 aria-label="Go to the project's live website"
               >
-                Live Site
+                <button
+                  aria-label="Live Site"
+                  className="hover:animate-bounce bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-4 px-4 hover:from-redwood hover:to-burnt-sienna"
+                >
+                  <p className="font-bold text-md md:text-2xl">Live Site</p>
+                </button>
               </a>
             )}
           </div>
