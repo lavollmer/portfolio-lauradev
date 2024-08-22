@@ -27,14 +27,25 @@ const Education = () => {
             content="PharmD from Drake University College of Pharmacy and Health Sciences"
           />
         </div>
-        {/* <div className="flex flex-col md:flex-row items-center justify-center w-full mt-4 md:mt-0 lg:flex-row  lg:space-x-4 space-y-6 lg:space-y-0">
-          <SkillsCard title="HTML" content="1 year of experience" />
-          <SkillsCard title="CSS" content="1 year of experience" />
+        <div className="flex flex-col md:flex-row items-center justify-center ">
+          <h1 className="text-black dark:text-white text-3xl p-10 md:text-5xl">
+            Continous Web Development and Coding Practice
+          </h1>
+        </div>
+        <div className="flex flex-col md:flex-row items-center justify-center w-full mt-4 md:mt-0 lg:flex-row  lg:space-x-4 space-y-6 lg:space-y-0">
           <SkillsCard
-            title="Web Accessibility"
-            content="1 year of experience"
+            title="Frontend Mentor Challenges"
+            content="Frontend Mentor offers real-world web development challenges, sharpening HTML, CSS, and JavaScript skills. The structured feedback, solutions, and vibrant community have significantly impacted my learning and growth."
           />
-        </div> */}
+          <SkillsCard
+            title="CodeWars"
+            content="Codewars is a platform where you can practice your coding skills by attempting various problems in the languages of your choice. You will be given prompts with varying difficulties, and the way that you “solve” them is by passing all the pre-defined tests."
+          />
+          <SkillsCard
+            title="Consistent Coding Practice"
+            content="1 year of experience coding on Github as evidenced by my profile and contributions."
+          />
+        </div>
       </div>
     </div>
   );
