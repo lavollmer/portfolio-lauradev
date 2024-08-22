@@ -19,11 +19,28 @@ const Navigation = ({ theme, toggleTheme }) => {
 
   return (
     <div className={`font-jost ${theme === "dark" ? "dark" : ""}`}>
-      <div className="md:hidden text-black dark:text-white fixed top-0 z-20 w-full flex flex-row justify-between items-center p-4">
+      <div className="md:hidden text-black dark:text-white top-0 z-20 w-full flex flex-row justify-between items-center p-4">
         <div className="flex flex-row items-center justify-center space-x-2">
-          <img src={Logo} alt="Flower logo" className="h-6 w-7 rounded-full" />
+          <img src={Logo} alt="Flower logo" className="h-6 w-7 rounded-lg" />
           <h1 className="font-semibold text-lg">LAURA VOLLMER</h1>
         </div>
+        <div className="flex items-center font-jost text-black dark:text-white">
+            <span className="mr-2 text-sm text-gray-700 dark:text-gray-300">
+              {theme === "light" ? "Light Mode" : "Dark Mode"}
+            </span>
+            <button
+              onClick={toggleTheme}
+              className={`relative inline-flex items-center h-6 rounded-full w-11 transition-colors duration-300 focus:outline-none ${
+                theme === "light" ? "bg-gray-300" : "bg-gray-700"
+              }`}
+            >
+              <span
+                className={`inline-block w-4 h-4 transform bg-white rounded-full transition-transform duration-300 ${
+                  theme === "light" ? "translate-x-1" : "translate-x-6"
+                }`}
+              />
+            </button>
+          </div>
         {/* hamburger button click */}
         <div className="flex-shrink-0">
           <button
@@ -31,7 +48,7 @@ const Navigation = ({ theme, toggleTheme }) => {
             onClick={toggleSideNav}
             className="p-2"
           >
-            <img src={HamburgerIcon} alt="menu icon" className="h-5 w-5" />
+            <img src={HamburgerIcon} alt="menu icon" className="h-5 w-5 text-black dark:text-white" />
           </button>
         </div>
       </div>
@@ -40,7 +57,7 @@ const Navigation = ({ theme, toggleTheme }) => {
       </div>
       <div className="hidden md:flex flex-row top-0 left-0 z-20 w-full justify-between items-center font-jost">
         <div className="flex flex-row items-center justify-center space-x-2">
-          <img src={Logo} alt="Flower logo" className="h-10 w-12" />
+          <img src={Logo} alt="Flower logo" className="h-10 w-12 rounded-lg" />
           <h1 className="text-black dark:text-white font-semibold text-2xl">LAURA VOLLMER</h1>
         </div>
         <div className="flex flex-row space-x-8 cursor-pointer text-xl text-black dark:text-white">
