@@ -104,6 +104,8 @@ Here are several things I learned throughout this project:
 
 I will continue to learn more about TailwindCSS, ReactJS and updating my process of building a website. I will continue creating original projects, frontend mentor challenges and much more.
 
+My next goal with this project is to change the domain from my old portfolio website and add it to this new one. Additionally, I want to keep creating more projects to add to this portfolio and also make the website more interactive.
+
 ## Useful resources
 
 - [Jost Google Font](https://fonts.google.com/selection) - Design called for this font in the project.
