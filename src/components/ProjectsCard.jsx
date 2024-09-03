@@ -20,21 +20,25 @@ const ProjectsCard = ({
   return (
     <div className="flex flex-col rounded-lg shadow-lg bg-white dark:bg-gray-800 overflow-hidden md:w-[300px] md:h-[300px]  lg:w-[500px] lg:h-[670px] m-4">
       <div className="h-48 w-full relative">
-        <img
-          src={image}
-          srcSet={`${mobileImage} 600w, ${image} 1200w`}
-          sizes="(max-width: 600px) 100vw, 50vw"
-          alt={imageDesc}
-          className="h-full w-full object-cover"
-          style={{ objectFit: "cover", objectPosition: "center" }}
-        />
+        <picture>
+          <source media="(max-width: 600px)" srcSet={mobileImage} />
+          <img
+            src={image}
+            alt={imageDesc}
+            className="h-full w-full object-cover"
+            style={{ objectFit: "cover", objectPosition: "center" }}
+          />
+        </picture>
       </div>
+
       <div className="flex flex-col p-8">
         <div>
           <h2 className="text-black dark:text-white lg:text-3xl text-xl font-semibold">
             {title}
           </h2>
-          <p className="text-black dark:text-white mt-2 text-sm md:text-md">{content}</p>
+          <p className="text-black dark:text-white mt-2 text-sm md:text-md">
+            {content}
+          </p>
           <div>
             <h3 className="text-gray-700 dark:text-white mt-2 text-sm md:text-md font-bold">
               Key Features
