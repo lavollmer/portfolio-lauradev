@@ -55,7 +55,7 @@ const SplashPage = () => {
         </div>
       </div>
       {/* mobile version */}
-      <div className="flex flex-col mt-6 md:hidden bg-burnt-sienna dark:bg-teracotta bg-opacity-80 font-jost relative landing-container">
+      <div className="flex flex-col md:hidden bg-burnt-sienna dark:bg-teracotta bg-opacity-80 font-jost relative landing-container">
         <div className="flex flex-col relative w-full rounded-lg">
           <div className="flex flex-col justify-center space-y-2  relative">
             {/* Background overlay */}
@@ -81,19 +81,20 @@ const SplashPage = () => {
                   I value teamwork, integrity, creativity and empathy.
                 </p>
               </div>
-              <div className="flex items-center justify-center">
+              <div className="flex flex-row items-center justify-center">
                 <button
                   aria-label="learn more"
-                  className="flex flex-row items-center justify-center space-x-4 bg-white animate-bounce rounded-full text-black text-lg cursor-pointer p-6 px-8 hover:from-redwood hover:to-burnt-sienna"
+                  className="flex flex-row items-center justify-center space-x-4 bg-white animate-bounce rounded-full text-black cursor-pointer p-6 px-8 hover:from-redwood hover:to-burnt-sienna"
                 >
                   <Link
                     to="skills"
                     smooth={true}
                     duration={500}
                     href="#learnmore"
+                    className="flex flex-row justify-center items-center space-x-2"
                   >
-                    <img src={Arrow} alt="arrow" className="text-black" />
-                    <p>Learn More</p>
+                    <img src={Arrow} alt="arrow" className="text-black h-2 w-3" />
+                    <p className="text-md">Learn More</p>
                   </Link>
                 </button>
               </div>

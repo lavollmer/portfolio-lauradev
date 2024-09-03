@@ -23,18 +23,18 @@ const Navigation = ({ theme, toggleTheme }) => {
           <h1 className="font-semibold text-lg">LAURA VOLLMER</h1>
         </div>
         <div className="flex items-center font-jost text-black dark:text-white">
-          <span className="mr-2 text-sm text-gray-700 dark:text-gray-300">
+          <span className="mr-1 text-xs text-gray-700 dark:text-gray-300">
             {theme === "light" ? "Light Mode" : "Dark Mode"}
           </span>
           <button
             onClick={toggleTheme}
             aria-label="dark mode icon"
-            className={`relative inline-flex items-center h-6 rounded-full w-11 transition-colors duration-300 focus:outline-none ${
+            className={`relative inline-flex items-center h-4 rounded-full w-8 transition-colors duration-300 focus:outline-none ${
               theme === "light" ? "bg-gray-300" : "bg-gray-700"
             }`}
           >
             <span
-              className={`inline-block w-4 h-4 transform bg-white rounded-full transition-transform duration-300 ${
+              className={`inline-block w-2 h-2 transform bg-white rounded-full transition-transform duration-300 ${
                 theme === "light" ? "translate-x-1" : "translate-x-6"
               }`}
             />
@@ -47,7 +47,7 @@ const Navigation = ({ theme, toggleTheme }) => {
             onClick={toggleSideNav}
             className={`p-2 ${theme === "dark" ? "text-white" : "text-black"}`}
           >
-            <GiHamburgerMenu size={20} />
+            <GiHamburgerMenu size={24} />
           </button>
         </div>
       </div>
