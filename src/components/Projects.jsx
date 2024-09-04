@@ -18,6 +18,7 @@ import Interactive from "../assets/interactive.png";
 import MobileInteractive from "../assets/interactivemobile.png";
 import Puzzle from "../assets/puzzle.png";
 import MobilePuzzle from "../assets/puzzlemobile.png";
+import Rating from "../assets/SelectedRating.png";
 
 const Projects = () => {
   return (
@@ -131,7 +132,7 @@ const Projects = () => {
             skillThree="VITE"
             skillFour="CSS"
             githubCode={`https://github.com/lavollmer/portfolio-website`}
-            livesite={`https://lauradeveloper.com/`}
+            livesite={`https://iridescent-baklava-dec48b.netlify.app/`}
             keyfeatureOne={"EmailJS Integration"}
             keyfeatureTwo={"Domain Name Acquisition and Integration"}
             keyfeatureThree={"React-Type-Animation Integration"}
@@ -192,6 +193,25 @@ const Projects = () => {
             keyfeatureFour={"Interactive Flow of Design"}
           />
         </div>
+        <div className="flex flex-row flex-wrap">
+          <Card
+            image={Rating}
+            mobileImage={Rating}
+            imageDesc="Interactive Rating App"
+            title="Interactive Rating App"
+            content="This solo project was aimed at creating React-based Interactive Rating App that allows the end user to select a rating and displays the rating in a Thank You component. "
+            skillOne="REACTJS"
+            skillTwo="TAILWIND CSS"
+            skillThree="VITE"
+            skillFour="CSS"
+            githubCode={`https://github.com/lavollmer/interactive-rating-component`}
+            livesite={`https://interactive-rating-lauradev.netlify.app/`}
+            keyfeatureOne={"useState Management"}
+            keyfeatureTwo={"Rating System"}
+            keyfeatureThree={"TailwindCSS Design"}
+            keyfeatureFour={"props and state management"}
+          />
+          </div>
       </div>
     </div>
   );
