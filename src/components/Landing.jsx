@@ -63,21 +63,21 @@ const SplashPage = () => {
               className="absolute inset-0 bg-cover bg-center z-10"
               style={{ backgroundImage: `url(/backgroundimageoverlay.svg)` }}
             ></div>
-            <div className="relative z-20 p-6 space-y-8">
-              <div className="flex flex-col text-left space-y-8">
-                <h1 className="text-black dark:text-white text-xl font-semibold">
+            <div className="relative z-20 p-6 md:p-12 space-y-8">
+              <div className="flex flex-col text-left space-y-8 md:space-y-4">
+                <h1 className="text-black dark:text-white text-xl md:text-2xl font-semibold">
                   Hello, I'm Laura.
                 </h1>
-                <h1 className="text-black dark:text-white text-xl font-semibold">
+                <h1 className="text-black dark:text-white text-xl font-semibold md:text-2xl">
                   I'm a software developer.
                 </h1>
-                <p className="text-black dark:text-white text-md">
+                <p className="text-black dark:text-white text-md md:text-lg">
                   I have one year of experience in coding, specializing in
                   frontend software development. My background includes
                   healthcare and floral design. I am a fast learner, constantly
                   seeking opportunities to enhance my skills.
                 </p>
-                <p className="text-black dark:text-white text-md">
+                <p className="text-black dark:text-white text-md md:text-lg">
                   I value teamwork, integrity, creativity and empathy.
                 </p>
               </div>
@@ -93,8 +93,8 @@ const SplashPage = () => {
                     href="#learnmore"
                     className="flex flex-row justify-center items-center space-x-2"
                   >
-                    <img src={Arrow} alt="arrow" className="text-black h-2 w-3" />
-                    <p className="text-md">Learn More</p>
+                    <img src={Arrow} alt="arrow" className="text-black h-2 w-3 md:h-3 md:w-4" />
+                    <p className="text-md md:text-lg">Learn More</p>
                   </Link>
                 </button>
               </div>

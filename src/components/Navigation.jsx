@@ -17,13 +17,13 @@ const Navigation = ({ theme, toggleTheme }) => {
 
   return (
     <div className={`font-jost ${theme === "dark" ? "dark" : ""}`}>
-      <div className="md:hidden text-black dark:text-white top-0 z-20 w-full flex flex-row justify-between items-center p-4">
+      <div className="lg:hidden text-black dark:text-white top-0 z-20 w-full flex flex-row justify-between items-center p-4">
         <div className="flex flex-row items-center justify-center space-x-2">
           <img src={Logo} alt="Flower logo" className="h-6 w-7 rounded-lg" />
-          <h1 className="font-semibold text-lg">LAURA VOLLMER</h1>
+          <h1 className="font-semibold text-lg md:text-3xl">LAURA VOLLMER</h1>
         </div>
         <div className="flex items-center font-jost text-black dark:text-white">
-          <span className="mr-1 text-xs text-gray-700 dark:text-gray-300">
+          <span className="mr-1 text-xs md:text-2xl text-gray-700 dark:text-gray-300">
             {theme === "light" ? "Light Mode" : "Dark Mode"}
           </span>
           <button
@@ -54,10 +54,10 @@ const Navigation = ({ theme, toggleTheme }) => {
       <div className="flex flex-col">
         {isOpen && <SideNavBar onClose={toggleSideNav} />}
       </div>
-      <div className="hidden md:flex flex-row top-0 left-0 z-20 w-full justify-between items-center font-jost">
+      <div className="hidden lg:flex lg:flex-row top-0 left-0 z-20 w-full justify-between items-center font-jost">
         <div className="flex flex-row items-center justify-center space-x-2">
           <img src={Logo} alt="Flower logo" className="h-10 w-12 rounded-lg" />
-          <h1 className="text-black dark:text-white font-semibold text-2xl">
+          <h1 className="text-black dark:text-white font-semibold md:text-lg lg:text-2xl">
             LAURA VOLLMER
           </h1>
         </div>
@@ -70,7 +70,7 @@ const Navigation = ({ theme, toggleTheme }) => {
               duration={500}
               href="#skills"
             >
-              <h1>Skills</h1>
+              <h1 className="text-base md:text-lg">Skills</h1>
             </Link>
           </div>
           <div className="hover:border-b-2 hover:border-burnt-sienna">
@@ -81,7 +81,7 @@ const Navigation = ({ theme, toggleTheme }) => {
               duration={500}
               href="#projects"
             >
-              <h1>Projects</h1>
+              <h1 className="text-base md:text-lg">Projects</h1>
             </Link>
           </div>
           <div className="hover:border-b-2 hover:border-burnt-sienna">
@@ -92,7 +92,7 @@ const Navigation = ({ theme, toggleTheme }) => {
               duration={500}
               href="#about"
             >
-              <h1>About</h1>
+              <h1 className="text-base md:text-lg">About</h1>
             </Link>
           </div>
           <div className="hover:border-b-2 hover:border-burnt-sienna">
@@ -103,7 +103,7 @@ const Navigation = ({ theme, toggleTheme }) => {
               duration={500}
               href="#education"
             >
-              <h1>Education</h1>
+              <h1 className="text-base md:text-lg">Education</h1>
             </Link>
           </div>
           <div className="hover:border-b-2 hover:border-burnt-sienna">
@@ -114,11 +114,11 @@ const Navigation = ({ theme, toggleTheme }) => {
               duration={500}
               href="#contact"
             >
-              <h1>Contact</h1>
+              <h1 className="text-base md:text-lg">Contact</h1>
             </Link>
           </div>
         </div>
-        <div className="flex flex-row space-x-8">
+        <div className="flex flex-row space-x-2 md:space-x-8">
           <a
             href="https://www.linkedin.com/in/lvollmer/"
             target="_blank"
@@ -140,7 +140,7 @@ const Navigation = ({ theme, toggleTheme }) => {
           >
             <button
               aria-label="github"
-              className="hover:animate-bounce bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-4 px-4  hover:from-redwood hover:to-burnt-sienna"
+              className="hover:animate-bounce bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-2 px-2 md:p-4 md:px-4 hover:from-redwood hover:to-burnt-sienna"
             >
               <FaGithubSquare size={20} />
             </button>
@@ -153,7 +153,7 @@ const Navigation = ({ theme, toggleTheme }) => {
           >
             <button
               aria-label="frontend mentor"
-              className="hover:animate-bounce bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-4 px-4 hover:from-redwood hover:to-burnt-sienna"
+              className="hover:animate-bounce bg-gradient-to-r to-redwood from-burnt-sienna rounded-full text-white cursor-pointer p-2 px-2 md:p-4 md:px-4 hover:from-redwood hover:to-burnt-sienna"
             >
               <SiFrontendmentor size={20} />
             </button>
