@@ -3,8 +3,8 @@ import Avatar from "../assets/Avatar.png";
 
 const About = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center p-10 md:p-40 font-jost text-black dark:text-white">
-      <div className="flex flex-col w-full md:w-1/2 md:pr-10 space-y-10">
+    <div className="flex flex-col lg:flex-row items-center justify-center p-10 lg:p-40 font-jost text-black dark:text-white">
+      <div className="flex flex-col w-full md:p-20 lg:w-1/2 lg:pr-10 space-y-10">
         <div>
           <h1 className="text-black dark:text-white text-3xl md:text-5xl">About</h1>
         </div>
