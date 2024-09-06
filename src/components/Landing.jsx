@@ -7,7 +7,7 @@ const SplashPage = () => {
   return (
     <>
       {/* desktop version */}
-      <div className="hidden md:flex bg-burnt-sienna dark:bg-teracotta bg-opacity-60 mt-10 font-jost relative landing-container">
+      <div className="hidden lg:flex bg-burnt-sienna dark:bg-teracotta bg-opacity-60 mt-10 font-jost relative landing-container">
         <div className="flex flex-row relative w-full rounded-lg">
           <div className="flex flex-col justify-center p-20 space-y-6  relative">
             {/* Background overlay */}
@@ -55,7 +55,7 @@ const SplashPage = () => {
         </div>
       </div>
       {/* mobile version */}
-      <div className="flex flex-col md:hidden bg-burnt-sienna dark:bg-teracotta bg-opacity-80 font-jost relative landing-container">
+      <div className="flex flex-col lg:hidden bg-burnt-sienna dark:bg-teracotta bg-opacity-80 font-jost relative landing-container md:mt-10">
         <div className="flex flex-col relative w-full rounded-lg">
           <div className="flex flex-col justify-center space-y-2  relative">
             {/* Background overlay */}
@@ -63,21 +63,21 @@ const SplashPage = () => {
               className="absolute inset-0 bg-cover bg-center z-10"
               style={{ backgroundImage: `url(/backgroundimageoverlay.svg)` }}
             ></div>
-            <div className="relative z-20 p-6 md:p-12 space-y-8">
+            <div className="relative z-20 p-6 md:p-20 space-y-8">
               <div className="flex flex-col text-left space-y-8 md:space-y-4">
-                <h1 className="text-black dark:text-white text-xl md:text-2xl font-semibold">
+                <h1 className="text-black dark:text-white text-xl md:text-4xl font-semibold">
                   Hello, I'm Laura.
                 </h1>
-                <h1 className="text-black dark:text-white text-xl font-semibold md:text-2xl">
+                <h1 className="text-black dark:text-white text-xl font-semibold md:text-4xl">
                   I'm a software developer.
                 </h1>
-                <p className="text-black dark:text-white text-md md:text-lg">
+                <p className="text-black dark:text-white text-md md:text-xl">
                   I have one year of experience in coding, specializing in
                   frontend software development. My background includes
                   healthcare and floral design. I am a fast learner, constantly
                   seeking opportunities to enhance my skills.
                 </p>
-                <p className="text-black dark:text-white text-md md:text-lg">
+                <p className="text-black dark:text-white text-md md:text-xl">
                   I value teamwork, integrity, creativity and empathy.
                 </p>
               </div>
