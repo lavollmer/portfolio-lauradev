@@ -30,7 +30,7 @@ const Projects = () => {
       </div>
       {/* first section and row of projects */}
       <div className="flex flex-col items-center justify-between">
-        <div className="flex flex-row flex-wrap ">
+        <div className="flex flex-col lg:flex-row flex-wrap ">
           <Card
             image={Bookmark}
             mobileImage={MobileBookmark}
@@ -86,7 +86,7 @@ const Projects = () => {
           />
         </div>
         {/* second section and row of projects */}
-        <div className="flex flex-row flex-wrap">
+        <div className="flex flex-col lg:flex-row flex-wrap">
           <Card
             image={FAQ}
             mobileImage={MobileFAQ}
@@ -140,7 +140,7 @@ const Projects = () => {
           />
         </div>
         {/* 3rd section row and projects */}
-        <div className="flex flex-row flex-wrap">
+        <div className="flex flex-col lg:flex-row flex-wrap">
           <Card
             image={Advice}
             mobileImage={MobileAdvice}

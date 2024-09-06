@@ -18,7 +18,7 @@ const ProjectsCard = ({
   mobileImage,
 }) => {
   return (
-    <div className="flex flex-col rounded-lg shadow-lg bg-white dark:bg-gray-800 overflow-hidden md:w-[300px] md:h-[300px]  lg:w-[500px] lg:h-[670px] m-4">
+    <div className="flex flex-col rounded-lg shadow-lg bg-white dark:bg-gray-800 overflow-hidden md:w-[500px] md:h-[700px]  lg:w-[500px] lg:h-[670px] m-4">
       <div className="h-48 w-full relative">
         <picture>
           <source media="(max-width: 600px)" srcSet={mobileImage} />
@@ -43,7 +43,7 @@ const ProjectsCard = ({
             <h3 className="text-gray-700 dark:text-white mt-2 text-sm md:text-md font-bold">
               Key Features
             </h3>
-            <ul className="list-disc list-inside text-gray-700 dark:text-white mt-2 text-sm md:text-md">
+            <ul className="list-disc list-inside text-gray-700 dark:text-white mt-2 text-sm lg:text-md">
               <li>{keyfeatureOne}</li>
               <li>{keyfeatureTwo}</li>
               <li>{keyfeatureThree}</li>
@@ -56,7 +56,7 @@ const ProjectsCard = ({
           <h3 className="text-gray-700 dark:text-white mt-2 text-sm md:text-md font-bold">
             Tech Stack
           </h3>
-          <ul className="list-disc list-inside text-gray-700 dark:text-white mt-2 text-sm md:text-md">
+          <ul className="list-disc list-inside text-gray-700 dark:text-white mt-2 text-sm lg:text-md">
             <li>{skillOne}</li>
             <li>{skillTwo}</li>
             <li>{skillThree}</li>
