@@ -18,7 +18,7 @@ const ProjectsCard = ({
   mobileImage,
 }) => {
   return (
-    <div className="flex flex-col rounded-lg shadow-lg bg-white dark:bg-gray-800 overflow-hidden md:w-[500px] md:h-[700px]  lg:w-[500px] lg:h-[670px] m-4">
+    <div className="flex flex-col rounded-lg shadow-lg bg-white dark:bg-gray-800 overflow-hidden sm:w-[500px] sm:h-[700px] md:w-[500px] md:h-[700px]  lg:w-[500px] lg:h-[670px] m-4">
       <div className="h-48 w-full relative">
         <picture>
           <source media="(max-width: 600px)" srcSet={mobileImage} />

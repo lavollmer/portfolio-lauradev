@@ -16,36 +16,36 @@ const SideNav = ({ onClose }) => {
         </div>
       </div>
       <div className="flex flex-col items-center justify-center text-xl">
-        <div className="flex flex-col items-center justify-center mt-4 mb-4 text-2xl">
+        <div className="flex flex-col items-center justify-center mt-4 mb-4 text-2xl md:text-4xl">
           <p>Laura Vollmer</p>
         </div>
         <div className="w-full border-t border-white p-4">
           <Link aria-label="Go to projects section" to="projects" smooth={true} duration={500} onClick={onClose} href="#projects">
-            <h1 className="flex flex-row items-center justify-center ">
+            <h1 className="flex flex-row items-center justify-center md:text-2xl">
               PROJECTS
             </h1>
           </Link>
         </div>
         <div className="w-full border-t border-white p-4">
           <Link aria-label="Go to skills section" to="skills" smooth={true} duration={500} onClick={onClose} href="#skills">
-            <h1 className="flex flex-row items-center justify-center ">
+            <h1 className="flex flex-row items-center justify-center md:text-2xl">
               SKILLS
             </h1>
           </Link>
         </div>
         <div className="w-full border-t border-white p-4">
           <Link aria-label="Go to About section" to="about" smooth={true} duration={500} onClick={onClose} href="#about">
-            <h1 className="flex flex-row items-center justify-center">ABOUT</h1>
+            <h1 className="flex flex-row items-center justify-center md:text-2xl">ABOUT</h1>
           </Link>
         </div>
         <div className="w-full border-t border-white p-4">
           <Link aria-label="Go to Education section" to="education" smooth={true} duration={500} onClick={onClose} href="#education">
-            <h1 className="flex flex-row items-center justify-center">EDUCATION</h1>
+            <h1 className="flex flex-row items-center justify-center md:text-2xl">EDUCATION</h1>
           </Link>
         </div>
-        <div className="flex flex-col items-center justify-center w-full m-10 p-6">
+        <div className="flex flex-col items-center justify-center w-full m-10 p-6 hover:border hover:border-white">
           <Link aria-label="Go to Contact section" to="contact" smooth={true} duration={500} onClick={onClose} href="#contact">
-            <button aria-label="contact" className="border border-white rounded-lg py-2 px-4">
+            <button aria-label="contact" className="border border-white rounded-lg py-2 px-4 md:py-4 md:px-16 md:font-bold">
               CONTACT
             </button>
           </Link>

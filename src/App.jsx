@@ -48,7 +48,7 @@ function App() {
             <Skills />
           </Element>
         </div>
-        <div className="p-10 mt-10 md:p-0 md:mt-0">
+        <div className="md:p-0 md:mt-0">
           <Element name="projects">
             <Projects />
           </Element>
@@ -63,7 +63,7 @@ function App() {
             <Education />
           </Element>
         </div>
-        <div className="p-10 mt-10 md:p-0 md:mt-0">
+        <div className="p-4 md:mt-0">
           <Element name="contact">
             <Contact />
           </Element>

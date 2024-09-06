@@ -72,7 +72,7 @@ Additionally, I was able to add a dark mode to my website which was very excitin
 
 Overall, I loved what I created and excited to share it with others. I completed this website in 1.5 days. I look forward to adding more features as time progresses.
 
-In the following weeks, I updated a few things over time to perfect it. I resized the mobile version navigation bar for easier readability. Additionally, I updated the mobile version images to scale better for the type of display. Finally, I transferred my domain name from my old portfolio website to the new one.
+In the following weeks, I updated a few things over time to perfect it. I resized the mobile version navigation bar for easier readability. Additionally, I updated the mobile version images to scale better for the type of display. For medium size screens such as the iPad Mini, I updated the code to reflect responsiveness of those screens in every component. Finally, I transferred my domain name from my old portfolio website to the new one.
 
 ## Built with
 
