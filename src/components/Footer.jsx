@@ -6,8 +6,8 @@ import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col md:flex-row md:space-x-20 p-4 items-center text-white dark:text-black font-jost justify-center space-y-8 md:space-y-0 bg-black dark:bg-white mt-20">
-      <div className="flex flex-col items-center justify-center md:flex-row md:space-x-10 space-x-0 space-y-4 md:space-y-0 text-lg md:text-xl">
+    <div className="flex flex-col lg:flex-row lg:space-x-20 p-4 items-center text-white dark:text-black font-jost justify-center space-y-8 lg:space-y-0 bg-black dark:bg-white mt-20">
+      <div className="flex flex-col items-center justify-center lg:flex-row lg:space-x-10 space-x-0 space-y-4 lg:space-y-0 text-lg md:text-2xl lg:text-xl">
         <Link aria-label="Return to home" to="navigation" smooth={true} duration={500} href="#home">
           <button aria-label="home">HOME</button>
         </Link>
@@ -21,7 +21,7 @@ const Footer = () => {
           <button aria-label="contact">CONTACT</button>
         </Link>
       </div>
-      <div className="flex flex-row space-x-2 md:space-x-6">
+      <div className="flex flex-row space-x-2 lg:space-x-6">
         <a
           href="https://www.linkedin.com/in/lvollmer/"
           target="_blank"
@@ -53,7 +53,7 @@ const Footer = () => {
           </button>
         </a>
       </div>
-      <div className="text-center mt-4 md:mt-0 text-sm">
+      <div className="text-center mt-4 lg:mt-0 text-sm">
         <p>
           &copy; {new Date().getFullYear()} Laura Vollmer. All rights reserved.
         </p>
