@@ -19,6 +19,8 @@ import MobileInteractive from "../assets/interactivemobile.png";
 import Puzzle from "../assets/puzzle.png";
 import MobilePuzzle from "../assets/puzzlemobile.png";
 import Rating from "../assets/SelectedRating.png";
+import Contact from "../assets/DesktopContactForm.png";
+import MobileContact from "../assets/mobilecontactform.png";
 
 const Projects = () => {
   return (
@@ -193,7 +195,8 @@ const Projects = () => {
             keyfeatureFour={"Interactive Flow of Design"}
           />
         </div>
-        <div className="flex flex-row flex-wrap">
+        {/* fourth projects line */}
+        <div className="flex flex-col lg:flex-row flex-wrap">
           <Card
             image={Rating}
             mobileImage={Rating}
@@ -210,6 +213,23 @@ const Projects = () => {
             keyfeatureTwo={"Rating System"}
             keyfeatureThree={"TailwindCSS Design"}
             keyfeatureFour={"props and state management"}
+          />
+             <Card
+            image={Contact}
+            mobileImage={MobileContact}
+            imageDesc="Contact Form"
+            title="Contact Form"
+            content="This solo project was aimed at creating React-based Contact Form that allows the end user to select a rating and displays the rating in a Thank You component. "
+            skillOne="REACTJS"
+            skillTwo="TAILWIND CSS"
+            skillThree="VITE"
+            skillFour="CSS"
+            githubCode={`https://github.com/lavollmer/contact-form`}
+            livesite={`https://contact-form-lauradev.netlify.app/`}
+            keyfeatureOne={"useState Management"}
+            keyfeatureTwo={"Lighthouse Report Optimization"}
+            keyfeatureThree={"Form Validation"}
+            keyfeatureFour={"Reusable Components"}
           />
           </div>
       </div>

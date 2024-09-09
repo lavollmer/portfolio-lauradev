@@ -7,7 +7,7 @@ const SkillsCard = ({ title, content }) => {
         <h2 className="text-black dark:text-white lg:text-3xl md:text-2xl text-lg font-semibold">
           {title}
         </h2>
-        <p className="text-black dark:text-white mt-2 text-md md:text-xl">{content}</p>
+        <p className="text-black dark:text-white mt-2 text-md lg:text-xl">{content}</p>
       </div>
     </div>
   );

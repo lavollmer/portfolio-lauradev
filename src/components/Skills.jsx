@@ -11,7 +11,7 @@ const Skills = () => {
         <h1 className="text-black dark:text-white text-3xl md:text-4xl lg:text-5xl">Technical Skills</h1>
       </div>
       <div className="flex flex-col items-center w-full justify-center lg:justify-evenly md:space-y-6 lg:space-y-10 ">
-        <div className="flex flex-col lg:flex-row items-center justify-center w-full flex-wrap lg:space-x-4 space-y-6 lg:space-y-0">
+        <div className="flex flex-col lg:flex-row items-center justify-center w-full mt-4 md:mt-0 lg:flex-row lg:space-x-4 space-y-6 lg:space-y-0">
           <SkillsCard
             title="React"
             content="1 year of experience with React. I have built multiple projects using React, including this website."
