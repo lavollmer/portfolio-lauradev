@@ -19,7 +19,7 @@ import MobileInteractive from "../assets/interactivemobile.png";
 import Puzzle from "../assets/puzzle.png";
 import MobilePuzzle from "../assets/puzzlemobile.png";
 import Rating from "../assets/SelectedRating.png";
-import Contact from "../assets/DesktopContactForm.png";
+import Contact from "../assets/desktopcontactform.png";
 import MobileContact from "../assets/mobilecontactform.png";
 import Dessert from "../assets/dessert-desktop.png";
 import MobileDessert from "../assets/dessert-mobile.png";
