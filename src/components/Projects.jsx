@@ -21,6 +21,8 @@ import MobilePuzzle from "../assets/puzzlemobile.png";
 import Rating from "../assets/SelectedRating.png";
 import Contact from "../assets/DesktopContactForm.png";
 import MobileContact from "../assets/mobilecontactform.png";
+import Dessert from "../assets/dessert-desktop.png";
+import MobileDessert from "../assets/dessert-mobile.png";
 
 const Projects = () => {
   return (
@@ -90,21 +92,21 @@ const Projects = () => {
         {/* second section and row of projects */}
         <div className="flex flex-col lg:flex-row flex-wrap">
           <Card
-            image={FAQ}
-            mobileImage={MobileFAQ}
-            imageDesc="FAQ Accordion Card"
-            title="FAQ Accordion Card"
-            content="This solo project was aimed at learning about FAQ accordion structure and styling layout in ReactJS, TailwindCSS, and Vite."
+            image={Dessert}
+            mobileImage={MobileDessert}
+            imageDesc="Dessert Product List"
+            title="Dessert Product List and Cart"
+            content="This solo project was aimed at creating React-based Dessert product list website that allows the end user to order a specific quantity of a dessert and displays the total price in a cart component. "
             skillOne="REACTJS"
             skillTwo="TAILWIND CSS"
             skillThree="VITE"
             skillFour="CSS"
-            githubCode={`https://github.com/lavollmer/faq-accordian`}
-            livesite={`https://faq-lavol.netlify.app/`}
-            keyfeatureOne={"FAQ Accordion"}
-            keyfeatureTwo={"Mobile and Desktop Compatibility"}
-            keyfeatureThree={"Flexbox Layout"}
-            keyfeatureFour={"Interactive Hover States"}
+            githubCode={`https://github.com/lavollmer/productlist`}
+            livesite={`https://dessert-cart-lauradev.netlify.app/`}
+            keyfeatureOne={"Cart Functionality"}
+            keyfeatureTwo={"Lighthouse Report Optimization"}
+            keyfeatureThree={"Props and State Management"}
+            keyfeatureFour={"Reusable Components"}
           />
           <Card
             image={Sunnyside}
@@ -214,7 +216,7 @@ const Projects = () => {
             keyfeatureThree={"TailwindCSS Design"}
             keyfeatureFour={"props and state management"}
           />
-             <Card
+          <Card
             image={Contact}
             mobileImage={MobileContact}
             imageDesc="Contact Form"
@@ -231,7 +233,24 @@ const Projects = () => {
             keyfeatureThree={"Form Validation"}
             keyfeatureFour={"Reusable Components"}
           />
-          </div>
+          <Card
+            image={FAQ}
+            mobileImage={MobileFAQ}
+            imageDesc="FAQ Accordion Card"
+            title="FAQ Accordion Card"
+            content="This solo project was aimed at learning about FAQ accordion structure and styling layout in ReactJS, TailwindCSS, and Vite."
+            skillOne="REACTJS"
+            skillTwo="TAILWIND CSS"
+            skillThree="VITE"
+            skillFour="CSS"
+            githubCode={`https://github.com/lavollmer/faq-accordian`}
+            livesite={`https://faq-lavol.netlify.app/`}
+            keyfeatureOne={"FAQ Accordion"}
+            keyfeatureTwo={"Mobile and Desktop Compatibility"}
+            keyfeatureThree={"Flexbox Layout"}
+            keyfeatureFour={"Interactive Hover States"}
+          />
+        </div>
       </div>
     </div>
   );
