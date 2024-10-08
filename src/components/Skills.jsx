@@ -27,6 +27,11 @@ const Skills = () => {
           <SkillsCard title="CSS" content="1 year of experience" />
           <SkillsCard title="Web Accessibility" content="1 year of experience" />
         </div>
+        <div className="flex flex-col lg:flex-row items-center justify-center w-full mt-4 md:mt-0 lg:flex-row lg:space-x-4 space-y-6 lg:space-y-0">
+          <SkillsCard title="Professional Writing" content="10+ years of experience" />
+          <SkillsCard title="Healthcare" content="10+ years of experience" />
+          <SkillsCard title="Project Management" content="10+ years of experience" />
+        </div>
       </div>
     </div>
   );
