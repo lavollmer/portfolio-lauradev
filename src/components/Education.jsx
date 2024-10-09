@@ -15,15 +15,15 @@ const Education = () => {
       <div className="flex flex-col items-center w-full justify-center md:justify-evenly md:space-y-10">
         <div className="flex flex-col lg:flex-row items-center justify-center w-full lg:flex-row flex-wrap lg:space-x-4 space-y-6 lg:space-y-0">
           <Learning
-            title="Full-stack Web Development Certificate"
+            title="Full-stack Web Development Coding Certificate"
             content="12 full-stack intensive weeks of coding bootcamp at University of Minnesota focused on technical programming skills, group projects, and individual projects"
           />
           <Learning
-            title="Masters of Business Administration(MBA)"
+            title="Masters of Business Administration (MBA)"
             content="MBA with a concentration in healthcare informatics from the New England College"
           />
           <Learning
-            title="Doctorate of Pharmacy(PharmD)"
+            title="Doctorate of Pharmacy (PharmD)"
             content="PharmD from Drake University College of Pharmacy and Health Sciences"
           />
         </div>
