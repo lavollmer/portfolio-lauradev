@@ -33,7 +33,7 @@ const Projects = () => {
         </h1>
       </div>
       {/* first section and row of projects */}
-      <div className="flex flex-col items-center justify-between">
+      <div className="flex flex-col items-center justify-center">
         <div className="flex flex-col lg:flex-row flex-wrap ">
           <Card
             image={Bookmark}
@@ -57,8 +57,8 @@ const Projects = () => {
           <Card
             image={Sneakers}
             mobileImage={MobileEcommerce}
-            imageDesc="E-Commerce Product Page"
-            title="E-Commerce Product Page"
+            imageDesc="E-Commerce Page"
+            title="E-Commerce Page"
             content="A solo project creating a navigation bar, a cart section, a product section, a footer, and a carousel photo gallery. The project included cart functionality, and a responsive design."
             skillOne="REACTJS"
             skillTwo="TAILWIND CSS"
@@ -95,7 +95,7 @@ const Projects = () => {
             image={Dessert}
             mobileImage={MobileDessert}
             imageDesc="Dessert Product List"
-            title="Dessert Product List and Cart"
+            title="Dessert List and Cart"
             content="This solo project was aimed at creating React-based Dessert product list website that allows the end user to order a specific quantity of a dessert and displays the total price in a cart component. "
             skillOne="REACTJS"
             skillTwo="TAILWIND CSS"
@@ -182,8 +182,8 @@ const Projects = () => {
           <Card
             image={Puzzle}
             mobileImage={MobilePuzzle}
-            imageDesc="Missing Puzzle Piece App"
-            title="Missing Puzzle Piece App"
+            imageDesc="Missing Puzzle Piece"
+            title="Missing Puzzle Piece"
             content="This application was developed as a personal project to address a common issue faced by puzzle enthusiasts - the loss of puzzle pieces."
             skillOne="REACTJS"
             skillTwo="TAILWIND CSS"

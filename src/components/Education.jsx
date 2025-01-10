@@ -12,7 +12,7 @@ const Education = () => {
           Professional Education
         </h1>
       </div>
-      <div className="flex flex-col items-center w-full justify-center md:justify-evenly md:space-y-10">
+      <div className="flex flex-col items-center w-full justify-center md:space-y-10">
         <div className="flex flex-col lg:flex-row items-center justify-center w-full lg:flex-row flex-wrap lg:space-x-4 space-y-6 lg:space-y-0">
           <Learning
             title="Full-stack Web Development Coding Certificate"

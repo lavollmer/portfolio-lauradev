@@ -72,8 +72,7 @@ const SplashPage = () => {
                   I'm a software developer.
                 </h1>
                 <p className="text-black dark:text-white text-md md:text-xl">
-                  I have one year of experience in coding, specializing in
-                  frontend software development. My background includes
+                  I have one year of experience in coding, and continue to build my skills. My background includes
                   healthcare and floral design. I am a fast learner, constantly
                   seeking opportunities to enhance my skills.
                 </p>
