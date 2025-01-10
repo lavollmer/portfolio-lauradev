@@ -23,6 +23,8 @@ import DesktopContact from "../assets/desktopcontactform.png";
 import MobileContact from "../assets/mobilecontactform.png";
 import Dessert from "../assets/dessert-desktop.png";
 import MobileDessert from "../assets/dessert-mobile.png";
+import Blogr from "../assets/BlogrDesktopLandingPage.png";
+import MobileBlogr from "../assets/BlogrMobileLandingPage.png";
 
 const Projects = () => {
   return (
@@ -248,6 +250,26 @@ const Projects = () => {
             keyfeatureOne={"FAQ Accordion"}
             keyfeatureTwo={"Mobile and Desktop Compatibility"}
             keyfeatureThree={"Flexbox Layout"}
+            keyfeatureFour={"Interactive Hover States"}
+          />
+        </div>
+        {/* fifth projects line */}
+        <div className="flex flex-col lg:flex-row flex-wrap">
+          <Card
+            image={Blogr}
+            mobileImage={MobileBlogr}
+            imageDesc="Blogr Landing Page"
+            title="Blogr Landing Page"
+            content="This solo project was aimed at creating Typescript Blogr Landing Page that allows the end user to review the Blogr products and services. "
+            skillOne="TYPESCRIPT"
+            skillTwo="TAILWIND CSS"
+            skillThree="VITE"
+            skillFour="CSS"
+            githubCode={`https://github.com/lavollmer/blogr-landingpage-lauradev`}
+            livesite={`https://blogr-landingpage-lauradev.netlify.app/`}
+            keyfeatureOne={"Mobile Responsive Design"}
+            keyfeatureTwo={"Modern Design Style"}
+            keyfeatureThree={"Gradient Color Backgrounds"}
             keyfeatureFour={"Interactive Hover States"}
           />
         </div>
