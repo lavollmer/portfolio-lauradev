@@ -25,6 +25,7 @@ import Dessert from "../assets/dessert-desktop.png";
 import MobileDessert from "../assets/dessert-mobile.png";
 import Blogr from "../assets/BlogrDesktopLandingPage.png";
 import MobileBlogr from "../assets/BlogrMobileLandingPage.png";
+import Time from "../assets/timeMainPage.png";
 
 const Projects = () => {
   return (
@@ -57,37 +58,37 @@ const Projects = () => {
             keyfeatureFour={"Mobile and Desktop Compatibility"}
           />
           <Card
-            image={Sneakers}
-            mobileImage={MobileEcommerce}
-            imageDesc="E-Commerce Page"
-            title="E-Commerce Page"
-            content="A solo project creating a navigation bar, a cart section, a product section, a footer, and a carousel photo gallery. The project included cart functionality, and a responsive design."
-            skillOne="REACTJS"
+            image={Blogr}
+            mobileImage={MobileBlogr}
+            imageDesc="Blogr Landing Page"
+            title="Blogr Landing Page"
+            content="This solo project was aimed at creating Typescript Blogr Landing Page that allows the end user to review the Blogr products and services. "
+            skillOne="TYPESCRIPT"
             skillTwo="TAILWIND CSS"
             skillThree="VITE"
             skillFour="CSS"
-            githubCode={`https://github.com/lavollmer/ecommerce-product-page`}
-            livesite={`https://ecommercelandingpage-lauradev.netlify.app/`}
-            keyfeatureOne={"Cart Functionality"}
-            keyfeatureTwo={"Carousel Photo Gallery"}
-            keyfeatureThree={"Flexbox Layout"}
-            keyfeatureFour={"Mobile and Desktop Compatibility"}
+            githubCode={`https://github.com/lavollmer/blogr-landingpage-lauradev`}
+            livesite={`https://blogr-landingpage-lauradev.netlify.app/`}
+            keyfeatureOne={"Mobile Responsive Design"}
+            keyfeatureTwo={"Modern Design Style"}
+            keyfeatureThree={"Gradient Color Backgrounds"}
+            keyfeatureFour={"Interactive Hover States"}
           />
           <Card
-            image={Easybank}
-            mobileImage={MobileEasybank}
-            imageDesc="Easybank Landing Page"
-            title="Easybank Landing Page"
-            content="A solo project that involved a navigation bar, a side navigation bar for mobile, a responsive design, a TailwindCSS layout, a footer, interactive hover states and much more."
-            skillOne="REACTJS"
+            image={Time}
+            mobileImage={Time}
+            imageDesc="Time Tracking Dashboard"
+            title="Time Tracking Dashboard"
+            content="This solo project was aimed at creating Typescript Time Tracking Dashboard that allows the end user to review the time tracking data. "
+            skillOne="TYPESCRIPT"
             skillTwo="TAILWIND CSS"
             skillThree="VITE"
             skillFour="CSS"
-            githubCode={`https://github.com/lavollmer/easybank-landing-page`}
-            livesite={`https://easybank-project-lauradev.netlify.app/`}
-            keyfeatureOne={"Interactive Navigation Bar"}
-            keyfeatureTwo={"Side Navigation Bar for Mobile"}
-            keyfeatureThree={"Gradient Color Backgrounds"}
+            githubCode={`https://github.com/lavollmer/time-tracking-dashboard`}
+            livesite={`https://time-tracking-dashboard-lauradev.netlify.app/`}
+            keyfeatureOne={"Typescript Integration"}
+            keyfeatureTwo={"Mobile Responsive Design"}
+            keyfeatureThree={"TailwindCSS Design"}
             keyfeatureFour={"Interactive Hover States"}
           />
         </div>
@@ -256,19 +257,36 @@ const Projects = () => {
         {/* fifth projects line */}
         <div className="flex flex-col lg:flex-row flex-wrap">
           <Card
-            image={Blogr}
-            mobileImage={MobileBlogr}
-            imageDesc="Blogr Landing Page"
-            title="Blogr Landing Page"
-            content="This solo project was aimed at creating Typescript Blogr Landing Page that allows the end user to review the Blogr products and services. "
-            skillOne="TYPESCRIPT"
+            image={Sneakers}
+            mobileImage={MobileEcommerce}
+            imageDesc="E-Commerce Page"
+            title="E-Commerce Page"
+            content="A solo project creating a navigation bar, a cart section, a product section, a footer, and a carousel photo gallery. The project included cart functionality, and a responsive design."
+            skillOne="REACTJS"
             skillTwo="TAILWIND CSS"
             skillThree="VITE"
             skillFour="CSS"
-            githubCode={`https://github.com/lavollmer/blogr-landingpage-lauradev`}
-            livesite={`https://blogr-landingpage-lauradev.netlify.app/`}
-            keyfeatureOne={"Mobile Responsive Design"}
-            keyfeatureTwo={"Modern Design Style"}
+            githubCode={`https://github.com/lavollmer/ecommerce-product-page`}
+            livesite={`https://ecommercelandingpage-lauradev.netlify.app/`}
+            keyfeatureOne={"Cart Functionality"}
+            keyfeatureTwo={"Carousel Photo Gallery"}
+            keyfeatureThree={"Flexbox Layout"}
+            keyfeatureFour={"Mobile and Desktop Compatibility"}
+          />
+          <Card
+            image={Easybank}
+            mobileImage={MobileEasybank}
+            imageDesc="Easybank Landing Page"
+            title="Easybank Landing Page"
+            content="A solo project that involved a navigation bar, a side navigation bar for mobile, a responsive design, a TailwindCSS layout, a footer, interactive hover states and much more."
+            skillOne="REACTJS"
+            skillTwo="TAILWIND CSS"
+            skillThree="VITE"
+            skillFour="CSS"
+            githubCode={`https://github.com/lavollmer/easybank-landing-page`}
+            livesite={`https://easybank-project-lauradev.netlify.app/`}
+            keyfeatureOne={"Interactive Navigation Bar"}
+            keyfeatureTwo={"Side Navigation Bar for Mobile"}
             keyfeatureThree={"Gradient Color Backgrounds"}
             keyfeatureFour={"Interactive Hover States"}
           />
