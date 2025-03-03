@@ -1,4 +1,3 @@
-import React from "react";
 import Learning from "./Learning";
 
 const Education = () => {
@@ -34,16 +33,16 @@ const Education = () => {
         </div>
         <div className="flex flex-col lg:flex-row  items-center justify-center w-full mt-4 md:mt-0 lg:flex-row  lg:space-x-4 space-y-6 lg:space-y-0">
           <Learning
+            title="Consistent Coding Practice"
+            content="Top 2% universal coding on Github in 2024 via Github wrapped. 1 year of experience coding on Github as evidenced by my profile and contributions."
+          />
+          <Learning
             title="Frontend Mentor Challenges"
             content="Frontend Mentor offers real-world web development challenges, sharpening HTML, CSS, and JavaScript skills. The structured feedback, solutions, and vibrant community have significantly impacted my learning and growth."
           />
           <Learning
-            title="CodeWars"
-            content="Codewars is a platform where you can practice your coding skills by attempting various problems in the languages of your choice. You will be given prompts with varying difficulties, and the way that you “solve” them is by passing all the pre-defined tests."
-          />
-          <Learning
-            title="Consistent Coding Practice"
-            content="1 year of experience coding on Github as evidenced by my profile and contributions."
+            title="HackerRank"
+            content="HackerRank is a platform where you can practice your coding skills by attempting various problems in the languages of your choice. You will be given prompts with varying difficulties, and the way that you “solve” them is by passing all the pre-defined tests."
           />
         </div>
         <div className="flex flex-col lg:flex-row  items-center justify-center w-full mt-4 md:mt-0 lg:flex-row  lg:space-x-4 space-y-6 lg:space-y-0">
@@ -54,6 +53,10 @@ const Education = () => {
           <Learning
             title="Laura Dev Substack Blog"
             content="My portfolio showcases my YouTube channel, where I provide step-by-step coding tutorials to help beginners and intermediate learners master programming languages, web development, and real-world projects."
+          />
+          <Learning
+            title="Harvard CS50 Intro to Python Programming Certification"
+            content="Harvard CS50's Python course teaches foundational coding and problem-solving skills. 10 weeks, multiple problem sets and a final project completion."
           />
         </div>
       </div>
