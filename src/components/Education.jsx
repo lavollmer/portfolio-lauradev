@@ -46,6 +46,16 @@ const Education = () => {
             content="1 year of experience coding on Github as evidenced by my profile and contributions."
           />
         </div>
+        <div className="flex flex-col lg:flex-row  items-center justify-center w-full mt-4 md:mt-0 lg:flex-row  lg:space-x-4 space-y-6 lg:space-y-0">
+          <Learning
+            title="LovoLearnsCode Youtube Coding Tutorials"
+            content="My YouTube channel offers clear, step-by-step coding tutorials to help beginners learners learn programming languages, web development, and create real-world projects."
+          />
+          <Learning
+            title="Laura Dev Substack Blog"
+            content="My portfolio showcases my YouTube channel, where I provide step-by-step coding tutorials to help beginners and intermediate learners master programming languages, web development, and real-world projects."
+          />
+        </div>
       </div>
     </div>
   );
