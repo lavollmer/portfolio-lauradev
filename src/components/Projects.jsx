@@ -26,8 +26,8 @@ import MobileDessert from "../assets/dessert-mobile.png";
 import Blogr from "../assets/BlogrDesktopLandingPage.png";
 import MobileBlogr from "../assets/BlogrMobileLandingPage.png";
 import Time from "../assets/timeMainPage.png";
-import MedProMobile from "../assets/medpronunciationAIMobile.png";
-import MedPro from "../assets/medpronunciationAIDesktop.png";
+import MedProMobile from "../assets/medproAImobile.png";
+import MedPro from "../assets/medproAIdesktop.png";
 
 const Projects = () => {
   return (
