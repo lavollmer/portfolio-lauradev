@@ -26,6 +26,8 @@ import MobileDessert from "../assets/dessert-mobile.png";
 import Blogr from "../assets/BlogrDesktopLandingPage.png";
 import MobileBlogr from "../assets/BlogrMobileLandingPage.png";
 import Time from "../assets/timeMainPage.png";
+import MedProMobile from "../assets/medpronunciationAIMobile.png";
+import MedPro from "../assets/medpronunciationAIDesktop.png";
 
 const Projects = () => {
   return (
@@ -39,21 +41,21 @@ const Projects = () => {
       <div className="flex flex-col items-center justify-center">
         <div className="flex flex-col lg:flex-row flex-wrap ">
           <Card
-            image={Bookmark}
-            mobileImage={MobileBookmark}
-            imageDesc="Bookmark Landing Page"
-            title="Bookmark Landing Page"
-            content="A solo project to create a navigation bar, a hero section, a feature section, a call-to-action section, a footer, and a newsletter signup form."
+            image={MedPro}
+            mobileImage={MedProMobile}
+            imageDesc="MedPronunciationAI App"
+            title="MedPronunciationAI App"
+            content="As a solo developer, I created a full-featured React and Python web project integrating a navigation bar, hero section, feature section, call-to-action, footer, and newsletter signup form, enhanced with Google Text-to-Speech for accessibility."
             skillOne="REACTJS"
             skillTwo="TAILWIND CSS"
             skillThree="VITE"
-            skillFour="CSS"
-            githubCode={`https://github.com/lavollmer/bookmark-landing-page`}
-            livesite={`https://bookmarklandingpagelauradev.netlify.app/`}
-            keyfeatureOne={"FAQ Accordion"}
-            keyfeatureTwo={"Newsletter Signup Form"}
+            skillFour="PYTHON FLASK"
+            githubCode="On request"
+            livesite={`https://medpronunciation-ai.netlify.app/`}
+            keyfeatureOne={"Google Text-to-Speech AI Integration"}
+            keyfeatureTwo={"Gamification"}
             keyfeatureThree={
-              "Receive an error message if the email is not valid or empty"
+              "Solo Design and Concept Creation"
             }
             keyfeatureFour={"Mobile and Desktop Compatibility"}
           />
@@ -289,6 +291,25 @@ const Projects = () => {
             keyfeatureTwo={"Side Navigation Bar for Mobile"}
             keyfeatureThree={"Gradient Color Backgrounds"}
             keyfeatureFour={"Interactive Hover States"}
+          />
+          <Card
+            image={Bookmark}
+            mobileImage={MobileBookmark}
+            imageDesc="Bookmark Landing Page"
+            title="Bookmark Landing Page"
+            content="A solo project to create a navigation bar, a hero section, a feature section, a call-to-action section, a footer, and a newsletter signup form."
+            skillOne="REACTJS"
+            skillTwo="TAILWIND CSS"
+            skillThree="VITE"
+            skillFour="CSS"
+            githubCode={`https://github.com/lavollmer/bookmark-landing-page`}
+            livesite={`https://bookmarklandingpagelauradev.netlify.app/`}
+            keyfeatureOne={"FAQ Accordion"}
+            keyfeatureTwo={"Newsletter Signup Form"}
+            keyfeatureThree={
+              "Receive an error message if the email is not valid or empty"
+            }
+            keyfeatureFour={"Mobile and Desktop Compatibility"}
           />
         </div>
       </div>
