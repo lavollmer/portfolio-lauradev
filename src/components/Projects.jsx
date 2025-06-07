@@ -45,7 +45,7 @@ const Projects = () => {
             mobileImage={MedProMobile}
             imageDesc="MedPronunciationAI App"
             title="MedPronunciationAI App"
-            content="As a solo developer, I created a full-featured React and Python web project integrating a navigation bar, hero section, call-to-action, footer, and enhanced with Google Text-to-Speech AI."
+            content="I created a full-featured React and Python web project integrating a navigation bar, hero section, call-to-action, footer, and enhanced with Google Text-to-Speech AI."
             skillOne="REACTJS"
             skillTwo="TAILWIND CSS"
             skillThree="VITE"
