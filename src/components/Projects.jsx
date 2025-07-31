@@ -61,21 +61,21 @@ const Projects = () => {
             keyfeatureFour={"Mobile and Desktop Compatibility"}
           />
           <Card
-            image={Blogr}
-            mobileImage={MobileBlogr}
-            imageDesc="Blogr Landing Page"
-            title="Blogr Landing Page"
-            content="This solo project was aimed at creating Typescript Blogr Landing Page that allows the end user to review the Blogr products and services. "
-            skillOne="TYPESCRIPT"
-            skillTwo="TAILWIND CSS"
-            skillThree="VITE"
+            image={Countries}
+            mobileImage={Countries}
+            imageDesc="Countries Homepage"
+            title="Countries Homepage"
+            content="This solo project was aimed at creating a React-based Countries Home Page that allows the end user to search for countries and view their details."
+            skillOne="REACTJS"
+            skillTwo="REACT COUNTRIES API"
+            skillThree="AXIOS"
             skillFour="CSS"
-            githubCode={`https://github.com/lavollmer/blogr-landingpage-lauradev`}
-            livesite={`https://blogr-landingpage-lauradev.netlify.app/`}
-            keyfeatureOne={"Mobile Responsive Design"}
-            keyfeatureTwo={"Modern Design Style"}
-            keyfeatureThree={"Gradient Color Backgrounds"}
-            keyfeatureFour={"Interactive Hover States"}
+            githubCode={`https://github.com/lavollmer/countries`}
+            livesite={`https://restcountriesapi-search.netlify.app/`}
+            keyfeatureOne={"Search Functionality"}
+            keyfeatureTwo={"Dark Theme Toggle"}
+            keyfeatureThree={"API Integration"}
+            keyfeatureFour={"Interactive UI"}
           />
           <Card
             image={Time}
@@ -316,21 +316,21 @@ const Projects = () => {
         {/* sixth projects line */}
         <div>
           <Card
-            image={Countries}
-            mobileImage={Countries}
-            imageDesc="Countries Homepage"
-            title="Countries Homepage"
-            content="This solo project was aimed at creating a React-based Countries Home Page that allows the end user to search for countries and view their details."
-            skillOne="REACTJS"
-            skillTwo="REACT COUNTRIES API"
-            skillThree="AXIOS"
+            image={Blogr}
+            mobileImage={MobileBlogr}
+            imageDesc="Blogr Landing Page"
+            title="Blogr Landing Page"
+            content="This solo project was aimed at creating Typescript Blogr Landing Page that allows the end user to review the Blogr products and services. "
+            skillOne="TYPESCRIPT"
+            skillTwo="TAILWIND CSS"
+            skillThree="VITE"
             skillFour="CSS"
-            githubCode={`https://github.com/lavollmer/countries`}
-            livesite={`https://restcountriesapi-search.netlify.app/`}
-            keyfeatureOne={"Search Functionality"}
-            keyfeatureTwo={"Dark Theme Toggle"}
-            keyfeatureThree={"API Integration"}
-            keyfeatureFour={"Interactive UI"}
+            githubCode={`https://github.com/lavollmer/blogr-landingpage-lauradev`}
+            livesite={`https://blogr-landingpage-lauradev.netlify.app/`}
+            keyfeatureOne={"Mobile Responsive Design"}
+            keyfeatureTwo={"Modern Design Style"}
+            keyfeatureThree={"Gradient Color Backgrounds"}
+            keyfeatureFour={"Interactive Hover States"}
           />
         </div>
       </div>
