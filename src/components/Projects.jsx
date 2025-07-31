@@ -28,6 +28,7 @@ import MobileBlogr from "../assets/BlogrMobileLandingPage.png";
 import Time from "../assets/timeMainPage.png";
 import MedProMobile from "../assets/medproAImobile.png";
 import MedPro from "../assets/medproAIdesktop.png";
+import Countries from "../assets/countries_homepage.png";
 
 const Projects = () => {
   return (
@@ -310,6 +311,26 @@ const Projects = () => {
               "Receive an error message if the email is not valid or empty"
             }
             keyfeatureFour={"Mobile and Desktop Compatibility"}
+          />
+        </div>
+        {/* sixth projects line */}
+        <div>
+          <Card
+            image={Countries}
+            mobileImage={Countries}
+            imageDesc="Countries Homepage"
+            title="Countries Homepage"
+            content="This solo project was aimed at creating a React-based Countries Home Page that allows the end user to search for countries and view their details."
+            skillOne="REACTJS"
+            skillTwo="REACT COUNTRIES API"
+            skillThree="AXIOS"
+            skillFour="CSS"
+            githubCode={`https://github.com/lavollmer/countries`}
+            livesite={`https://restcountriesapi-search.netlify.app/`}
+            keyfeatureOne={"Search Functionality"}
+            keyfeatureTwo={"Dark Theme Toggle"}
+            keyfeatureThree={"API Integration"}
+            keyfeatureFour={"Interactive UI"}
           />
         </div>
       </div>
