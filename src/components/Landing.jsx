@@ -18,7 +18,7 @@ const SplashPage = () => {
             <div className="relative z-20 p-20 space-y-8">
               <div className="flex flex-col text-left space-y-8">
                 <h1 className="text-black dark:text-white text-6xl font-semibold">
-                  Hello, I’m Laura. I'm a Software Engineer.
+                  Hello, I’m Laura. I'm a Web Developer and Software Engineer.
                 </h1>
                 <p className="text-black dark:text-white text-2xl pr-80">
                   I’m a software engineer with 1.5 years of hands-on coding experience and a certificate from a full stack coding bootcamp. I build full-stack applications using technologies like JavaScript, React, Node.js, Express, PostgreSQL, and Python. I'm comfortable working across the stack to create scalable, user-focused solutions.
