@@ -21,15 +21,15 @@ const About = () => {
             healthcare websites.
           </p>
           <p>
-            Outside of work, I love to paint, draw and any type of craft. I love
+            Outside of work, I love to grow flowers and work on art. I love
             using my creativity to make something beautiful and meaningful. I
             also love exploring new areas and learning about different cultures.
           </p>
           <p>Some fun facts about me include:</p>
           <ul className="list-disc list-inside">
-            <li>Over a 900 day streak on Duolingo for learning the Spanish language</li>
-            <li>Visited 44 states in the United States</li>
-            <li>Presented my photography in a Professional Juried Art Exhibiton</li>
+            <li>Over a 3 year streak on Duolingo for learning the Spanish language</li>
+            <li>Visited 47 states in the United States</li>
+            <li>Presented my photography in several Professional Juried Art Exhibitons</li>
           </ul>
 
           <p>Let's build something together!</p>
