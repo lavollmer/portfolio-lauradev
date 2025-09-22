@@ -10,6 +10,7 @@ import Education from "./components/Education";
 import { Element } from "react-scroll";
 import ScrollToTop from "react-scroll-to-top";
 import { useState, useEffect } from "react";
+import Substack from "./components/Substack";
 
 function App() {
   const [theme, setTheme] = useState("light");
@@ -51,6 +52,11 @@ function App() {
         <div className="md:p-0 md:mt-0">
           <Element name="projects">
             <Projects />
+          </Element>
+        </div>
+        <div className="md:p-0 md:mt-0">
+          <Element name="substack">
+            <Substack />
           </Element>
         </div>
         <div className="p-10 mt-10 md:p-0 md:mt-0">
