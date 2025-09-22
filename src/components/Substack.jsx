@@ -8,13 +8,13 @@ const Substack = () => {
                     Read My Laura Dev Substack
                 </h1>
             </div>
-            <div className='flex flex-col justify-content'>
+            <div className='flex flex-col justify-content pt-20'>
                 <p className='flex flex-col text-black dark:text-white text-xl'>Welcome to my Substack, where I dive deep into the world of coding and programming with clear, practical lessons designed for learners at all levels. Whether you’re just starting out or looking to sharpen your skills, my weekly posts break down complex concepts into easy-to-understand tutorials, real-world examples, and hands-on projects. Join a growing community of passionate developers and elevate your programming journey with tips, best practices, and insights that help you build confidence and code smarter every day.</p>
             </div>
-            <div className='flex flex-col justify-content'>
+            <div className='flex flex-col justify-content p-20'>
                 <button
                     aria-label="read my substack"
-                    className="flex flex-row items-center justify-center space-x-2 bg-white animate-bounce rounded-full text-black text-xl cursor-pointer p-4 px-4 hover:from-redwood hover:to-burnt-sienna"
+                    className="flex flex-row items-center justify-center space-x-2 bg-black text-white animate-bounce rounded-full text-xl cursor-pointer p-4 px-4 hover:from-redwood hover:to-burnt-sienna"
                 >
                     <a href="https://lauradev1.substack.com/?utm_campaign=profile&utm_medium=profile-page">
                         <p>Read My Substack</p>
